@@ -1,0 +1,492 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 63.95      0.55     0.55                             boost::detail::sp_counted_base::release()
+ 36.05      0.86     0.31        1   310.00   310.00  AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell()
+  0.00      0.86     0.00     2515     0.00     0.00  CxxTest::TestTracker::~TestTracker()
+  0.00      0.86     0.00     1728     0.00     0.00  boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>()
+  0.00      0.86     0.00     1124     0.00     0.00  boost::detail::sp_counted_impl_p<Cell>::dispose()
+  0.00      0.86     0.00       14     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(char const*)
+  0.00      0.86     0.00       12     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&)
+  0.00      0.86     0.00       12     0.00     0.00  bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double)
+  0.00      0.86     0.00       12     0.00     0.00  CxxTest::TestTracker::tracker()
+  0.00      0.86     0.00       12     0.00     0.00  void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&)
+  0.00      0.86     0.00        6     0.00     0.00  CxxTest::ErrorPrinter::Adapter::flush()
+  0.00      0.86     0.00        5     0.00     0.00  boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose()
+  0.00      0.86     0.00        5     0.00     0.00  boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p()
+  0.00      0.86     0.00        5     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&))
+  0.00      0.86     0.00        5     0.00     0.00  CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+  0.00      0.86     0.00        4     0.00     0.00  CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&)
+  0.00      0.86     0.00        4     0.00     0.00  CxxTest::RealSuiteDescription::next() const
+  0.00      0.86     0.00        4     0.00     0.00  CxxTest::StaticSuiteDescription::suite() const
+  0.00      0.86     0.00        3     0.00     0.00  void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*)
+  0.00      0.86     0.00        2     0.00     0.00  TransitCellProliferativeType::~TransitCellProliferativeType()
+  0.00      0.86     0.00        2     0.00     0.00  boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose()
+  0.00      0.86     0.00        2     0.00     0.00  CxxTest::DummyTestDescription::setUp()
+  0.00      0.86     0.00        2     0.00     0.00  CxxTest::RealSuiteDescription::numTests() const
+  0.00      0.86     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::numTotalTests() const
+  0.00      0.86     0.00        1     0.00     0.00  PetscSetup::setUpWorld()
+  0.00      0.86     0.00        1     0.00     0.00  PetscSetup::tearDownWorld()
+  0.00      0.86     0.00        1     0.00     0.00  boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<StemCellProliferativeType>()
+  0.00      0.86     0.00        1     0.00     0.00  OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation()
+  0.00      0.86     0.00        1     0.00     0.00  StemCellProliferativeType::~StemCellProliferativeType()
+  0.00      0.86     0.00        1     0.00   310.00  Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing()
+  0.00      0.86     0.00        1     0.00     0.00  AbstractCellBasedWithTimingsTestSuite::setUp()
+  0.00      0.86     0.00        1     0.00     0.00  AbstractCellBasedWithTimingsTestSuite::tearDown()
+  0.00      0.86     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose()
+  0.00      0.86     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p()
+  0.00      0.86     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose()
+  0.00      0.86     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::Adapter::~Adapter()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::~ErrorPrinter()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::GlobalFixture::GlobalFixture()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
+  0.00      0.86     0.00        1     0.00     0.00  char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealTestDescription::run()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealTestDescription::setUp()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealTestDescription::tearDown()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::firstTest()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::setUp()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::tearDown()
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealTestDescription::testName() const
+  0.00      0.86     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::suiteName() const
+  0.00      0.86     0.00        1     0.00     0.00  void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 1.16% of 0.86 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     64.0    0.55    0.00                 boost::detail::sp_counted_base::release() [1]
+                0.00    0.00    1124/1124        boost::detail::sp_counted_impl_p<Cell>::dispose() [13]
+                0.00    0.00       1/2           TransitCellProliferativeType::~TransitCellProliferativeType() [28]
+                0.00    0.00       1/2           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [29]
+                0.00    0.00       1/1           StemCellProliferativeType::~StemCellProliferativeType() [37]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [42]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     36.0    0.00    0.31                 main [2]
+                0.00    0.31       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+                0.00    0.00       9/12          CxxTest::TestTracker::tracker() [17]
+                0.00    0.00       4/5           CxxTest::DummySuiteDescription::testDescription(unsigned int) const [23]
+                0.00    0.00       2/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+                0.00    0.00       2/2           CxxTest::DummyTestDescription::setUp() [30]
+                0.00    0.00       2/4           CxxTest::RealSuiteDescription::next() const [25]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [61]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [62]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [51]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::~Adapter() [45]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::~ErrorPrinter() [46]
+                0.00    0.00       1/1           CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [47]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [49]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [44]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::firstTest() [59]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [57]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [53]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::run() [56]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [58]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+-----------------------------------------------
+                0.31    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[3]     36.0    0.31    0.00       1         AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [3]
+-----------------------------------------------
+                0.00    0.31       1/1           main [2]
+[4]     36.0    0.00    0.31       1         Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+                0.31    0.00       1/1           AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [3]
+                0.00    0.00      12/12          void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [18]
+                0.00    0.00      12/12          bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+                0.00    0.00       3/3           void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [27]
+                0.00    0.00       1/1           boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<StemCellProliferativeType>() [35]
+                0.00    0.00       1/2515        CxxTest::TestTracker::~TestTracker() [11]
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+                0.00    0.00       1/2           TransitCellProliferativeType::~TransitCellProliferativeType() [28]
+                0.00    0.00       1/2           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [29]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [43]
+-----------------------------------------------
+                0.00    0.00       1/2515        AbstractCellBasedWithTimingsTestSuite::tearDown() [39]
+                0.00    0.00       1/2515        Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+                0.00    0.00      12/2515        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [15]
+                0.00    0.00    2501/2515        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+[11]     0.0    0.00    0.00    2515         CxxTest::TestTracker::~TestTracker() [11]
+-----------------------------------------------
+                0.00    0.00    1728/1728        boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<StemCellProliferativeType>() [35]
+[12]     0.0    0.00    0.00    1728         boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [12]
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [65]
+-----------------------------------------------
+                0.00    0.00    1124/1124        boost::detail::sp_counted_base::release() [1]
+[13]     0.0    0.00    0.00    1124         boost::detail::sp_counted_impl_p<Cell>::dispose() [13]
+-----------------------------------------------
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [51]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [53]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+                0.00    0.00       3/14          CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [49]
+                0.00    0.00       4/14          CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [24]
+[14]     0.0    0.00    0.00      14         CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+-----------------------------------------------
+                0.00    0.00      12/12          bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+[15]     0.0    0.00    0.00      12         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [15]
+                0.00    0.00      12/2515        CxxTest::TestTracker::~TestTracker() [11]
+-----------------------------------------------
+                                  12             bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+                0.00    0.00      12/12          Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[16]     0.0    0.00    0.00      12+12      bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+                0.00    0.00    2501/2515        CxxTest::TestTracker::~TestTracker() [11]
+                0.00    0.00      12/12          void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [15]
+                                  12             bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [16]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [51]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+                0.00    0.00       9/12          main [2]
+[17]     0.0    0.00    0.00      12         CxxTest::TestTracker::tracker() [17]
+-----------------------------------------------
+                0.00    0.00      12/12          Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[18]     0.0    0.00    0.00      12         void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [18]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+                0.00    0.00       4/6           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+[19]     0.0    0.00    0.00       6         CxxTest::ErrorPrinter::Adapter::flush() [19]
+-----------------------------------------------
+                0.00    0.00       5/5           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+[20]     0.0    0.00    0.00       5         boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [20]
+-----------------------------------------------
+                0.00    0.00       5/5           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+[21]     0.0    0.00    0.00       5         boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [21]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [53]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+                0.00    0.00       2/5           main [2]
+[22]     0.0    0.00    0.00       5         CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+                0.00    0.00       4/6           CxxTest::ErrorPrinter::Adapter::flush() [19]
+                0.00    0.00       4/4           CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [24]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [44]
+                0.00    0.00       4/5           main [2]
+[23]     0.0    0.00    0.00       5         CxxTest::DummySuiteDescription::testDescription(unsigned int) const [23]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+[24]     0.0    0.00    0.00       4         CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [24]
+                0.00    0.00       4/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+-----------------------------------------------
+                0.00    0.00       2/4           main [2]
+                0.00    0.00       2/4           CxxTest::RealWorldDescription::numTotalTests() const [32]
+[25]     0.0    0.00    0.00       4         CxxTest::RealSuiteDescription::next() const [25]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::RealTestDescription::setUp() [57]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::tearDown() [58]
+[26]     0.0    0.00    0.00       4         CxxTest::StaticSuiteDescription::suite() const [26]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[27]     0.0    0.00    0.00       3         void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [27]
+-----------------------------------------------
+                0.00    0.00       1/2           boost::detail::sp_counted_base::release() [1]
+                0.00    0.00       1/2           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[28]     0.0    0.00    0.00       2         TransitCellProliferativeType::~TransitCellProliferativeType() [28]
+-----------------------------------------------
+                0.00    0.00       1/2           boost::detail::sp_counted_base::release() [1]
+                0.00    0.00       1/2           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[29]     0.0    0.00    0.00       2         boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [29]
+-----------------------------------------------
+                0.00    0.00       2/2           main [2]
+[30]     0.0    0.00    0.00       2         CxxTest::DummyTestDescription::setUp() [30]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [32]
+[31]     0.0    0.00    0.00       2         CxxTest::RealSuiteDescription::numTests() const [31]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+[32]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::numTotalTests() const [32]
+                0.00    0.00       2/4           CxxTest::RealSuiteDescription::next() const [25]
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::numTests() const [31]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [61]
+[33]     0.0    0.00    0.00       1         PetscSetup::setUpWorld() [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [62]
+[34]     0.0    0.00    0.00       1         PetscSetup::tearDownWorld() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[35]     0.0    0.00    0.00       1         boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<StemCellProliferativeType>() [35]
+                0.00    0.00    1728/1728        boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [12]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[36]     0.0    0.00    0.00       1         OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+                0.00    0.00       5/5           boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [20]
+                0.00    0.00       5/5           boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [21]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [40]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::release() [1]
+[37]     0.0    0.00    0.00       1         StemCellProliferativeType::~StemCellProliferativeType() [37]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [57]
+[38]     0.0    0.00    0.00       1         AbstractCellBasedWithTimingsTestSuite::setUp() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [58]
+[39]     0.0    0.00    0.00       1         AbstractCellBasedWithTimingsTestSuite::tearDown() [39]
+                0.00    0.00       1/2515        CxxTest::TestTracker::~TestTracker() [11]
+-----------------------------------------------
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+[40]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [40]
+-----------------------------------------------
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [36]
+[41]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::release() [1]
+[42]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [42]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [4]
+[43]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[44]     0.0    0.00    0.00       1         CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [44]
+                0.00    0.00       1/5           CxxTest::DummySuiteDescription::testDescription(unsigned int) const [23]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[45]     0.0    0.00    0.00       1         CxxTest::ErrorPrinter::Adapter::~Adapter() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[46]     0.0    0.00    0.00       1         CxxTest::ErrorPrinter::~ErrorPrinter() [46]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[47]     0.0    0.00    0.00       1         CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [47]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [66]
+[48]     0.0    0.00    0.00       1         CxxTest::GlobalFixture::GlobalFixture() [48]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[49]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [49]
+                0.00    0.00       3/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::suiteName() const [64]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[50]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[51]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [51]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [17]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+[52]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [32]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [17]
+                0.00    0.00       1/1           char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[53]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [53]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::testName() const [63]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[54]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [54]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [17]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [14]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [22]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [52]
+[55]     0.0    0.00    0.00       1         char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[56]     0.0    0.00    0.00       1         CxxTest::RealTestDescription::run() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[57]     0.0    0.00    0.00       1         CxxTest::RealTestDescription::setUp() [57]
+                0.00    0.00       2/4           CxxTest::StaticSuiteDescription::suite() const [26]
+                0.00    0.00       1/1           AbstractCellBasedWithTimingsTestSuite::setUp() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[58]     0.0    0.00    0.00       1         CxxTest::RealTestDescription::tearDown() [58]
+                0.00    0.00       2/4           CxxTest::StaticSuiteDescription::suite() const [26]
+                0.00    0.00       1/1           AbstractCellBasedWithTimingsTestSuite::tearDown() [39]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[59]     0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::firstTest() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [66]
+[60]     0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[61]     0.0    0.00    0.00       1         CxxTest::RealWorldDescription::setUp() [61]
+                0.00    0.00       1/1           PetscSetup::setUpWorld() [33]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[62]     0.0    0.00    0.00       1         CxxTest::RealWorldDescription::tearDown() [62]
+                0.00    0.00       1/1           PetscSetup::tearDownWorld() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [53]
+[63]     0.0    0.00    0.00       1         CxxTest::RealTestDescription::testName() const [63]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [49]
+[64]     0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::suiteName() const [64]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [12]
+[65]     0.0    0.00    0.00       1         void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [65]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [33] PetscSetup::setUpWorld() [15] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [55] char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int)
+  [34] PetscSetup::tearDownWorld() [16] bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [56] CxxTest::RealTestDescription::run()
+  [35] boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<StemCellProliferativeType>() [44] CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [57] CxxTest::RealTestDescription::setUp()
+  [12] boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [17] CxxTest::TestTracker::tracker() [58] CxxTest::RealTestDescription::tearDown()
+  [36] OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [11] CxxTest::TestTracker::~TestTracker() [30] CxxTest::DummyTestDescription::setUp()
+   [3] AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [19] CxxTest::ErrorPrinter::Adapter::flush() [59] CxxTest::RealSuiteDescription::firstTest()
+  [37] StemCellProliferativeType::~StemCellProliferativeType() [45] CxxTest::ErrorPrinter::Adapter::~Adapter() [60] CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+  [28] TransitCellProliferativeType::~TransitCellProliferativeType() [22] CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [61] CxxTest::RealWorldDescription::setUp()
+   [4] Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [14] CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [62] CxxTest::RealWorldDescription::tearDown()
+  [38] AbstractCellBasedWithTimingsTestSuite::setUp() [46] CxxTest::ErrorPrinter::~ErrorPrinter() [63] CxxTest::RealTestDescription::testName() const
+  [39] AbstractCellBasedWithTimingsTestSuite::tearDown() [47] CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [25] CxxTest::RealSuiteDescription::next() const
+   [1] boost::detail::sp_counted_base::release() [48] CxxTest::GlobalFixture::GlobalFixture() [31] CxxTest::RealSuiteDescription::numTests() const
+  [40] boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [27] void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [64] CxxTest::RealSuiteDescription::suiteName() const
+  [41] boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [49] CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [32] CxxTest::RealWorldDescription::numTotalTests() const
+  [20] boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [50] CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [23] CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+  [21] boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [51] CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [26] CxxTest::StaticSuiteDescription::suite() const
+  [42] boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [52] CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [65] void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&)
+  [29] boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [24] CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [18] void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&)
+  [43] boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [53] CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&)
+  [13] boost::detail::sp_counted_impl_p<Cell>::dispose() [54] CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
