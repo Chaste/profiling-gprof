@@ -1,0 +1,443 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 94.87      1.85     1.85       14   132.14   132.14  AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell()
+  1.54      1.88     0.03                             boost::detail::sp_counted_impl_p<DifferentiatedCellProliferativeType>::~sp_counted_impl_p()
+  0.51      1.89     0.01                             CxxTest::ErrorPrinter::Adapter::~Adapter()
+  0.51      1.90     0.01                             CxxTest::RealTestDescription::setUp()
+  0.00      1.90     0.00  2691959     0.00     0.00  boost::detail::sp_counted_impl_p<CellLabel>::~sp_counted_impl_p()
+  0.00      1.90     0.00     4285     0.00     0.00  CxxTest::GlobalFixture::~GlobalFixture()
+  0.00      1.90     0.00     3059     0.00     0.00  TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting::~TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting()
+  0.00      1.90     0.00      858     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      1.90     0.00      857     0.00     0.00  CxxTest::RealWorldDescription::activateAllTests()
+  0.00      1.90     0.00       24     0.00     0.00  boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose()
+  0.00      1.90     0.00       17     0.00     0.00  CxxTest::activateAllTests()
+  0.00      1.90     0.00       11     0.00     0.00  boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::~sp_counted_impl_p()
+  0.00      1.90     0.00        6     0.00     0.00  CxxTest::maxDumpSize()
+  0.00      1.90     0.00        6     0.00     0.00  _init
+  0.00      1.90     0.00        5     0.00     0.00  CxxTest::GlobalFixture::~GlobalFixture()
+  0.00      1.90     0.00        5     0.00     0.00  CxxTest::ErrorFormatter::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*)
+  0.00      1.90     0.00        4     0.00     0.00  CxxTest::GlobalFixture::GlobalFixture()
+  0.00      1.90     0.00        3     0.00     0.00  CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*)
+  0.00      1.90     0.00        3     0.00   572.62  CxxTest::DummySuiteDescription::~DummySuiteDescription()
+  0.00      1.90     0.00        2     0.00     0.00  PetscSetup::tearDownWorld()
+  0.00      1.90     0.00        2     0.00     0.00  AbstractCellBasedTestSuite::~AbstractCellBasedTestSuite()
+  0.00      1.90     0.00        2     0.00     0.00  CxxTest::ErrorPrinter::~ErrorPrinter()
+  0.00      1.90     0.00        2     0.00   858.93  CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      1.90     0.00        2     0.00     0.00  CxxTest::ErrorFormatter::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*)
+  0.00      1.90     0.00        2     0.00     0.00  CxxTest::sameData(void const*, void const*, unsigned int)
+  0.00      1.90     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::suiteDescription(unsigned int) const
+  0.00      1.90     0.00        1     0.00     0.00  AbstractCellBasedSimulation<2u, 2u>::WriteVisualizerSetupFile()
+  0.00      1.90     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p()
+  0.00      1.90     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::dispose()
+  0.00      1.90     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<DifferentialAdhesionPottsUpdateRule<2u> >::get_untyped_deleter()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::TestTracker::initialize()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::TestTracker::~TestTracker()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::OutputStream::flush()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::TestListener::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::~ErrorFormatter()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::setMaxDumpSize(unsigned int)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::DummySuiteDescription::tearDown()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::StaticSuiteDescription()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::Link::prev()
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::Link::detach(CxxTest::List&)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::leaveOnly(char const*, char const*)
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::Link::prev() const
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::List::size() const
+  0.00      1.90     0.00        1     0.00     0.00  CxxTest::List::tail() const
+  0.00      1.90     0.00        1     0.00     0.00  main
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.53% of 1.90 seconds
+
+index % time    self  children    called     name
+                             137134644             AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [1]
+                0.13    0.00       1/14          void std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::_M_realloc_insert<boost::shared_ptr<Cell> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<Cell>*, std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > > >, boost::shared_ptr<Cell> const&) [6]
+                1.72    0.00      13/14          CxxTest::DummySuiteDescription::~DummySuiteDescription() [2]
+[1]     97.4    1.85    0.00      14+137134644 AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [1]
+                             137134644             AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [1]
+-----------------------------------------------
+                0.00    1.72       3/3           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [3]
+[2]     90.4    0.00    1.72       3         CxxTest::DummySuiteDescription::~DummySuiteDescription() [2]
+                1.72    0.00      13/14          AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [1]
+-----------------------------------------------
+                0.00    0.86       1/2           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [5]
+                0.00    0.86       1/2           AbstractCellPopulation<2u, 2u>::Begin() [4]
+[3]     90.4    0.00    1.72       2         CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [3]
+                0.00    1.72       3/3           CxxTest::DummySuiteDescription::~DummySuiteDescription() [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     45.2    0.00    0.86                 AbstractCellPopulation<2u, 2u>::Begin() [4]
+                0.00    0.86       1/2           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [3]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [35]
+-----------------------------------------------
+                                                 <spontaneous>
+[5]     45.2    0.00    0.86                 CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [5]
+                0.00    0.86       1/2           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [3]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]      7.0    0.00    0.13                 void std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::_M_realloc_insert<boost::shared_ptr<Cell> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<Cell>*, std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > > >, boost::shared_ptr<Cell> const&) [6]
+                0.13    0.00       1/14          AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [1]
+                0.00    0.00       1/2           CxxTest::ErrorPrinter::~ErrorPrinter() [34]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [39]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]      1.6    0.03    0.00                 boost::detail::sp_counted_impl_p<DifferentiatedCellProliferativeType>::~sp_counted_impl_p() [7]
+-----------------------------------------------
+                                                 <spontaneous>
+[8]      0.5    0.01    0.00                 CxxTest::ErrorPrinter::Adapter::~Adapter() [8]
+                0.00    0.00    2565/4285        CxxTest::GlobalFixture::~GlobalFixture() [19]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      0.5    0.01    0.00                 CxxTest::RealTestDescription::setUp() [9]
+                0.00    0.00    1716/4285        CxxTest::GlobalFixture::~GlobalFixture() [19]
+                0.00    0.00     855/858         __static_initialization_and_destruction_0(int, int) [21]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription() [50]
+-----------------------------------------------
+[10]     0.0    0.00    0.00       5+2       <cycle 1 as a whole> [10]
+                0.00    0.00       6+16          _init <cycle 1> [27]
+                0.00    0.00       1             CxxTest::leaveOnly(char const*, char const*) <cycle 1> [54]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[11]     0.0    0.00    0.00       1         main [11]
+                0.00    0.00       1/17          CxxTest::activateAllTests() [24]
+                0.00    0.00       1/5           CxxTest::GlobalFixture::~GlobalFixture() [28]
+-----------------------------------------------
+                0.00    0.00     855/2691959     std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::~vector() [371]
+                0.00    0.00 2691104/2691959     TestRepresentativePottsBasedOnLatticeSimulation::~TestRepresentativePottsBasedOnLatticeSimulation() [85]
+[18]     0.0    0.00    0.00 2691959         boost::detail::sp_counted_impl_p<CellLabel>::~sp_counted_impl_p() [18]
+-----------------------------------------------
+                0.00    0.00       1/4285        CxxTest::TestTracker::TestTracker() [159]
+                0.00    0.00       1/4285        CxxTest::TestTracker::tracker() [154]
+                0.00    0.00       2/4285        void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [367]
+                0.00    0.00    1716/4285        CxxTest::RealTestDescription::setUp() [9]
+                0.00    0.00    2565/4285        CxxTest::ErrorPrinter::Adapter::~Adapter() [8]
+[19]     0.0    0.00    0.00    4285         CxxTest::GlobalFixture::~GlobalFixture() [19]
+                0.00    0.00     857/857         CxxTest::RealWorldDescription::activateAllTests() [22]
+                0.00    0.00       3/17          CxxTest::activateAllTests() [24]
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::suiteDescription(unsigned int) const [37]
+-----------------------------------------------
+                0.00    0.00    1331/3059        CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [130]
+                0.00    0.00    1728/3059        CxxTest::ErrorFormatter::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [219]
+[20]     0.0    0.00    0.00    3059         TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting::~TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting() [20]
+-----------------------------------------------
+                0.00    0.00       1/858         CxxTest::doTrace(char const*, unsigned int, char const*) [314]
+                0.00    0.00       2/858         void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [367]
+                0.00    0.00     855/858         CxxTest::RealTestDescription::setUp() [9]
+[21]     0.0    0.00    0.00     858         __static_initialization_and_destruction_0(int, int) [21]
+-----------------------------------------------
+                0.00    0.00     857/857         CxxTest::GlobalFixture::~GlobalFixture() [19]
+[22]     0.0    0.00    0.00     857         CxxTest::RealWorldDescription::activateAllTests() [22]
+-----------------------------------------------
+                0.00    0.00       1/24          CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [224]
+                0.00    0.00       3/24          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [130]
+                0.00    0.00      10/24          CxxTest::ErrorFormatter::warning(char const*, unsigned int, char const*) [229]
+                0.00    0.00      10/24          CxxTest::ErrorFormatter::trace(char const*, unsigned int, char const*) [228]
+[23]     0.0    0.00    0.00      24         boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [23]
+-----------------------------------------------
+                0.00    0.00       1/17          CxxTest::List::tail() const [58]
+                0.00    0.00       1/17          CxxTest::List::size() const [57]
+                0.00    0.00       1/17          CxxTest::RealSuiteDescription::numTests() const [343]
+                0.00    0.00       1/17          CxxTest::RealTestDescription::next() const [330]
+                0.00    0.00       1/17          CxxTest::Link::prev() const [56]
+                0.00    0.00       1/17          CxxTest::Link::attach(CxxTest::List&) [300]
+                0.00    0.00       1/17          main [11]
+                0.00    0.00       1/17          CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [43]
+                0.00    0.00       1/17          CxxTest::OutputStream::operator<<(char const*) [178]
+                0.00    0.00       1/17          CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [215]
+                0.00    0.00       3/17          CxxTest::GlobalFixture::~GlobalFixture() [19]
+                0.00    0.00       4/17          CxxTest::GlobalFixture::GlobalFixture() [30]
+[24]     0.0    0.00    0.00      17         CxxTest::activateAllTests() [24]
+-----------------------------------------------
+                0.00    0.00      11/11          std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long) [370]
+[25]     0.0    0.00    0.00      11         boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::~sp_counted_impl_p() [25]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::Link::next() const [362]
+                0.00    0.00       1/6           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [43]
+                0.00    0.00       4/6           CxxTest::GlobalFixture::GlobalFixture() [30]
+[26]     0.0    0.00    0.00       6         CxxTest::maxDumpSize() [26]
+-----------------------------------------------
+                                  16             _init <cycle 1> [27]
+                                   1             CxxTest::leaveOnly(char const*, char const*) <cycle 1> [54]
+                0.00    0.00       1/5           CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [166]
+                0.00    0.00       4/5           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [213]
+[27]     0.0    0.00    0.00       6+16      _init <cycle 1> [27]
+                0.00    0.00       2/2           CxxTest::sameData(void const*, void const*, unsigned int) [36]
+                0.00    0.00       1/1           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [55]
+                0.00    0.00       1/1           CxxTest::setMaxDumpSize(unsigned int) [48]
+                0.00    0.00       1/1           CxxTest::Link::detach(CxxTest::List&) [53]
+                0.00    0.00       1/1           CxxTest::Link::prev() const [56]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [43]
+                0.00    0.00       1/1           CxxTest::List::size() const [57]
+                0.00    0.00       1/1           CxxTest::Link::prev() [52]
+                0.00    0.00       1/1           CxxTest::List::tail() const [58]
+                0.00    0.00       1/1           main [11]
+                                   1             CxxTest::leaveOnly(char const*, char const*) <cycle 1> [54]
+                                  16             _init <cycle 1> [27]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::Link::next() const [362]
+                0.00    0.00       1/5           CxxTest::RealTestDescription::next() const [330]
+                0.00    0.00       1/5           CxxTest::Link::attach(CxxTest::List&) [300]
+                0.00    0.00       1/5           main [11]
+                0.00    0.00       1/5           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [43]
+[28]     0.0    0.00    0.00       5         CxxTest::GlobalFixture::~GlobalFixture() [28]
+                0.00    0.00       4/4           CxxTest::GlobalFixture::GlobalFixture() [30]
+                0.00    0.00       1/1           CxxTest::OutputStream::flush() [45]
+-----------------------------------------------
+                0.00    0.00       1/5           std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long) [370]
+                0.00    0.00       1/5           AbstractCellPopulation<2u, 2u>::Iterator::Iterator(AbstractCellPopulation<2u, 2u>&, std::_List_iterator<boost::shared_ptr<Cell> >) [70]
+                0.00    0.00       1/5           boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [67]
+                0.00    0.00       2/5           CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [224]
+[29]     0.0    0.00    0.00       5         CxxTest::ErrorFormatter::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [29]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::GlobalFixture::~GlobalFixture() [28]
+[30]     0.0    0.00    0.00       4         CxxTest::GlobalFixture::GlobalFixture() [30]
+                0.00    0.00       4/6           CxxTest::maxDumpSize() [26]
+                0.00    0.00       4/17          CxxTest::activateAllTests() [24]
+-----------------------------------------------
+                0.00    0.00       3/3           CxxTest::ErrorFormatter::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [35]
+[31]     0.0    0.00    0.00       3         CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [31]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::ErrorPrinter::~ErrorPrinter() [34]
+[32]     0.0    0.00    0.00       2         PetscSetup::tearDownWorld() [32]
+-----------------------------------------------
+                0.00    0.00       1/2           boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [98]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [224]
+[33]     0.0    0.00    0.00       2         AbstractCellBasedTestSuite::~AbstractCellBasedTestSuite() [33]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long) [370]
+                0.00    0.00       1/2           void std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::_M_realloc_insert<boost::shared_ptr<Cell> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<Cell>*, std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > > >, boost::shared_ptr<Cell> const&) [6]
+[34]     0.0    0.00    0.00       2         CxxTest::ErrorPrinter::~ErrorPrinter() [34]
+                0.00    0.00       2/2           PetscSetup::tearDownWorld() [32]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [222]
+                0.00    0.00       1/2           AbstractCellPopulation<2u, 2u>::Begin() [4]
+[35]     0.0    0.00    0.00       2         CxxTest::ErrorFormatter::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [35]
+                0.00    0.00       3/3           CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [31]
+-----------------------------------------------
+                0.00    0.00       2/2           _init <cycle 1> [27]
+[36]     0.0    0.00    0.00       2         CxxTest::sameData(void const*, void const*, unsigned int) [36]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::GlobalFixture::~GlobalFixture() [19]
+[37]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::suiteDescription(unsigned int) const [37]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestListener::~TestListener() [199]
+[38]     0.0    0.00    0.00       1         AbstractCellBasedSimulation<2u, 2u>::WriteVisualizerSetupFile() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::_M_realloc_insert<boost::shared_ptr<Cell> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<Cell>*, std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > > >, boost::shared_ptr<Cell> const&) [6]
+[39]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [39]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [224]
+[40]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::dispose() [40]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::get_untyped_deleter() [107]
+[41]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<DifferentialAdhesionPottsUpdateRule<2u> >::get_untyped_deleter() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [367]
+[42]     0.0    0.00    0.00       1         CxxTest::TestTracker::initialize() [42]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[43]     0.0    0.00    0.00       1         CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [43]
+                0.00    0.00       1/17          CxxTest::activateAllTests() [24]
+                0.00    0.00       1/5           CxxTest::GlobalFixture::~GlobalFixture() [28]
+                0.00    0.00       1/6           CxxTest::maxDumpSize() [26]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::OutputStream::operator<<(char const*) [178]
+[44]     0.0    0.00    0.00       1         CxxTest::TestTracker::~TestTracker() [44]
+                0.00    0.00       1/1           CxxTest::TestListener::enterSuite(CxxTest::SuiteDescription const&) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::GlobalFixture::~GlobalFixture() [28]
+[45]     0.0    0.00    0.00       1         CxxTest::OutputStream::flush() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::~TestTracker() [44]
+[46]     0.0    0.00    0.00       1         CxxTest::TestListener::enterSuite(CxxTest::SuiteDescription const&) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [224]
+[47]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::~ErrorFormatter() [47]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[48]     0.0    0.00    0.00       1         CxxTest::setMaxDumpSize(unsigned int) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestListener::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [186]
+[49]     0.0    0.00    0.00       1         CxxTest::DummySuiteDescription::tearDown() [49]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [9]
+[50]     0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::StaticSuiteDescription() [50]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::Link::detach(CxxTest::List&) [53]
+[51]     0.0    0.00    0.00       1         CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[52]     0.0    0.00    0.00       1         CxxTest::Link::prev() [52]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[53]     0.0    0.00    0.00       1         CxxTest::Link::detach(CxxTest::List&) [53]
+                0.00    0.00       1/1           CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int) [51]
+-----------------------------------------------
+                                   1             _init <cycle 1> [27]
+[54]     0.0    0.00    0.00       1         CxxTest::leaveOnly(char const*, char const*) <cycle 1> [54]
+                                   1             _init <cycle 1> [27]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[55]     0.0    0.00    0.00       1         CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [55]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[56]     0.0    0.00    0.00       1         CxxTest::Link::prev() const [56]
+                0.00    0.00       1/17          CxxTest::activateAllTests() [24]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[57]     0.0    0.00    0.00       1         CxxTest::List::size() const [57]
+                0.00    0.00       1/17          CxxTest::activateAllTests() [24]
+-----------------------------------------------
+                0.00    0.00       1/1           _init <cycle 1> [27]
+[58]     0.0    0.00    0.00       1         CxxTest::List::tail() const [58]
+                0.00    0.00       1/17          CxxTest::activateAllTests() [24]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [21] __static_initialization_and_destruction_0(int, int) (ValueTraits.cpp) [34] CxxTest::ErrorPrinter::~ErrorPrinter() [50] CxxTest::StaticSuiteDescription::StaticSuiteDescription()
+  [32] PetscSetup::tearDownWorld() [45] CxxTest::OutputStream::flush() [51] CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int)
+   [1] AbstractCellPopulation<2u, 2u>::Iterator::IsRealCell() [46] CxxTest::TestListener::enterSuite(CxxTest::SuiteDescription const&) [52] CxxTest::Link::prev()
+  [33] AbstractCellBasedTestSuite::~AbstractCellBasedTestSuite() [30] CxxTest::GlobalFixture::GlobalFixture() [53] CxxTest::Link::detach(CxxTest::List&)
+  [38] AbstractCellBasedSimulation<2u, 2u>::WriteVisualizerSetupFile() [19] CxxTest::GlobalFixture::~GlobalFixture() [36] CxxTest::sameData(void const*, void const*, unsigned int)
+  [23] boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [28] CxxTest::GlobalFixture::~GlobalFixture() [54] CxxTest::leaveOnly(char const*, char const*)
+  [39] boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [3] CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [20] TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting::~TestDescription_TestRepresentativePottsBasedOnLatticeSimulation_TestPottsMonolayerCellSorting()
+  [40] boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::dispose() [29] CxxTest::ErrorFormatter::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [55] CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  [25] boost::detail::sp_counted_impl_p<VolumeConstraintPottsUpdateRule<2u> >::~sp_counted_impl_p() [31] CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [37] CxxTest::RealWorldDescription::suiteDescription(unsigned int) const
+  [41] boost::detail::sp_counted_impl_p<DifferentialAdhesionPottsUpdateRule<2u> >::get_untyped_deleter() [35] CxxTest::ErrorFormatter::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [56] CxxTest::Link::prev() const
+   [7] boost::detail::sp_counted_impl_p<DifferentiatedCellProliferativeType>::~sp_counted_impl_p() [47] CxxTest::ErrorFormatter::~ErrorFormatter() [57] CxxTest::List::size() const
+  [18] boost::detail::sp_counted_impl_p<CellLabel>::~sp_counted_impl_p() [48] CxxTest::setMaxDumpSize(unsigned int) [58] CxxTest::List::tail() const
+  [42] CxxTest::TestTracker::initialize() [24] CxxTest::activateAllTests() [27] _init
+  [43] CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [9] CxxTest::RealTestDescription::setUp() [11] main
+  [44] CxxTest::TestTracker::~TestTracker() [22] CxxTest::RealWorldDescription::activateAllTests() [10] <cycle 1>
+  [26] CxxTest::maxDumpSize() [49] CxxTest::DummySuiteDescription::tearDown()
+   [8] CxxTest::ErrorPrinter::Adapter::~Adapter() [2] CxxTest::DummySuiteDescription::~DummySuiteDescription()
