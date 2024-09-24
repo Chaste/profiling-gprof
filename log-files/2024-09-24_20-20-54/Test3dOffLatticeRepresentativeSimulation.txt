@@ -1,0 +1,634 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+100.00      0.08     0.08       82     0.98     0.98  void std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellWriter<3u, 3u> >&&)
+  0.00      0.08     0.00       23     0.00     0.00  CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*)
+  0.00      0.08     0.00       15     0.00     0.00  CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool)
+  0.00      0.08     0.00       12     0.00     0.00  CxxTest::stringsEqual(char const*, char const*)
+  0.00      0.08     0.00       12     0.00     0.00  CxxTest::RealWorldDescription::tearDown()
+  0.00      0.08     0.00       10     0.00     0.00  CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*)
+  0.00      0.08     0.00       10     0.00     0.00  CxxTest::RealTestDescription::setUp()
+  0.00      0.08     0.00        8     0.00     0.00  CxxTest::TestTracker::TestTracker()
+  0.00      0.08     0.00        8     0.00     0.00  CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      0.08     0.00        8     0.00     0.00  CxxTest::RealWorldDescription::firstSuite()
+  0.00      0.08     0.00        8     0.00     0.00  main
+  0.00      0.08     0.00        7     0.00     0.00  CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*)
+  0.00      0.08     0.00        7     0.00     0.00  CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const
+  0.00      0.08     0.00        6     0.00     0.00  CxxTest::TestListener::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*)
+  0.00      0.08     0.00        6     0.00     0.00  CxxTest::doFailAssertThrowsNot(char const*, unsigned int, char const*, char const*)
+  0.00      0.08     0.00        5     0.00     0.00  CxxTest::RealTestDescription::tearDown()
+  0.00      0.08     0.00        5     0.00     0.00  CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::TestTracker::failedAssertThrowsNot(char const*, unsigned int, char const*)
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::TestTracker::tracker()
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&)
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::doAbortTest()
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::OutputStream::~OutputStream()
+  0.00      0.08     0.00        4     0.00    20.00  CxxTest::activateAllTests()
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*)
+  0.00      0.08     0.00        4     0.00     0.00  CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*)
+  0.00      0.08     0.00        3     0.00     0.00  CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int)
+  0.00      0.08     0.00        3     0.00     0.00  CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&)
+  0.00      0.08     0.00        3     0.00     0.00  CxxTest::sameData(void const*, void const*, unsigned int)
+  0.00      0.08     0.00        2     0.00     0.00  CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*)
+  0.00      0.08     0.00        2     0.00     0.00  CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*)
+  0.00      0.08     0.00        2     0.00     0.00  CxxTest::ErrorFormatter::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool)
+  0.00      0.08     0.00        2     0.00     0.00  CxxTest::doTrace(char const*, unsigned int, char const*)
+  0.00      0.08     0.00        2     0.00     0.00  CxxTest::leaveOnly(char const*, char const*)
+  0.00      0.08     0.00        1     0.00     0.00  OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation()
+  0.00      0.08     0.00        1     0.00     0.00  void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>()
+  0.00      0.08     0.00        1     0.00    80.00  Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes()
+  0.00      0.08     0.00        1     0.00     0.00  Test3dTissueRepresentativeSimulation::~Test3dTissueRepresentativeSimulation()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::initialize()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::setListener(CxxTest::TestListener*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::setTest(CxxTest::TestDescription const*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::maxDumpSize()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::OutputStream::operator<<(unsigned int)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestListener::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestListener::failedAssertThrowsNot(char const*, unsigned int, char const*)
+  0.00      0.08     0.00        1     0.00    20.00  CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::stop(char const*, unsigned int)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
+  0.00      0.08     0.00        1     0.00     0.00  void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*)
+  0.00      0.08     0.00        1     0.00     0.00  char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::setMaxDumpSize(unsigned int)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::setAbortTestOnFail(bool)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::~RealWorldDescription()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::DummyWorldDescription::~DummyWorldDescription()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::DummyWorldDescription::~DummyWorldDescription()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::~StaticSuiteDescription()
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::byteToHex(unsigned char)
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::dummyWorld() const
+  0.00      0.08     0.00        1     0.00     0.00  CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  0.00      0.08     0.00        1     0.00     0.00  void std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >&&)
+  0.00      0.08     0.00        1     0.00     0.00  std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 12.50% of 0.08 seconds
+
+index % time    self  children    called     name
+                0.08    0.00      82/82          Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+[1]    100.0    0.08    0.00      82         void std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellWriter<3u, 3u> >&&) [1]
+-----------------------------------------------
+                0.00    0.02       1/4           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.02       1/4           CxxTest::ValueTraits<double const>::doNegative(double&) [7]
+                0.00    0.02       1/4           PetscSetup::~PetscSetup() [6]
+                0.00    0.02       1/4           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+[2]    100.0    0.00    0.08       4         CxxTest::activateAllTests() [2]
+                0.00    0.08       1/1           Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+-----------------------------------------------
+                                 259             Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+                0.00    0.08       1/1           CxxTest::activateAllTests() [2]
+[3]    100.0    0.00    0.08       1+259     Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+                0.08    0.00      82/82          void std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellWriter<3u, 3u> >&&) [1]
+                0.00    0.00       2/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [48]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [64]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::stop(char const*, unsigned int) [62]
+                                 259             Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     50.0    0.00    0.04                 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+                0.00    0.02       1/1           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.02       1/4           CxxTest::activateAllTests() [2]
+                0.00    0.00       2/12          CxxTest::stringsEqual(char const*, char const*) [17]
+                0.00    0.00       1/5           CxxTest::RealTestDescription::tearDown() [28]
+                0.00    0.00       1/7           CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [24]
+                0.00    0.00       1/1           CxxTest::TestListener::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [58]
+                0.00    0.00       1/1           CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [55]
+-----------------------------------------------
+                0.00    0.02       1/1           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+[5]     25.0    0.00    0.02       1         CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.02       1/4           CxxTest::activateAllTests() [2]
+                0.00    0.00       2/4           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [32]
+                0.00    0.00       1/5           CxxTest::RealTestDescription::tearDown() [28]
+                0.00    0.00       1/10          CxxTest::RealTestDescription::setUp() [20]
+                0.00    0.00       1/1           CxxTest::TestTracker::dummyWorld() const [74]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]     25.0    0.00    0.02                 PetscSetup::~PetscSetup() [6]
+                0.00    0.02       1/4           CxxTest::activateAllTests() [2]
+                0.00    0.00       1/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]     25.0    0.00    0.02                 CxxTest::ValueTraits<double const>::doNegative(double&) [7]
+                0.00    0.02       1/4           CxxTest::activateAllTests() [2]
+                0.00    0.00       1/4           CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+-----------------------------------------------
+                                   3             main [8]
+                0.00    0.00       1/8           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [143]
+                0.00    0.00       1/8           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [54]
+                0.00    0.00       1/8           CxxTest::TestTracker::warning(char const*, unsigned int, char const*) [142]
+                0.00    0.00       1/8           char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+                0.00    0.00       4/8           CxxTest::sameData(void const*, void const*, unsigned int) [39]
+[8]      0.0    0.00    0.00       8+3       main [8]
+                0.00    0.00       6/6           CxxTest::doFailAssertThrowsNot(char const*, unsigned int, char const*, char const*) [27]
+                0.00    0.00       1/7           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+                0.00    0.00       1/8           CxxTest::TestTracker::TestTracker() [21]
+                                   3             main [8]
+-----------------------------------------------
+                0.00    0.00       1/23          CxxTest::RealWorldDescription::~RealWorldDescription() [69]
+                0.00    0.00       1/23          PetscSetup::~PetscSetup() [82]
+                0.00    0.00       1/23          PetscSetup::~PetscSetup() [6]
+                0.00    0.00       1/23          char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+                0.00    0.00       2/23          CxxTest::leaveOnly(char const*, char const*) [44]
+                0.00    0.00       2/23          CxxTest::DummyWorldDescription::~DummyWorldDescription() [71]
+                0.00    0.00       2/23          CxxTest::DummyWorldDescription::~DummyWorldDescription() [70]
+                0.00    0.00       2/23          std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [77]
+                0.00    0.00       2/23          void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+                0.00    0.00       9/23          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+[15]     0.0    0.00    0.00      23         CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+-----------------------------------------------
+                0.00    0.00       4/15          CxxTest::OutputStream::~OutputStream() [34]
+                0.00    0.00       5/15          CxxTest::TestTracker::failedAssertThrowsNot(char const*, unsigned int, char const*) [30]
+                0.00    0.00       6/15          CxxTest::TestListener::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [26]
+[16]     0.0    0.00    0.00      15         CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+                0.00    0.00       8/10          CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+                0.00    0.00       5/5           CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [29]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::TestListener::~TestListener() [181]
+                0.00    0.00       1/12          CxxTest::TestListener::enterTest(CxxTest::TestDescription const&) [178]
+                0.00    0.00       1/12          CxxTest::TestListener::trace(char const*, unsigned int, char const*) [176]
+                0.00    0.00       1/12          char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+                0.00    0.00       1/12          std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [77]
+                0.00    0.00       1/12          void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [65]
+                0.00    0.00       1/12          void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+                0.00    0.00       1/12          void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+                0.00    0.00       2/12          CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       2/12          std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+[17]     0.0    0.00    0.00      12         CxxTest::stringsEqual(char const*, char const*) [17]
+-----------------------------------------------
+                0.00    0.00       1/12          _GLOBAL__sub_I_main [78]
+                0.00    0.00       1/12          void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+                0.00    0.00       2/12          CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+                0.00    0.00       8/12          CxxTest::RealTestDescription::tearDown() [28]
+[18]     0.0    0.00    0.00      12         CxxTest::RealWorldDescription::tearDown() [18]
+-----------------------------------------------
+                                   9             CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+                0.00    0.00       2/10          CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+                0.00    0.00       8/10          CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+[19]     0.0    0.00    0.00      10+9       CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+                0.00    0.00       8/8           CxxTest::RealWorldDescription::firstSuite() [23]
+                                   9             CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+-----------------------------------------------
+                                   2             CxxTest::RealTestDescription::setUp() [20]
+                0.00    0.00       1/10          CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [37]
+                0.00    0.00       1/10          CxxTest::leaveOnly(char const*, char const*) [44]
+                0.00    0.00       1/10          CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.00       2/10          CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [35]
+                0.00    0.00       2/10          CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [40]
+                0.00    0.00       3/10          CxxTest::RealTestDescription::tearDown() [28]
+[20]     0.0    0.00    0.00      10+2       CxxTest::RealTestDescription::setUp() [20]
+                                   2             CxxTest::RealTestDescription::setUp() [20]
+-----------------------------------------------
+                0.00    0.00       1/8           main [8]
+                0.00    0.00       1/8           CxxTest::copyString(char*, char const*) [129]
+                0.00    0.00       2/8           CxxTest::doTrace(char const*, unsigned int, char const*) [43]
+                0.00    0.00       4/8           CxxTest::TestTracker::tracker() [31]
+[21]     0.0    0.00    0.00       8         CxxTest::TestTracker::TestTracker() [21]
+                0.00    0.00       1/1           CxxTest::TestTracker::initialize() [51]
+-----------------------------------------------
+                                   4             CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+                0.00    0.00       1/8           CxxTest::TestListener::warning(char const*, unsigned int, char const*) [177]
+                0.00    0.00       1/8           CxxTest::DummyWorldDescription::~DummyWorldDescription() [71]
+                0.00    0.00       1/8           CxxTest::DummyWorldDescription::~DummyWorldDescription() [70]
+                0.00    0.00       1/8           PetscSetup::~PetscSetup() [6]
+                0.00    0.00       1/8           char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+                0.00    0.00       1/8           std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [77]
+                0.00    0.00       2/8           Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+[22]     0.0    0.00    0.00       8+4       CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+                0.00    0.00       9/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       2/2           CxxTest::ErrorFormatter::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [42]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [61]
+                0.00    0.00       1/1           void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+                                   4             CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+                0.00    0.00       8/8           CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+[23]     0.0    0.00    0.00       8         CxxTest::RealWorldDescription::firstSuite() [23]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::TestListener::enterWorld(CxxTest::WorldDescription const&) [164]
+                0.00    0.00       1/7           void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [65]
+                0.00    0.00       1/7           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+                0.00    0.00       2/7           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       2/7           void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+[24]     0.0    0.00    0.00       7         CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [24]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [52]
+                0.00    0.00       1/7           main [8]
+                0.00    0.00       1/7           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [53]
+                0.00    0.00       1/7           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [49]
+                0.00    0.00       1/7           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       2/7           CxxTest::TestTracker::initialize() [51]
+[25]     0.0    0.00    0.00       7         CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::TestListener::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [58]
+                0.00    0.00       1/6           CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [166]
+                0.00    0.00       4/6           CxxTest::OutputStream::flush() [159]
+[26]     0.0    0.00    0.00       6         CxxTest::TestListener::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [26]
+                0.00    0.00       6/15          CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+-----------------------------------------------
+                0.00    0.00       6/6           main [8]
+[27]     0.0    0.00    0.00       6         CxxTest::doFailAssertThrowsNot(char const*, unsigned int, char const*, char const*) [27]
+                0.00    0.00       2/5           CxxTest::RealTestDescription::tearDown() [28]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::leaveOnly(char const*, char const*) [44]
+                0.00    0.00       1/5           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.00       1/5           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+                0.00    0.00       2/5           CxxTest::doFailAssertThrowsNot(char const*, unsigned int, char const*, char const*) [27]
+[28]     0.0    0.00    0.00       5         CxxTest::RealTestDescription::tearDown() [28]
+                0.00    0.00       8/12          CxxTest::RealWorldDescription::tearDown() [18]
+                0.00    0.00       3/10          CxxTest::RealTestDescription::setUp() [20]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+[29]     0.0    0.00    0.00       5         CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [29]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::digitToChar(unsigned int) [150]
+                0.00    0.00       1/4           CxxTest::copyString(char*, char const*) [129]
+                0.00    0.00       1/4           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       1/4           CxxTest::TestListener::trace(char const*, unsigned int, char const*) [176]
+[30]     0.0    0.00    0.00       4         CxxTest::TestTracker::failedAssertThrowsNot(char const*, unsigned int, char const*) [30]
+                0.00    0.00       5/15          CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::ErrorPrinter::Adapter::operator<<(unsigned int) [156]
+                0.00    0.00       1/4           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [197]
+                0.00    0.00       2/4           CxxTest::RealWorldDescription::setUp() [244]
+[31]     0.0    0.00    0.00       4         CxxTest::TestTracker::tracker() [31]
+                0.00    0.00       4/8           CxxTest::TestTracker::TestTracker() [21]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+                0.00    0.00       2/4           CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [55]
+[32]     0.0    0.00    0.00       4         CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [32]
+                0.00    0.00       4/4           CxxTest::doAbortTest() [33]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [32]
+[33]     0.0    0.00    0.00       4         CxxTest::doAbortTest() [33]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::OutputStream::operator<<(unsigned int) [57]
+                0.00    0.00       1/4           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+                0.00    0.00       2/4           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [60]
+[34]     0.0    0.00    0.00       4         CxxTest::OutputStream::~OutputStream() [34]
+                0.00    0.00       4/15          CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [16]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::TestListener::~TestListener() [181]
+                0.00    0.00       1/4           void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+                0.00    0.00       2/4           CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+[35]     0.0    0.00    0.00       4         CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [35]
+                0.00    0.00       2/10          CxxTest::RealTestDescription::setUp() [20]
+-----------------------------------------------
+                                   2             CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+                0.00    0.00       1/4           CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [55]
+                0.00    0.00       1/4           CxxTest::ValueTraits<double const>::doNegative(double&) [7]
+                0.00    0.00       2/4           CxxTest::leaveOnly(char const*, char const*) [44]
+[36]     0.0    0.00    0.00       4+2       CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+                0.00    0.00       2/4           CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [35]
+                0.00    0.00       2/12          CxxTest::RealWorldDescription::tearDown() [18]
+                                   2             CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+-----------------------------------------------
+                                   1             CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [37]
+                0.00    0.00       1/3           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       2/3           CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [40]
+[37]     0.0    0.00    0.00       3+1       CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [37]
+                0.00    0.00       1/10          CxxTest::RealTestDescription::setUp() [20]
+                                   1             CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [37]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [60]
+                0.00    0.00       1/3           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [63]
+                0.00    0.00       1/3           void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+[38]     0.0    0.00    0.00       3         CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+                0.00    0.00       2/10          CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [19]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [72]
+                0.00    0.00       1/4           CxxTest::OutputStream::~OutputStream() [34]
+-----------------------------------------------
+                0.00    0.00       1/3           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [45]
+                0.00    0.00       1/3           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [64]
+                0.00    0.00       1/3           void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+[39]     0.0    0.00    0.00       3         CxxTest::sameData(void const*, void const*, unsigned int) [39]
+                0.00    0.00       4/8           main [8]
+                0.00    0.00       2/2           CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [40]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::sameData(void const*, void const*, unsigned int) [39]
+[40]     0.0    0.00    0.00       2         CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [40]
+                0.00    0.00       2/10          CxxTest::RealTestDescription::setUp() [20]
+                0.00    0.00       2/3           CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [37]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/2           CxxTest::TestTracker::countFailure() [134]
+[41]     0.0    0.00    0.00       2         CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [41]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [49]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+[42]     0.0    0.00    0.00       2         CxxTest::ErrorFormatter::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [42]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::setUp() [244]
+                0.00    0.00       1/2           CxxTest::TestListener::enterSuite(CxxTest::SuiteDescription const&) [163]
+[43]     0.0    0.00    0.00       2         CxxTest::doTrace(char const*, unsigned int, char const*) [43]
+                0.00    0.00       2/8           CxxTest::TestTracker::TestTracker() [21]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+                0.00    0.00       1/2           CxxTest::TestListener::~TestListener() [181]
+[44]     0.0    0.00    0.00       2         CxxTest::leaveOnly(char const*, char const*) [44]
+                0.00    0.00       2/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       2/4           CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+                0.00    0.00       1/10          CxxTest::RealTestDescription::setUp() [20]
+                0.00    0.00       1/5           CxxTest::RealTestDescription::tearDown() [28]
+-----------------------------------------------
+                0.00    0.00       1/1           void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+[45]     0.0    0.00    0.00       1         OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [45]
+                0.00    0.00       1/3           CxxTest::sameData(void const*, void const*, unsigned int) [39]
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >&&) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+[46]     0.0    0.00    0.00       1         void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [46]
+                0.00    0.00       2/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/12          CxxTest::stringsEqual(char const*, char const*) [17]
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [45]
+                0.00    0.00       1/3           CxxTest::sameData(void const*, void const*, unsigned int) [39]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >&&) [76]
+[47]     0.0    0.00    0.00       1         Test3dTissueRepresentativeSimulation::~Test3dTissueRepresentativeSimulation() [47]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+[48]     0.0    0.00    0.00       1         CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [41]
+[49]     0.0    0.00    0.00       1         CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [49]
+                0.00    0.00       1/7           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummyTestDescription::~DummyTestDescription() [234]
+[50]     0.0    0.00    0.00       1         CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [50]
+                0.00    0.00       1/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [41]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [21]
+[51]     0.0    0.00    0.00       1         CxxTest::TestTracker::initialize() [51]
+                0.00    0.00       2/7           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+                0.00    0.00       1/1           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::initialize() [51]
+[52]     0.0    0.00    0.00       1         CxxTest::TestTracker::setListener(CxxTest::TestListener*) [52]
+                0.00    0.00       1/7           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedTest(char const*, unsigned int, char const*) [131]
+[53]     0.0    0.00    0.00       1         CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [53]
+                0.00    0.00       1/7           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [25]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [132]
+[54]     0.0    0.00    0.00       1         CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [54]
+                0.00    0.00       1/8           main [8]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+[55]     0.0    0.00    0.00       1         CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [55]
+                0.00    0.00       2/4           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [32]
+                0.00    0.00       1/4           CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [36]
+                0.00    0.00       1/1           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [75]
+-----------------------------------------------
+                0.00    0.00       1/1           void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [65]
+[56]     0.0    0.00    0.00       1         CxxTest::maxDumpSize() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [65]
+[57]     0.0    0.00    0.00       1         CxxTest::OutputStream::operator<<(unsigned int) [57]
+                0.00    0.00       1/4           CxxTest::OutputStream::~OutputStream() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*) [4]
+[58]     0.0    0.00    0.00       1         CxxTest::TestListener::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [58]
+                0.00    0.00       1/6           CxxTest::TestListener::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [26]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+[59]     0.0    0.00    0.00       1         CxxTest::TestListener::failedAssertThrowsNot(char const*, unsigned int, char const*) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ValueTraits<double const>::normalNumber(double) [147]
+[60]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [60]
+                0.00    0.00       2/4           CxxTest::OutputStream::~OutputStream() [34]
+                0.00    0.00       1/3           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::~RealWorldDescription() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+[61]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+[62]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::stop(char const*, unsigned int) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestListener::enterWorld(CxxTest::WorldDescription const&) [164]
+[63]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [63]
+                0.00    0.00       1/3           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+                0.00    0.00       1/1           char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [3]
+[64]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [64]
+                0.00    0.00       1/3           CxxTest::sameData(void const*, void const*, unsigned int) [39]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [78]
+[65]     0.0    0.00    0.00       1         void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [65]
+                0.00    0.00       1/7           CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [24]
+                0.00    0.00       1/1           CxxTest::OutputStream::operator<<(unsigned int) [57]
+                0.00    0.00       1/12          CxxTest::stringsEqual(char const*, char const*) [17]
+                0.00    0.00       1/1           CxxTest::maxDumpSize() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [63]
+[66]     0.0    0.00    0.00       1         char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [66]
+                0.00    0.00       1/8           main [8]
+                0.00    0.00       1/12          CxxTest::stringsEqual(char const*, char const*) [17]
+                0.00    0.00       1/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [354]
+[67]     0.0    0.00    0.00       1         CxxTest::setMaxDumpSize(unsigned int) [67]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::~DummyWorldDescription() [70]
+[68]     0.0    0.00    0.00       1         CxxTest::setAbortTestOnFail(bool) [68]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [60]
+[69]     0.0    0.00    0.00       1         CxxTest::RealWorldDescription::~RealWorldDescription() [69]
+                0.00    0.00       1/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestListener::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [173]
+[70]     0.0    0.00    0.00       1         CxxTest::DummyWorldDescription::~DummyWorldDescription() [70]
+                0.00    0.00       2/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/1           CxxTest::setAbortTestOnFail(bool) [68]
+                0.00    0.00       1/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::OutputStream::operator<<(void (*)(CxxTest::OutputStream&)) [161]
+[71]     0.0    0.00    0.00       1         CxxTest::DummyWorldDescription::~DummyWorldDescription() [71]
+                0.00    0.00       2/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [38]
+[72]     0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [72]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::leaveOnly(char const*) [239]
+[73]     0.0    0.00    0.00       1         CxxTest::byteToHex(unsigned char) [73]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [5]
+[74]     0.0    0.00    0.00       1         CxxTest::TestTracker::dummyWorld() const [74]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [55]
+[75]     0.0    0.00    0.00       1         CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [75]
+-----------------------------------------------
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [45]
+[76]     0.0    0.00    0.00       1         void std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >&&) [76]
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::~Test3dTissueRepresentativeSimulation() [47]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestListener::leaveTest(CxxTest::TestDescription const&) [179]
+[77]     0.0    0.00    0.00       1         std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [77]
+                0.00    0.00       2/23          CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [15]
+                0.00    0.00       1/12          CxxTest::stringsEqual(char const*, char const*) [17]
+                0.00    0.00       1/8           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [22]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [45] OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [56] CxxTest::maxDumpSize() [68] CxxTest::setAbortTestOnFail(bool)
+  [46] void AbstractCellPopulation<3u, 3u>::AddPopulationWriter<VoronoiDataWriter>() [34] CxxTest::OutputStream::~OutputStream() [20] CxxTest::RealTestDescription::setUp()
+   [3] Test3dTissueRepresentativeSimulation::Test3DHoneycombMeshWithGhostNodes() [57] CxxTest::OutputStream::operator<<(unsigned int) [28] CxxTest::RealTestDescription::tearDown()
+  [47] Test3dTissueRepresentativeSimulation::~Test3dTissueRepresentativeSimulation() [26] CxxTest::TestListener::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [23] CxxTest::RealWorldDescription::firstSuite()
+  [48] CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [58] CxxTest::TestListener::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [18] CxxTest::RealWorldDescription::tearDown()
+  [49] CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [59] CxxTest::TestListener::failedAssertThrowsNot(char const*, unsigned int, char const*) [69] CxxTest::RealWorldDescription::~RealWorldDescription()
+  [50] CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [17] CxxTest::stringsEqual(char const*, char const*) [70] CxxTest::DummyWorldDescription::~DummyWorldDescription()
+  [51] CxxTest::TestTracker::initialize() [5] CxxTest::bytesToString(unsigned char const*, unsigned int, unsigned int, char*) [71] CxxTest::DummyWorldDescription::~DummyWorldDescription()
+  [52] CxxTest::TestTracker::setListener(CxxTest::TestListener*) [60] CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [27] CxxTest::doFailAssertThrowsNot(char const*, unsigned int, char const*, char const*)
+  [40] CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [38] CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [29] CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  [16] CxxTest::TestTracker::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [22] CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [72] CxxTest::StaticSuiteDescription::~StaticSuiteDescription()
+  [19] CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [42] CxxTest::ErrorFormatter::failedAssertThrows(char const*, unsigned int, char const*, char const*, bool) [43] CxxTest::doTrace(char const*, unsigned int, char const*)
+  [37] CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [15] CxxTest::ErrorFormatter::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [39] CxxTest::sameData(void const*, void const*, unsigned int)
+  [24] CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [61] CxxTest::ErrorFormatter::failedAssertThrowsNot(char const*, unsigned int, char const*) [73] CxxTest::byteToHex(unsigned char)
+  [30] CxxTest::TestTracker::failedAssertThrowsNot(char const*, unsigned int, char const*) [62] CxxTest::ErrorFormatter::stop(char const*, unsigned int) [44] CxxTest::leaveOnly(char const*, char const*)
+  [53] CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [63] CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [74] CxxTest::TestTracker::dummyWorld() const
+  [31] CxxTest::TestTracker::tracker() [64] CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [25] CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const
+  [54] CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [65] void CxxTest::doAssertEquals<unsigned long, unsigned long>(char const*, unsigned int, char const*, unsigned long, char const*, unsigned long, char const*) [75] CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  [41] CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [66] char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [1] void std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellWriter<3u, 3u> >&&)
+  [32] CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [67] CxxTest::setMaxDumpSize(unsigned int) [76] void std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > >::_M_realloc_insert<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > >(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >*, std::vector<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >, std::allocator<boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> > > > >, boost::shared_ptr<AbstractCellPopulationWriter<3u, 3u> >&&)
+  [21] CxxTest::TestTracker::TestTracker() [2] CxxTest::activateAllTests() [77] std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*)
+  [55] CxxTest::ValueTraits<double const>::requiredDigitsOnLeft(double) [35] CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [8] main
+  [33] CxxTest::doAbortTest() [36] CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*)
