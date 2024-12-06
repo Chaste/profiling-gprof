@@ -1,0 +1,1118 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 65.12      1.83     1.83     7473     0.00     0.00  unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int)
+ 19.04      2.37     0.54    15215     0.00     0.00  AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell()
+ 10.14      2.65     0.28                             boost::detail::sp_counted_base::release()
+  2.14      2.71     0.06                             boost::numeric::ublas::zero_vector<double, std::allocator<double> >::const_iterator::operator*() const
+  1.96      2.77     0.06    15115     0.00     0.00  AbstractCellPopulation<3u, 3u>::Iterator::Iterator(AbstractCellPopulation<3u, 3u>&, std::_List_iterator<boost::shared_ptr<Cell> >)
+  0.53      2.78     0.01     1728     0.00     0.00  std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*)
+  0.36      2.79     0.01        1     0.01     0.60  AbstractCellPopulation<3u, 3u>::Begin()
+  0.36      2.80     0.01                             _init
+  0.18      2.81     0.01        1     0.01     0.01  AbstractCellBasedWithTimingsTestSuite::tearDown()
+  0.18      2.81     0.01        1     0.01     0.01  void CxxTest::doAssertEquals<unsigned int, unsigned int>(char const*, unsigned int, char const*, unsigned int, char const*, unsigned int, char const*)
+  0.00      2.81     0.00     8565     0.00     0.00  boost::detail::sp_counted_base::destroy()
+  0.00      2.81     0.00     4982     0.00     0.00  boost::mpl::if_c<boost::is_integral<double>::value, double, double>::type (anonymous namespace)::boost_numeric_ublas_sqrt<double>(double const&)
+  0.00      2.81     0.00     2491     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&)
+  0.00      2.81     0.00     2491     0.00     0.00  bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&)
+  0.00      2.81     0.00     2491     0.00     0.00  bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double)
+  0.00      2.81     0.00     2491     0.00     0.00  boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > const&)
+  0.00      2.81     0.00     2491     0.00     0.00  boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&)
+  0.00      2.81     0.00     2491     0.00     0.00  boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::c_vector<double, 3ul> > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&)
+  0.00      2.81     0.00     2491     0.00     0.00  boost::numeric::ublas::vector_binary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<boost::numeric::ublas::c_vector<double, 3ul>::value_type, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&)
+  0.00      2.81     0.00     2482     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag)
+  0.00      2.81     0.00     2482     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00     2476     0.00     0.00  boost::detail::sp_counted_impl_p<Cell>::~sp_counted_impl_p()
+  0.00      2.81     0.00     1728     0.00     0.00  boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>()
+  0.00      2.81     0.00     1728     0.00     0.00  Node<3u>*& std::vector<Node<3u>*, std::allocator<Node<3u>*> >::emplace_back<Node<3u>*>(Node<3u>*&&)
+  0.00      2.81     0.00     1124     0.00     0.00  boost::detail::sp_counted_impl_p<Cell>::dispose()
+  0.00      2.81     0.00       14     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(char const*)
+  0.00      2.81     0.00       12     0.00     0.00  CxxTest::TestTracker::tracker()
+  0.00      2.81     0.00       12     0.00     0.00  CxxTest::Link::active() const
+  0.00      2.81     0.00       12     0.00     0.00  void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&)
+  0.00      2.81     0.00        9     0.00     0.00  CxxTest::TestTracker::dummyWorld() const
+  0.00      2.81     0.00        8     0.00     0.00  CxxTest::TestTracker::dummySuite() const
+  0.00      2.81     0.00        8     0.00     0.00  CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const
+  0.00      2.81     0.00        7     0.00     0.00  CxxTest::Link::Link()
+  0.00      2.81     0.00        7     0.00     0.00  CxxTest::Link::~Link()
+  0.00      2.81     0.00        6     0.00     0.00  CxxTest::TestTracker::setTest(CxxTest::TestDescription const*)
+  0.00      2.81     0.00        6     0.00     0.00  CxxTest::ErrorPrinter::Adapter::flush()
+  0.00      2.81     0.00        6     0.00     0.00  CxxTest::List::head()
+  0.00      2.81     0.00        6     0.00     0.00  CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const
+  0.00      2.81     0.00        5     0.00     0.00  boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose()
+  0.00      2.81     0.00        5     0.00     0.00  boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p()
+  0.00      2.81     0.00        5     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&))
+  0.00      2.81     0.00        5     0.00     0.00  CxxTest::TestTracker::dummyTest() const
+  0.00      2.81     0.00        5     0.00     0.00  CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*)
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&)
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::setMaxDumpSize(unsigned int)
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::Link::next()
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::RealTestDescription::suite() const
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::StaticSuiteDescription::suite() const
+  0.00      2.81     0.00        4     0.00     0.00  CxxTest::Link::next() const
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag)
+  0.00      2.81     0.00        3     0.00     0.61  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  boost::enable_if<boost::is_convertible<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type>, boost::numeric::ublas::vector_binary_scalar1_traits<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type>::type boost::numeric::ublas::operator*<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(double const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  boost::numeric::ublas::vector_unary_traits<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&)
+  0.00      2.81     0.00        3     0.00     0.00  CxxTest::TestTracker::setListener(CxxTest::TestListener*)
+  0.00      2.81     0.00        3     0.00     0.00  CxxTest::maxDumpSize()
+  0.00      2.81     0.00        3     0.00     0.00  void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*)
+  0.00      2.81     0.00        3     0.00     0.00  CxxTest::RealWorldDescription::suites()
+  0.00      2.81     0.00        3     0.00     0.00  CxxTest::Link::attach(CxxTest::List&)
+  0.00      2.81     0.00        3     0.00     0.00  bool CxxTest::delta<double, double, double>(double, double, double)
+  0.00      2.81     0.00        2     0.00     0.00  TransitCellProliferativeType::~TransitCellProliferativeType()
+  0.00      2.81     0.00        2     0.00     0.00  boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*)
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::GlobalFixture::lastGlobalFixture()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::GlobalFixture::nextGlobalFixture()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::GlobalFixture::prevGlobalFixture()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::GlobalFixture::firstGlobalFixture()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::TestDescription::~TestDescription()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::SuiteDescription::~SuiteDescription()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::WorldDescription::~WorldDescription()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::Link::prev()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::List::tail()
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::RealSuiteDescription::next() const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::RealSuiteDescription::numTests() const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::firstSuite() const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::numTotalTests() const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::List::head() const
+  0.00      2.81     0.00        2     0.00     0.00  CxxTest::List::size() const
+  0.00      2.81     0.00        2     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00      2.81     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.81     0.00        1     0.00     0.00  PetscSetup::setUpWorld()
+  0.00      2.81     0.00        1     0.00     0.00  PetscSetup::tearDownWorld()
+  0.00      2.81     0.00        1     0.00     0.01  CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>)
+  0.00      2.81     0.00        1     0.00     0.00  OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation()
+  0.00      2.81     0.00        1     0.00     0.00  StemCellProliferativeType::~StemCellProliferativeType()
+  0.00      2.81     0.00        1     0.00     0.00  WildTypeCellMutationState::~WildTypeCellMutationState()
+  0.00      2.81     0.00        1     0.00     2.45  Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing()
+  0.00      2.81     0.00        1     0.00     0.00  AbstractCellBasedWithTimingsTestSuite::setUp()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<PlaneBasedCellKiller<3u> >::~sp_counted_impl_p()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<StemCellProliferativeType>::~sp_counted_impl_p()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::dispose()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p()
+  0.00      2.81     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose()
+  0.00      2.81     0.00        1     0.00     2.46  CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::initialize()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestTracker::TestTracker()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::digitToChar(unsigned int)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::Adapter::~Adapter()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::~ErrorPrinter()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::GlobalFixture::setUp()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::GlobalFixture::tearDown()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::GlobalFixture::GlobalFixture()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::GlobalFixture::~GlobalFixture()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
+  0.00      2.81     0.00        1     0.00     0.00  char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      2.81     0.00        1     0.00     2.45  CxxTest::RealTestDescription::run()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealTestDescription::next()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealTestDescription::setUp()
+  0.00      2.81     0.00        1     0.00     0.01  CxxTest::RealTestDescription::tearDown()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::DummyTestDescription::DummyTestDescription()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::next()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::firstTest()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::firstSuite()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::setUp()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::tearDown()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::DummySuiteDescription::DummySuiteDescription()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::DummyWorldDescription::DummyWorldDescription()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::setUp()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::tearDown()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::Link::detach(CxxTest::List&)
+  0.00      2.81     0.00        1     0.00     0.00  bool CxxTest::equals<unsigned int, unsigned int>(unsigned int, unsigned int)
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::TestSuite::~TestSuite()
+  0.00      2.81     0.00        1     0.00     2.45  TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::runTest()
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::WorldDescription::strTotalTests(char*) const
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealTestDescription::testName() const
+  0.00      2.81     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::suiteName() const
+  0.00      2.81     0.00        1     0.00     0.00  void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&)
+  0.00      2.81     0.00        1     0.00     0.00  std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.36% of 2.81 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     87.4    0.00    2.46                 main [1]
+                0.00    2.46       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+                0.00    0.00       5/12          CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       2/3           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [77]
+                0.00    0.00       2/4           CxxTest::setMaxDumpSize(unsigned int) [69]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/3           CxxTest::maxDumpSize() [78]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [118]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [150]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::firstSuite() [149]
+                0.00    0.00       1/12          CxxTest::Link::active() const [51]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [151]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::next() [146]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [121]
+                0.00    0.00       1/2           CxxTest::WorldDescription::~WorldDescription() [92]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::~ErrorPrinter() [127]
+-----------------------------------------------
+                0.00    2.46       1/1           main [1]
+[2]     87.4    0.00    2.46       1         CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+                0.00    2.45       1/1           CxxTest::RealTestDescription::run() [4]
+                0.00    0.01       1/1           CxxTest::RealTestDescription::tearDown() [24]
+                0.00    0.00       4/12          CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       2/3           CxxTest::maxDumpSize() [78]
+                0.00    0.00       2/4           CxxTest::setMaxDumpSize(unsigned int) [69]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [117]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::setUp() [155]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::firstTest() [147]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [122]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [142]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [123]
+                0.00    0.00       1/12          CxxTest::Link::active() const [51]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::next() [141]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::tearDown() [156]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [120]
+-----------------------------------------------
+                0.00    2.45       1/1           TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::runTest() [5]
+[3]     87.2    0.00    2.45       1         Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+                0.00    1.82       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [8]
+                0.01    0.59       1/1           AbstractCellPopulation<3u, 3u>::Begin() [14]
+                0.00    0.01       1/1           CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [20]
+                0.01    0.00       1/1           void CxxTest::doAssertEquals<unsigned int, unsigned int>(char const*, unsigned int, char const*, unsigned int, char const*, unsigned int, char const*) [23]
+                0.00    0.00     100/15215       AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [16]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [27]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [29]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [25]
+                0.00    0.00    1728/1728        Node<3u>*& std::vector<Node<3u>*, std::allocator<Node<3u>*> >::emplace_back<Node<3u>*>(Node<3u>*&&) [47]
+                0.00    0.00       3/3           boost::numeric::ublas::vector_unary_traits<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [76]
+                0.00    0.00       3/3           boost::enable_if<boost::is_convertible<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type>, boost::numeric::ublas::vector_binary_scalar1_traits<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type>::type boost::numeric::ublas::operator*<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(double const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [75]
+                0.00    0.00       3/3           void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [79]
+                0.00    0.00       1/2           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [102]
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [106]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [116]
+                0.00    0.00       1/8565        boost::detail::sp_counted_base::destroy() [40]
+-----------------------------------------------
+                0.00    2.45       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[4]     87.2    0.00    2.45       1         CxxTest::RealTestDescription::run() [4]
+                0.00    2.45       1/1           TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::runTest() [5]
+-----------------------------------------------
+                0.00    2.45       1/1           CxxTest::RealTestDescription::run() [4]
+[5]     87.2    0.00    2.45       1         TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::runTest() [5]
+                0.00    2.45       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+-----------------------------------------------
+                0.00    0.00       3/7473        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [31]
+                0.00    0.00       3/7473        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [32]
+                0.00    0.00       3/7473        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [33]
+                0.61    0.00    2482/7473        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [13]
+                0.61    0.00    2491/7473        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.61    0.00    2491/7473        boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > const&) [12]
+[6]     65.1    1.83    0.00    7473         unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    1.82    2482/2482        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [8]
+[7]     64.9    0.00    1.82    2482         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [7]
+                0.00    0.61    2482/2482        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [13]
+                0.00    0.61    2482/2491        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.00    0.61    2482/2491        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+-----------------------------------------------
+                0.00    1.82       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[8]     64.9    0.00    1.82       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [8]
+                0.00    1.82    2482/2482        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [7]
+-----------------------------------------------
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [28]
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [30]
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [26]
+                0.00    0.61    2482/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [7]
+[9]     21.7    0.00    0.61    2491         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.61    0.00    2491/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [28]
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [30]
+                0.00    0.00       3/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [26]
+                0.00    0.61    2482/2491        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [7]
+[10]    21.7    0.00    0.61    2491         bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+                0.00    0.61    2491/2491        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+                0.00    0.00    4982/4982        boost::mpl::if_c<boost::is_integral<double>::value, double, double>::type (anonymous namespace)::boost_numeric_ublas_sqrt<double>(double const&) [41]
+-----------------------------------------------
+                0.00    0.61    2491/2491        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+[11]    21.7    0.00    0.61    2491         bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+                0.00    0.61    2491/2491        boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > const&) [12]
+                0.00    0.00    2491/2491        boost::numeric::ublas::vector_binary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<boost::numeric::ublas::c_vector<double, 3ul>::value_type, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [44]
+                0.00    0.00    2491/2491        boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [42]
+                0.00    0.00    2491/2491        boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::c_vector<double, 3ul> > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [43]
+-----------------------------------------------
+                0.00    0.61    2491/2491        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+[12]    21.7    0.00    0.61    2491         boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > const&) [12]
+                0.61    0.00    2491/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    0.61    2482/2482        void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [7]
+[13]    21.6    0.00    0.61    2482         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [13]
+                0.61    0.00    2482/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.01    0.59       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[14]    21.2    0.01    0.59       1         AbstractCellPopulation<3u, 3u>::Begin() [14]
+                0.06    0.53   15115/15115       AbstractCellPopulation<3u, 3u>::Iterator::Iterator(AbstractCellPopulation<3u, 3u>&, std::_List_iterator<boost::shared_ptr<Cell> >) [15]
+-----------------------------------------------
+                0.06    0.53   15115/15115       AbstractCellPopulation<3u, 3u>::Begin() [14]
+[15]    20.9    0.06    0.53   15115         AbstractCellPopulation<3u, 3u>::Iterator::Iterator(AbstractCellPopulation<3u, 3u>&, std::_List_iterator<boost::shared_ptr<Cell> >) [15]
+                0.53    0.00   15115/15215       AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [16]
+-----------------------------------------------
+                0.00    0.00     100/15215       Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+                0.53    0.00   15115/15215       AbstractCellPopulation<3u, 3u>::Iterator::Iterator(AbstractCellPopulation<3u, 3u>&, std::_List_iterator<boost::shared_ptr<Cell> >) [15]
+[16]    19.0    0.54    0.00   15215         AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [16]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]    10.1    0.28    0.00                 boost::detail::sp_counted_base::release() [17]
+                0.00    0.00    1128/8565        boost::detail::sp_counted_base::destroy() [40]
+                0.00    0.00    1124/1124        boost::detail::sp_counted_impl_p<Cell>::dispose() [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[18]     2.1    0.06    0.00                 boost::numeric::ublas::zero_vector<double, std::allocator<double> >::const_iterator::operator*() const [18]
+-----------------------------------------------
+                             2934847             std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+                0.01    0.00    1728/1728        CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [20]
+[19]     0.5    0.01    0.00    1728+2934847 std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+                0.00    0.00    7429/8565        boost::detail::sp_counted_base::destroy() [40]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::dispose() [114]
+                             2934847             std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+-----------------------------------------------
+                0.00    0.01       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[20]     0.5    0.00    0.01       1         CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [20]
+                0.01    0.00    1728/1728        std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+                0.00    0.00    1728/1728        boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [46]
+                0.00    0.00       1/1           std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long) [165]
+-----------------------------------------------
+                                                 <spontaneous>
+[21]     0.4    0.01    0.00                 _init [21]
+-----------------------------------------------
+                0.01    0.00       1/1           CxxTest::RealTestDescription::tearDown() [24]
+[22]     0.2    0.01    0.00       1         AbstractCellBasedWithTimingsTestSuite::tearDown() [22]
+                0.00    0.00       1/2           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [102]
+-----------------------------------------------
+                0.01    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[23]     0.2    0.01    0.00       1         void CxxTest::doAssertEquals<unsigned int, unsigned int>(char const*, unsigned int, char const*, unsigned int, char const*, unsigned int, char const*) [23]
+                0.00    0.00       1/1           bool CxxTest::equals<unsigned int, unsigned int>(unsigned int, unsigned int) [159]
+-----------------------------------------------
+                0.00    0.01       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[24]     0.2    0.00    0.01       1         CxxTest::RealTestDescription::tearDown() [24]
+                0.01    0.00       1/1           AbstractCellBasedWithTimingsTestSuite::tearDown() [22]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::suite() const [72]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::lastGlobalFixture() [86]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::tearDown() [130]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::prevGlobalFixture() [88]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[25]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [25]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [26]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [25]
+[26]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [26]
+                0.00    0.00       3/2491        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.00    0.00       3/3           void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [31]
+                0.00    0.00       3/2491        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[27]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [27]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [28]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [27]
+[28]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [28]
+                0.00    0.00       3/2491        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.00    0.00       3/3           void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [32]
+                0.00    0.00       3/2491        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[29]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [29]
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [30]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [29]
+[30]     0.1    0.00    0.00       3         void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [30]
+                0.00    0.00       3/2491        void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [9]
+                0.00    0.00       3/3           void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [33]
+                0.00    0.00       3/2491        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [26]
+[31]     0.0    0.00    0.00       3         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [31]
+                0.00    0.00       3/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [28]
+[32]     0.0    0.00    0.00       3         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [32]
+                0.00    0.00       3/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    0.00       3/3           void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [30]
+[33]     0.0    0.00    0.00       3         void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [33]
+                0.00    0.00       3/7473        unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [6]
+-----------------------------------------------
+                0.00    0.00       1/8565        Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+                0.00    0.00       7/8565        OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [106]
+                0.00    0.00    1128/8565        boost::detail::sp_counted_base::release() [17]
+                0.00    0.00    7429/8565        std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+[40]     0.0    0.00    0.00    8565         boost::detail::sp_counted_base::destroy() [40]
+                0.00    0.00    2476/2476        boost::detail::sp_counted_impl_p<Cell>::~sp_counted_impl_p() [45]
+                0.00    0.00       5/5           boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [63]
+                0.00    0.00       2/2           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [84]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [115]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<StemCellProliferativeType>::~sp_counted_impl_p() [113]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<PlaneBasedCellKiller<3u> >::~sp_counted_impl_p() [112]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [111]
+-----------------------------------------------
+                0.00    0.00    4982/4982        bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [10]
+[41]     0.0    0.00    0.00    4982         boost::mpl::if_c<boost::is_integral<double>::value, double, double>::type (anonymous namespace)::boost_numeric_ublas_sqrt<double>(double const&) [41]
+-----------------------------------------------
+                0.00    0.00    2491/2491        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+[42]     0.0    0.00    0.00    2491         boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [42]
+-----------------------------------------------
+                0.00    0.00    2491/2491        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+[43]     0.0    0.00    0.00    2491         boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::c_vector<double, 3ul> > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [43]
+-----------------------------------------------
+                0.00    0.00    2491/2491        bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [11]
+[44]     0.0    0.00    0.00    2491         boost::numeric::ublas::vector_binary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<boost::numeric::ublas::c_vector<double, 3ul>::value_type, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [44]
+-----------------------------------------------
+                0.00    0.00    2476/2476        boost::detail::sp_counted_base::destroy() [40]
+[45]     0.0    0.00    0.00    2476         boost::detail::sp_counted_impl_p<Cell>::~sp_counted_impl_p() [45]
+-----------------------------------------------
+                0.00    0.00    1728/1728        CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [20]
+[46]     0.0    0.00    0.00    1728         boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [46]
+                0.00    0.00       1/1           void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [164]
+-----------------------------------------------
+                0.00    0.00    1728/1728        Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[47]     0.0    0.00    0.00    1728         Node<3u>*& std::vector<Node<3u>*, std::allocator<Node<3u>*> >::emplace_back<Node<3u>*>(Node<3u>*&&) [47]
+                0.00    0.00      12/12          void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [52]
+-----------------------------------------------
+                0.00    0.00    1124/1124        boost::detail::sp_counted_base::release() [17]
+[48]     0.0    0.00    0.00    1124         boost::detail::sp_counted_impl_p<Cell>::dispose() [48]
+-----------------------------------------------
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [134]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [135]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [137]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+                0.00    0.00       3/14          CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [133]
+                0.00    0.00       4/14          CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [68]
+[49]     0.0    0.00    0.00      14         CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [135]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+                0.00    0.00       4/12          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+                0.00    0.00       5/12          main [1]
+[50]     0.0    0.00    0.00      12         CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [124]
+-----------------------------------------------
+                0.00    0.00       1/12          main [1]
+                0.00    0.00       1/12          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+                0.00    0.00       2/12          CxxTest::List::head() const [100]
+                0.00    0.00       2/12          CxxTest::List::tail() [94]
+                0.00    0.00       6/12          CxxTest::List::head() [60]
+[51]     0.0    0.00    0.00      12         CxxTest::Link::active() const [51]
+-----------------------------------------------
+                0.00    0.00      12/12          Node<3u>*& std::vector<Node<3u>*, std::allocator<Node<3u>*> >::emplace_back<Node<3u>*>(Node<3u>*&&) [47]
+[52]     0.0    0.00    0.00      12         void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&) [52]
+-----------------------------------------------
+                0.00    0.00       1/9           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [95]
+                0.00    0.00       8/9           CxxTest::TestTracker::dummySuite() const [54]
+[53]     0.0    0.00    0.00       9         CxxTest::TestTracker::dummyWorld() const [53]
+-----------------------------------------------
+                0.00    0.00       3/8           CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [71]
+                0.00    0.00       5/8           CxxTest::TestTracker::dummyTest() const [65]
+[54]     0.0    0.00    0.00       8         CxxTest::TestTracker::dummySuite() const [54]
+                0.00    0.00       8/8           CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const [55]
+                0.00    0.00       8/9           CxxTest::TestTracker::dummyWorld() const [53]
+-----------------------------------------------
+                0.00    0.00       8/8           CxxTest::TestTracker::dummySuite() const [54]
+[55]     0.0    0.00    0.00       8         CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const [55]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::DummyTestDescription::DummyTestDescription() [144]
+                0.00    0.00       1/7           CxxTest::DummySuiteDescription::DummySuiteDescription() [152]
+                0.00    0.00       1/7           CxxTest::DummyWorldDescription::DummyWorldDescription() [153]
+                0.00    0.00       1/7           CxxTest::GlobalFixture::GlobalFixture() [131]
+                0.00    0.00       1/7           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [143]
+                0.00    0.00       1/7           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [148]
+                0.00    0.00       1/7           main [1]
+[56]     0.0    0.00    0.00       7         CxxTest::Link::Link() [56]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::GlobalFixture::~GlobalFixture() [132]
+                0.00    0.00       2/7           CxxTest::TestDescription::~TestDescription() [90]
+                0.00    0.00       2/7           CxxTest::SuiteDescription::~SuiteDescription() [91]
+                0.00    0.00       2/7           CxxTest::WorldDescription::~WorldDescription() [92]
+[57]     0.0    0.00    0.00       7         CxxTest::Link::~Link() [57]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [122]
+                0.00    0.00       1/6           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [123]
+                0.00    0.00       4/6           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+[58]     0.0    0.00    0.00       6         CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [58]
+                0.00    0.00       6/6           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [61]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [134]
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+                0.00    0.00       4/6           CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [68]
+[59]     0.0    0.00    0.00       6         CxxTest::ErrorPrinter::Adapter::flush() [59]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::RealSuiteDescription::firstTest() [147]
+                0.00    0.00       1/6           CxxTest::RealWorldDescription::firstSuite() [149]
+                0.00    0.00       2/6           CxxTest::GlobalFixture::firstGlobalFixture() [89]
+                0.00    0.00       2/6           CxxTest::RealWorldDescription::firstSuite() const [98]
+[60]     0.0    0.00    0.00       6         CxxTest::List::head() [60]
+                0.00    0.00       6/12          CxxTest::Link::active() const [51]
+-----------------------------------------------
+                0.00    0.00       6/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [58]
+[61]     0.0    0.00    0.00       6         CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [61]
+                0.00    0.00       5/5           CxxTest::TestTracker::dummyTest() const [65]
+-----------------------------------------------
+                0.00    0.00       5/5           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [106]
+[62]     0.0    0.00    0.00       5         boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [62]
+-----------------------------------------------
+                0.00    0.00       5/5           boost::detail::sp_counted_base::destroy() [40]
+[63]     0.0    0.00    0.00       5         boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [63]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [134]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [133]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [137]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [135]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+[64]     0.0    0.00    0.00       5         CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+                0.00    0.00       4/4           CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [68]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [61]
+[65]     0.0    0.00    0.00       5         CxxTest::TestTracker::dummyTest() const [65]
+                0.00    0.00       5/8           CxxTest::TestTracker::dummySuite() const [54]
+                0.00    0.00       5/5           CxxTest::DummySuiteDescription::testDescription(unsigned int) const [66]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::TestTracker::dummyTest() const [65]
+[66]     0.0    0.00    0.00       5         CxxTest::DummySuiteDescription::testDescription(unsigned int) const [66]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [117]
+                0.00    0.00       1/4           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [120]
+                0.00    0.00       2/4           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [85]
+[67]     0.0    0.00    0.00       4         CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+                0.00    0.00       4/4           CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [71]
+                0.00    0.00       4/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [58]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+[68]     0.0    0.00    0.00       4         CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [68]
+                0.00    0.00       4/6           CxxTest::ErrorPrinter::Adapter::flush() [59]
+                0.00    0.00       4/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+-----------------------------------------------
+                0.00    0.00       2/4           main [1]
+                0.00    0.00       2/4           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[69]     0.0    0.00    0.00       4         CxxTest::setMaxDumpSize(unsigned int) [69]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::RealTestDescription::next() [141]
+                0.00    0.00       1/4           CxxTest::RealSuiteDescription::next() [146]
+                0.00    0.00       2/4           CxxTest::GlobalFixture::nextGlobalFixture() [87]
+[70]     0.0    0.00    0.00       4         CxxTest::Link::next() [70]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+[71]     0.0    0.00    0.00       4         CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [71]
+                0.00    0.00       3/8           CxxTest::TestTracker::dummySuite() const [54]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::RealTestDescription::setUp() [142]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::tearDown() [24]
+[72]     0.0    0.00    0.00       4         CxxTest::RealTestDescription::suite() const [72]
+                0.00    0.00       4/4           CxxTest::StaticSuiteDescription::suite() const [73]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::RealTestDescription::suite() const [72]
+[73]     0.0    0.00    0.00       4         CxxTest::StaticSuiteDescription::suite() const [73]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::List::size() const [101]
+                0.00    0.00       2/4           CxxTest::RealSuiteDescription::next() const [96]
+[74]     0.0    0.00    0.00       4         CxxTest::Link::next() const [74]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[75]     0.0    0.00    0.00       3         boost::enable_if<boost::is_convertible<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type>, boost::numeric::ublas::vector_binary_scalar1_traits<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type>::type boost::numeric::ublas::operator*<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(double const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [75]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[76]     0.0    0.00    0.00       3         boost::numeric::ublas::vector_unary_traits<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [76]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestTracker::initialize() [119]
+                0.00    0.00       2/3           main [1]
+[77]     0.0    0.00    0.00       3         CxxTest::TestTracker::setListener(CxxTest::TestListener*) [77]
+-----------------------------------------------
+                0.00    0.00       1/3           main [1]
+                0.00    0.00       2/3           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[78]     0.0    0.00    0.00       3         CxxTest::maxDumpSize() [78]
+-----------------------------------------------
+                0.00    0.00       3/3           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[79]     0.0    0.00    0.00       3         void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [79]
+                0.00    0.00       3/3           bool CxxTest::delta<double, double, double>(double, double, double) [82]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::RealWorldDescription::firstSuite() [149]
+                0.00    0.00       2/3           CxxTest::RealWorldDescription::firstSuite() const [98]
+[80]     0.0    0.00    0.00       3         CxxTest::RealWorldDescription::suites() [80]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::GlobalFixture::GlobalFixture() [131]
+                0.00    0.00       1/3           CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [140]
+                0.00    0.00       1/3           CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [145]
+[81]     0.0    0.00    0.00       3         CxxTest::Link::attach(CxxTest::List&) [81]
+-----------------------------------------------
+                0.00    0.00       3/3           void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [79]
+[82]     0.0    0.00    0.00       3         bool CxxTest::delta<double, double, double>(double, double, double) [82]
+-----------------------------------------------
+                0.00    0.00       2/2           boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [116]
+[83]     0.0    0.00    0.00       2         TransitCellProliferativeType::~TransitCellProliferativeType() [83]
+-----------------------------------------------
+                0.00    0.00       2/2           boost::detail::sp_counted_base::destroy() [40]
+[84]     0.0    0.00    0.00       2         boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [84]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [118]
+                0.00    0.00       1/2           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [121]
+[85]     0.0    0.00    0.00       2         CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [85]
+                0.00    0.00       2/2           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [95]
+                0.00    0.00       2/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::tearDown() [151]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::tearDown() [24]
+[86]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::lastGlobalFixture() [86]
+                0.00    0.00       2/2           CxxTest::List::tail() [94]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::setUp() [150]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::setUp() [142]
+[87]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::nextGlobalFixture() [87]
+                0.00    0.00       2/4           CxxTest::Link::next() [70]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::tearDown() [151]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::tearDown() [24]
+[88]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::prevGlobalFixture() [88]
+                0.00    0.00       2/2           CxxTest::Link::prev() [93]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::setUp() [150]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::setUp() [142]
+[89]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::firstGlobalFixture() [89]
+                0.00    0.00       2/6           CxxTest::List::head() [60]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::~TestTracker() [246]
+                0.00    0.00       1/2           TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::~TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing() [375]
+[90]     0.0    0.00    0.00       2         CxxTest::TestDescription::~TestDescription() [90]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [57]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::~TestTracker() [246]
+                0.00    0.00       1/2           CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [353]
+[91]     0.0    0.00    0.00       2         CxxTest::SuiteDescription::~SuiteDescription() [91]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [57]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::~TestTracker() [246]
+                0.00    0.00       1/2           main [1]
+[92]     0.0    0.00    0.00       2         CxxTest::WorldDescription::~WorldDescription() [92]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [57]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::GlobalFixture::prevGlobalFixture() [88]
+[93]     0.0    0.00    0.00       2         CxxTest::Link::prev() [93]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::GlobalFixture::lastGlobalFixture() [86]
+[94]     0.0    0.00    0.00       2         CxxTest::List::tail() [94]
+                0.00    0.00       2/12          CxxTest::Link::active() const [51]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [85]
+[95]     0.0    0.00    0.00       2         CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [95]
+                0.00    0.00       1/9           CxxTest::TestTracker::dummyWorld() const [53]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [99]
+[96]     0.0    0.00    0.00       2         CxxTest::RealSuiteDescription::next() const [96]
+                0.00    0.00       2/4           CxxTest::Link::next() const [74]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [99]
+[97]     0.0    0.00    0.00       2         CxxTest::RealSuiteDescription::numTests() const [97]
+                0.00    0.00       2/2           CxxTest::List::size() const [101]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [99]
+[98]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::firstSuite() const [98]
+                0.00    0.00       2/6           CxxTest::List::head() [60]
+                0.00    0.00       2/3           CxxTest::RealWorldDescription::suites() [80]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::WorldDescription::strTotalTests(char*) const [161]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+[99]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::numTotalTests() const [99]
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::firstSuite() const [98]
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::numTests() const [97]
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::next() const [96]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::List::size() const [101]
+[100]    0.0    0.00    0.00       2         CxxTest::List::head() const [100]
+                0.00    0.00       2/12          CxxTest::Link::active() const [51]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::numTests() const [97]
+[101]    0.0    0.00    0.00       2         CxxTest::List::size() const [101]
+                0.00    0.00       2/2           CxxTest::List::head() const [100]
+                0.00    0.00       2/4           CxxTest::Link::next() const [74]
+-----------------------------------------------
+                0.00    0.00       1/2           AbstractCellBasedWithTimingsTestSuite::tearDown() [22]
+                0.00    0.00       1/2           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[102]    0.0    0.00    0.00       2         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [166]
+[103]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [103]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::GlobalFixture() [131]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [157]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [143]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [150]
+[104]    0.0    0.00    0.00       1         PetscSetup::setUpWorld() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [151]
+[105]    0.0    0.00    0.00       1         PetscSetup::tearDownWorld() [105]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[106]    0.0    0.00    0.00       1         OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [106]
+                0.00    0.00       7/8565        boost::detail::sp_counted_base::destroy() [40]
+                0.00    0.00       5/5           boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [62]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [110]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<StemCellProliferativeType>::dispose() [201]
+[107]    0.0    0.00    0.00       1         StemCellProliferativeType::~StemCellProliferativeType() [107]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::dispose() [114]
+[108]    0.0    0.00    0.00       1         WildTypeCellMutationState::~WildTypeCellMutationState() [108]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [142]
+[109]    0.0    0.00    0.00       1         AbstractCellBasedWithTimingsTestSuite::setUp() [109]
+-----------------------------------------------
+                0.00    0.00       1/1           OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [106]
+[110]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [110]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::destroy() [40]
+[111]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [111]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::destroy() [40]
+[112]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<PlaneBasedCellKiller<3u> >::~sp_counted_impl_p() [112]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::destroy() [40]
+[113]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<StemCellProliferativeType>::~sp_counted_impl_p() [113]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*) [19]
+[114]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::dispose() [114]
+                0.00    0.00       1/1           WildTypeCellMutationState::~WildTypeCellMutationState() [108]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::detail::sp_counted_base::destroy() [40]
+[115]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [115]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [3]
+[116]    0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [116]
+                0.00    0.00       2/2           TransitCellProliferativeType::~TransitCellProliferativeType() [83]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[117]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [117]
+                0.00    0.00       1/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[118]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [118]
+                0.00    0.00       1/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [85]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [134]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [124]
+[119]    0.0    0.00    0.00       1         CxxTest::TestTracker::initialize() [119]
+                0.00    0.00       1/3           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [77]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[120]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [120]
+                0.00    0.00       1/1           CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [128]
+                0.00    0.00       1/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [67]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[121]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [121]
+                0.00    0.00       1/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [85]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [135]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[122]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [122]
+                0.00    0.00       1/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [58]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[123]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [123]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+                0.00    0.00       1/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [58]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::tracker() [50]
+[124]    0.0    0.00    0.00       1         CxxTest::TestTracker::TestTracker() [124]
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::DummyWorldDescription() [153]
+                0.00    0.00       1/1           CxxTest::TestTracker::initialize() [119]
+-----------------------------------------------
+                0.00    0.00       1/1           char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [139]
+[125]    0.0    0.00    0.00       1         CxxTest::digitToChar(unsigned int) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::~ErrorPrinter() [127]
+[126]    0.0    0.00    0.00       1         CxxTest::ErrorPrinter::Adapter::~Adapter() [126]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[127]    0.0    0.00    0.00       1         CxxTest::ErrorPrinter::~ErrorPrinter() [127]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::~Adapter() [126]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [120]
+[128]    0.0    0.00    0.00       1         CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [128]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [142]
+[129]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::setUp() [129]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [24]
+[130]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::tearDown() [130]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [103]
+[131]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::GlobalFixture() [131]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           PetscSetup::~PetscSetup() [168]
+[132]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::~GlobalFixture() [132]
+                0.00    0.00       1/7           CxxTest::Link::~Link() [57]
+                0.00    0.00       1/1           CxxTest::Link::detach(CxxTest::List&) [158]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [117]
+[133]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [133]
+                0.00    0.00       3/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::suiteName() const [163]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [118]
+[134]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [134]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [59]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [121]
+[135]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [135]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+[136]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       1/1           CxxTest::WorldDescription::strTotalTests(char*) const [161]
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::numTotalTests() const [99]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [122]
+[137]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [137]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::testName() const [162]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [123]
+[138]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [138]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [50]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [49]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [59]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::WorldDescription::strTotalTests(char*) const [161]
+[139]    0.0    0.00    0.00       1         char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [139]
+                0.00    0.00       1/1           CxxTest::digitToChar(unsigned int) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [143]
+[140]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [140]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[141]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::next() [141]
+                0.00    0.00       1/4           CxxTest::Link::next() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[142]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::setUp() [142]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::suite() const [72]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::firstGlobalFixture() [89]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::setUp() [129]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::nextGlobalFixture() [87]
+                0.00    0.00       1/1           AbstractCellBasedWithTimingsTestSuite::setUp() [109]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [103]
+[143]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [143]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [140]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummySuiteDescription::DummySuiteDescription() [152]
+[144]    0.0    0.00    0.00       1         CxxTest::DummyTestDescription::DummyTestDescription() [144]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [148]
+[145]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [145]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[146]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::next() [146]
+                0.00    0.00       1/4           CxxTest::Link::next() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[147]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::firstTest() [147]
+                0.00    0.00       1/6           CxxTest::List::head() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [157]
+[148]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [148]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [145]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[149]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::firstSuite() [149]
+                0.00    0.00       1/6           CxxTest::List::head() [60]
+                0.00    0.00       1/3           CxxTest::RealWorldDescription::suites() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[150]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::setUp() [150]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::nextGlobalFixture() [87]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::firstGlobalFixture() [89]
+                0.00    0.00       1/1           PetscSetup::setUpWorld() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[151]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::tearDown() [151]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::lastGlobalFixture() [86]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::prevGlobalFixture() [88]
+                0.00    0.00       1/1           PetscSetup::tearDownWorld() [105]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::DummyWorldDescription() [153]
+[152]    0.0    0.00    0.00       1         CxxTest::DummySuiteDescription::DummySuiteDescription() [152]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/1           CxxTest::DummyTestDescription::DummyTestDescription() [144]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [124]
+[153]    0.0    0.00    0.00       1         CxxTest::DummyWorldDescription::DummyWorldDescription() [153]
+                0.00    0.00       1/7           CxxTest::Link::Link() [56]
+                0.00    0.00       1/1           CxxTest::DummySuiteDescription::DummySuiteDescription() [152]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [157]
+[154]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&) [154]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[155]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::setUp() [155]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [2]
+[156]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::tearDown() [156]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [103]
+[157]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [157]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [148]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&) [154]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::GlobalFixture::~GlobalFixture() [132]
+[158]    0.0    0.00    0.00       1         CxxTest::Link::detach(CxxTest::List&) [158]
+-----------------------------------------------
+                0.00    0.00       1/1           void CxxTest::doAssertEquals<unsigned int, unsigned int>(char const*, unsigned int, char const*, unsigned int, char const*, unsigned int, char const*) [23]
+[159]    0.0    0.00    0.00       1         bool CxxTest::equals<unsigned int, unsigned int>(unsigned int, unsigned int) [159]
+-----------------------------------------------
+                0.00    0.00       1/1           Test3dTissueRepresentativeSimulation::~Test3dTissueRepresentativeSimulation() [181]
+[160]    0.0    0.00    0.00       1         CxxTest::TestSuite::~TestSuite() [160]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [136]
+[161]    0.0    0.00    0.00       1         CxxTest::WorldDescription::strTotalTests(char*) const [161]
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::numTotalTests() const [99]
+                0.00    0.00       1/1           char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [139]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [137]
+[162]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::testName() const [162]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [133]
+[163]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::suiteName() const [163]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [46]
+[164]    0.0    0.00    0.00       1         void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&) [164]
+-----------------------------------------------
+                0.00    0.00       1/1           CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [20]
+[165]    0.0    0.00    0.00       1         std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long) [165]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [103] __static_initialization_and_destruction_0(int, int) (ValueTraits.cpp) [117] CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [148] CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+ [104] PetscSetup::setUpWorld() [118] CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [149] CxxTest::RealWorldDescription::firstSuite()
+ [105] PetscSetup::tearDownWorld() [119] CxxTest::TestTracker::initialize() [150] CxxTest::RealWorldDescription::setUp()
+  [41] boost::mpl::if_c<boost::is_integral<double>::value, double, double>::type (anonymous namespace)::boost_numeric_ublas_sqrt<double>(double const&) (traits.hpp) [120] CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [80] CxxTest::RealWorldDescription::suites()
+  [20] CellsGenerator<UniformCellCycleModel, 3u>::GenerateBasicRandom(std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >&, unsigned int, boost::shared_ptr<AbstractCellProperty>) [121] CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [151] CxxTest::RealWorldDescription::tearDown()
+  [46] boost::shared_ptr<AbstractCellProperty> CellPropertyRegistry::Get<WildTypeCellMutationState>() [77] CxxTest::TestTracker::setListener(CxxTest::TestListener*) [152] CxxTest::DummySuiteDescription::DummySuiteDescription()
+ [106] OffLatticeSimulation<3u, 3u>::~OffLatticeSimulation() [58] CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [153] CxxTest::DummyWorldDescription::DummyWorldDescription()
+  [14] AbstractCellPopulation<3u, 3u>::Begin() [50] CxxTest::TestTracker::tracker() [154] CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&)
+  [16] AbstractCellPopulation<3u, 3u>::Iterator::IsRealCell() [67] CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [155] CxxTest::StaticSuiteDescription::setUp()
+  [15] AbstractCellPopulation<3u, 3u>::Iterator::Iterator(AbstractCellPopulation<3u, 3u>&, std::_List_iterator<boost::shared_ptr<Cell> >) [85] CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [156] CxxTest::StaticSuiteDescription::tearDown()
+ [107] StemCellProliferativeType::~StemCellProliferativeType() [122] CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [157] CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+ [108] WildTypeCellMutationState::~WildTypeCellMutationState() [123] CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [70] CxxTest::Link::next()
+  [83] TransitCellProliferativeType::~TransitCellProliferativeType() [124] CxxTest::TestTracker::TestTracker() [93] CxxTest::Link::prev()
+   [3] Test3dTissueRepresentativeSimulation::Test3dNodeBasedInBoxWithSloughing() [125] CxxTest::digitToChar(unsigned int) [81] CxxTest::Link::attach(CxxTest::List&)
+ [109] AbstractCellBasedWithTimingsTestSuite::setUp() [78] CxxTest::maxDumpSize() [158] CxxTest::Link::detach(CxxTest::List&)
+  [22] AbstractCellBasedWithTimingsTestSuite::tearDown() [59] CxxTest::ErrorPrinter::Adapter::flush() [56] CxxTest::Link::Link()
+  [40] boost::detail::sp_counted_base::destroy() [126] CxxTest::ErrorPrinter::Adapter::~Adapter() [57] CxxTest::Link::~Link()
+  [17] boost::detail::sp_counted_base::release() [64] CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [60] CxxTest::List::head()
+ [110] boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::dispose() [49] CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [94] CxxTest::List::tail()
+ [111] boost::detail::sp_counted_impl_p<RepulsionForce<3u> >::~sp_counted_impl_p() [127] CxxTest::ErrorPrinter::~ErrorPrinter() [82] bool CxxTest::delta<double, double, double>(double, double, double)
+ [112] boost::detail::sp_counted_impl_p<PlaneBasedCellKiller<3u> >::~sp_counted_impl_p() [128] CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [159] bool CxxTest::equals<unsigned int, unsigned int>(unsigned int, unsigned int)
+  [62] boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::dispose() [86] CxxTest::GlobalFixture::lastGlobalFixture() [160] CxxTest::TestSuite::~TestSuite()
+  [63] boost::detail::sp_counted_impl_p<PlaneBoundaryCondition<3u, 3u> >::~sp_counted_impl_p() [87] CxxTest::GlobalFixture::nextGlobalFixture() [5] TestDescription_Test3dTissueRepresentativeSimulation_Test3dNodeBasedInBoxWithSloughing::runTest()
+ [113] boost::detail::sp_counted_impl_p<StemCellProliferativeType>::~sp_counted_impl_p() [88] CxxTest::GlobalFixture::prevGlobalFixture() [18] boost::numeric::ublas::zero_vector<double, std::allocator<double> >::const_iterator::operator*() const
+ [114] boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::dispose() [89] CxxTest::GlobalFixture::firstGlobalFixture() [54] CxxTest::TestTracker::dummySuite() const
+ [115] boost::detail::sp_counted_impl_p<WildTypeCellMutationState>::~sp_counted_impl_p() [129] CxxTest::GlobalFixture::setUp() [53] CxxTest::TestTracker::dummyWorld() const
+ [116] boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::dispose() [130] CxxTest::GlobalFixture::tearDown() [61] CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const
+  [84] boost::detail::sp_counted_impl_p<TransitCellProliferativeType>::~sp_counted_impl_p() [131] CxxTest::GlobalFixture::GlobalFixture() [71] CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const
+  [48] boost::detail::sp_counted_impl_p<Cell>::dispose() [132] CxxTest::GlobalFixture::~GlobalFixture() [95] CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  [45] boost::detail::sp_counted_impl_p<Cell>::~sp_counted_impl_p() [79] void CxxTest::doAssertDelta<double, double, double>(char const*, unsigned int, char const*, double, char const*, double, char const*, double, char const*) [65] CxxTest::TestTracker::dummyTest() const
+   [6] unsigned long boost::numeric::ublas::same_impl_ex<unsigned long>(unsigned long const&, unsigned long const&, char const*, int) [133] CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [161] CxxTest::WorldDescription::strTotalTests(char*) const
+  [25] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [134] CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [72] CxxTest::RealTestDescription::suite() const
+  [26] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [135] CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [162] CxxTest::RealTestDescription::testName() const
+   [8] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [136] CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [96] CxxTest::RealSuiteDescription::next() const
+   [7] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&, boost::numeric::ublas::sparse_tag) [68] CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [97] CxxTest::RealSuiteDescription::numTests() const
+  [27] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [137] CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [163] CxxTest::RealSuiteDescription::suiteName() const
+  [28] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&, boost::numeric::ublas::sparse_tag) [138] CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [98] CxxTest::RealWorldDescription::firstSuite() const
+  [29] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [23] void CxxTest::doAssertEquals<unsigned int, unsigned int>(char const*, unsigned int, char const*, unsigned int, char const*, unsigned int, char const*) [99] CxxTest::RealWorldDescription::numTotalTests() const
+  [30] void boost::numeric::ublas::vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::c_vector<double, 3ul>&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&, boost::numeric::ublas::sparse_tag) [139] char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [66] CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+  [31] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [69] CxxTest::setMaxDumpSize(unsigned int) [55] CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const
+  [13] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::zero_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::zero_vector<double, std::allocator<double> > > const&) [90] CxxTest::TestDescription::~TestDescription() [73] CxxTest::StaticSuiteDescription::suite() const
+  [32] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_unary<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<double> > > const&) [91] CxxTest::SuiteDescription::~SuiteDescription() [74] CxxTest::Link::next() const
+  [33] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary_scalar1<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, double> > > const&) [92] CxxTest::WorldDescription::~WorldDescription() [51] CxxTest::Link::active() const
+   [9] void boost::numeric::ublas::indexing_vector_assign<boost::numeric::ublas::scalar_assign, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [140] CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [100] CxxTest::List::head() const
+  [10] bool boost::numeric::ublas::detail::expression_type_check<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [4] CxxTest::RealTestDescription::run() [101] CxxTest::List::size() const
+  [11] bool boost::numeric::ublas::detail::equals<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, double>(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&, double, double) [141] CxxTest::RealTestDescription::next() [164] void std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_realloc_insert<boost::shared_ptr<AbstractCellProperty> const&>(__gnu_cxx::__normal_iterator<boost::shared_ptr<AbstractCellProperty>*, std::vector<boost::shared_ptr<AbstractCellProperty>, std::allocator<boost::shared_ptr<AbstractCellProperty> > > >, boost::shared_ptr<AbstractCellProperty> const&)
+  [12] boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector_binary<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<double, double> > > const&) [142] CxxTest::RealTestDescription::setUp() [165] std::vector<boost::shared_ptr<Cell>, std::allocator<boost::shared_ptr<Cell> > >::reserve(unsigned long)
+  [42] boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [24] CxxTest::RealTestDescription::tearDown() [47] Node<3u>*& std::vector<Node<3u>*, std::allocator<Node<3u>*> >::emplace_back<Node<3u>*>(Node<3u>*&&)
+  [43] boost::numeric::ublas::vector_scalar_unary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector_norm_inf<boost::numeric::ublas::c_vector<double, 3ul> > >::result_type boost::numeric::ublas::norm_inf<boost::numeric::ublas::c_vector<double, 3ul> >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&) [143] CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [52] void std::vector<Node<3u>*, std::allocator<Node<3u>*> >::_M_realloc_insert<Node<3u>*>(__gnu_cxx::__normal_iterator<Node<3u>**, std::vector<Node<3u>*, std::allocator<Node<3u>*> > >, Node<3u>*&&)
+  [44] boost::numeric::ublas::vector_binary_traits<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >, boost::numeric::ublas::scalar_minus<boost::numeric::ublas::c_vector<double, 3ul>::value_type, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::c_vector<double, 3ul>, boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::c_vector<double, 3ul> > const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::vector<double, boost::numeric::ublas::unbounded_array<double, std::allocator<double> > > > const&) [144] CxxTest::DummyTestDescription::DummyTestDescription() [102] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  [75] boost::enable_if<boost::is_convertible<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type>, boost::numeric::ublas::vector_binary_scalar1_traits<double const, boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_multiplies<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type>::type boost::numeric::ublas::operator*<double, boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(double const&, boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [145] CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [19] std::_Rb_tree<boost::shared_ptr<AbstractCellProperty>, boost::shared_ptr<AbstractCellProperty>, std::_Identity<boost::shared_ptr<AbstractCellProperty> >, std::less<boost::shared_ptr<AbstractCellProperty> >, std::allocator<boost::shared_ptr<AbstractCellProperty> > >::_M_erase(std::_Rb_tree_node<boost::shared_ptr<AbstractCellProperty> >*)
+  [76] boost::numeric::ublas::vector_unary_traits<boost::numeric::ublas::unit_vector<double, std::allocator<double> >, boost::numeric::ublas::scalar_negate<boost::numeric::ublas::unit_vector<double, std::allocator<double> >::value_type> >::result_type boost::numeric::ublas::operator-<boost::numeric::ublas::unit_vector<double, std::allocator<double> > >(boost::numeric::ublas::vector_expression<boost::numeric::ublas::unit_vector<double, std::allocator<double> > > const&) [146] CxxTest::RealSuiteDescription::next() [21] _init
+   [2] CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [147] CxxTest::RealSuiteDescription::firstTest()
