@@ -1,0 +1,677 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 68.18      1.20     1.20       30    40.00    43.91  GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int)
+ 30.68      1.74     0.54       23    23.48    23.48  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  0.57      1.75     0.01       10     1.00     1.00  std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
+  0.57      1.76     0.01                             CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
+  0.00      1.76     0.00       22     0.00     0.00  PointStimulusCellFactory<2u>::~PointStimulusCellFactory()
+  0.00      1.76     0.00       20     0.00     0.00  PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*)
+  0.00      1.76     0.00       17     0.00     0.00  CxxTest::RealTestDescription::tearDown()
+  0.00      1.76     0.00       14     0.00     0.00  TetrahedralMesh<2u, 2u>::~TetrahedralMesh()
+  0.00      1.76     0.00       12     0.00     0.00  CxxTest::GlobalFixture::GlobalFixture()
+  0.00      1.76     0.00       12     0.00     0.00  CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*)
+  0.00      1.76     0.00        9     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      1.76     0.00        9     0.00     0.00  TetrahedralMesh<2u, 2u>::~TetrahedralMesh()
+  0.00      1.76     0.00        8     0.00     0.00  CxxTest::SuiteDescription::~SuiteDescription()
+  0.00      1.76     0.00        8     0.00     0.00  std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&)
+  0.00      1.76     0.00        7     0.00     0.00  CxxTest::RealTestDescription::setUp()
+  0.00      1.76     0.00        7     0.00     0.00  CxxTest::Link::prev()
+  0.00      1.76     0.00        7     0.00     0.00  CxxTest::List::nth(unsigned int)
+  0.00      1.76     0.00        6     0.00     0.00  CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*)
+  0.00      1.76     0.00        6     0.00     0.00  CxxTest::GlobalFixture::~GlobalFixture()
+  0.00      1.76     0.00        6     0.00     0.00  CxxTest::RealTestDescription::RealTestDescription()
+  0.00      1.76     0.00        6     0.00     0.00  CxxTest::List::activateAll()
+  0.00      1.76     0.00        5     0.00     0.00  CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*)
+  0.00      1.76     0.00        5     0.00     0.00  CxxTest::DummySuiteDescription::DummySuiteDescription()
+  0.00      1.76     0.00        5     0.00     0.00  std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  0.00      1.76     0.00        4     0.00     0.00  PetscSetup::~PetscSetup()
+  0.00      1.76     0.00        4     0.00     0.00  HeartEventHandler::~HeartEventHandler()
+  0.00      1.76     0.00        4     0.00     0.00  CxxTest::doFailAssert(char const*, unsigned int, char const*, char const*)
+  0.00      1.76     0.00        4     0.00     0.00  CxxTest::RealWorldDescription::activateAllTests()
+  0.00      1.76     0.00        4     0.00     0.00  CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  0.00      1.76     0.00        4     0.00     0.00  CxxTest::StaticSuiteDescription::~StaticSuiteDescription()
+  0.00      1.76     0.00        4     0.00     0.00  Exception::~Exception()
+  0.00      1.76     0.00        4     0.00     0.00  main
+  0.00      1.76     0.00        3     0.00     0.00  boost::detail::sp_counted_base::release()
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*)
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::TestTracker::tracker()
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::StaticSuiteDescription::StaticSuiteDescription()
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::List::head()
+  0.00      1.76     0.00        3     0.00     0.00  CxxTest::doTrace(char const*, unsigned int, char const*)
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::TestTracker::~TestTracker()
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::GlobalFixture::lastGlobalFixture()
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::GlobalFixture::prevGlobalFixture()
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::Link::justPrev()
+  0.00      1.76     0.00        2     0.00     0.00  CxxTest::List::tail() const
+  0.00      1.76     0.00        1     0.00   697.26  GenericEventHandler<16u, HeartEventHandler>::ReportImpl()
+  0.00      1.76     0.00        1     0.00     0.00  TestLongPostprocessing::~TestLongPostprocessing()
+  0.00      1.76     0.00        1     0.00     0.00  PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&)
+  0.00      1.76     0.00        1     0.00     0.00  PointStimulusCellFactory<2u>::~PointStimulusCellFactory()
+  0.00      1.76     0.00        1     0.00     0.00  boost::detail::sp_counted_impl_p<RegularStimulus>::~sp_counted_impl_p()
+  0.00      1.76     0.00        1     0.00     0.00  boost::numeric::ublas::bad_index::~bad_index()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::doAbortTest()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::maxDumpSize()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::Adapter::~Adapter()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::charToString(unsigned long, char*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::trace(char const*, unsigned int, char const*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::activateAllTests()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::RealTestDescription::next()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::activateAllTests()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::Link::~Link()
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::List::leaveOnly(CxxTest::Link const&)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::sameData(void const*, void const*, unsigned int)
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::firstSuite() const
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::suiteDescription(unsigned int) const
+  0.00      1.76     0.00        1     0.00     0.00  CxxTest::Link::active() const
+  0.00      1.76     0.00        1     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      1.76     0.00        1     0.00     0.00  void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_insert<std::pair<double, double> >(__gnu_cxx::__normal_iterator<std::pair<double, double>*, std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > > >, std::pair<double, double>&&)
+  0.00      1.76     0.00        1     0.00     0.00  _fini
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.57% of 1.76 seconds
+
+index % time    self  children    called     name
+                0.04    0.00       1/30          etext [3]
+                0.52    0.05      13/30          GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+                0.64    0.06      16/30          TestLongPostprocessing::Test2DSimulations() [2]
+[1]     74.9    1.20    0.12      30         GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [1]
+                0.12    0.00       5/23          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [5]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     55.9    0.00    0.98                 TestLongPostprocessing::Test2DSimulations() [2]
+                0.64    0.06      16/30          GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [1]
+                0.28    0.00      12/23          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [5]
+                0.00    0.00       8/8           std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&) [23]
+                0.00    0.00       3/9           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [21]
+                0.00    0.00       3/3           boost::detail::sp_counted_base::release() [41]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     43.5    0.00    0.77                 etext [3]
+                0.00    0.70       1/1           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+                0.04    0.00       1/30          GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [1]
+                0.02    0.00       1/23          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [5]
+                0.00    0.00       1/10          std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [6]
+                0.00    0.00       4/4           CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [39]
+                0.00    0.00       4/9           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [21]
+                0.00    0.00       4/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+                0.00    0.00       4/14          TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+                0.00    0.00       1/5           std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [33]
+-----------------------------------------------
+                0.00    0.70       1/1           etext [3]
+[4]     39.6    0.00    0.70       1         GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+                0.52    0.05      13/30          GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [1]
+                0.12    0.00       5/23          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [5]
+                0.01    0.00       9/10          std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [6]
+                0.00    0.00       4/5           std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [33]
+                0.00    0.00       4/4           PetscSetup::~PetscSetup() [34]
+                0.00    0.00       1/9           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [21]
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [56]
+-----------------------------------------------
+                0.02    0.00       1/23          etext [3]
+                0.12    0.00       5/23          GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [1]
+                0.12    0.00       5/23          GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+                0.28    0.00      12/23          TestLongPostprocessing::Test2DSimulations() [2]
+[5]     30.7    0.54    0.00      23         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [5]
+-----------------------------------------------
+                0.00    0.00       1/10          etext [3]
+                0.01    0.00       9/10          GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+[6]      0.6    0.01    0.00      10         std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [6]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]      0.6    0.01    0.00                 CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [7]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+                0.00    0.00       2/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[8]      0.0    0.00    0.00       4         main [8]
+                0.00    0.00       4/4           CxxTest::RealWorldDescription::activateAllTests() [37]
+                0.00    0.00       2/6           CxxTest::GlobalFixture::~GlobalFixture() [28]
+                0.00    0.00       2/2           CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [51]
+                0.00    0.00       2/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+                0.00    0.00       2/9           __static_initialization_and_destruction_0(int, int) [20]
+                0.00    0.00       2/3           CxxTest::List::head() [46]
+                0.00    0.00       1/4           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [38]
+                0.00    0.00       1/2           CxxTest::TestTracker::~TestTracker() [48]
+-----------------------------------------------
+                0.00    0.00       1/22          boost::detail::sp_counted_impl_p<EulerIvpOdeSolver>::~sp_counted_impl_p() [107]
+                0.00    0.00       1/22          CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00      20/22          TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+[14]     0.0    0.00    0.00      22         PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [14]
+-----------------------------------------------
+                0.00    0.00       1/20          boost::detail::sp_counted_impl_p<EulerIvpOdeSolver>::~sp_counted_impl_p() [107]
+                0.00    0.00       1/20          boost::detail::sp_counted_impl_p<RegularStimulus>::~sp_counted_impl_p() [57]
+                0.00    0.00       1/20          CxxTest::ErrorPrinter::Adapter::flush() [143]
+                0.00    0.00       1/20          boost::numeric::ublas::bad_index::~bad_index() [109]
+                0.00    0.00       1/20          boost::numeric::ublas::bad_index::~bad_index() [58]
+                0.00    0.00       1/20          PetscSetup::tearDownWorld() [88]
+                0.00    0.00       1/20          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [110]
+                0.00    0.00       1/20          CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00       2/20          main [8]
+                0.00    0.00       2/20          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00       4/20          TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+                0.00    0.00       4/20          etext [3]
+[15]     0.0    0.00    0.00      20         PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+-----------------------------------------------
+                                  17             CxxTest::RealTestDescription::tearDown() [16]
+                0.00    0.00       2/17          CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+                0.00    0.00       4/17          CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+                0.00    0.00       5/17          CxxTest::doFailAssert(char const*, unsigned int, char const*, char const*) [36]
+                0.00    0.00       6/17          CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+[16]     0.0    0.00    0.00      17+17      CxxTest::RealTestDescription::tearDown() [16]
+                0.00    0.00       8/8           CxxTest::SuiteDescription::~SuiteDescription() [22]
+                0.00    0.00       5/5           CxxTest::DummySuiteDescription::DummySuiteDescription() [32]
+                                  17             CxxTest::RealTestDescription::tearDown() [16]
+-----------------------------------------------
+                                   4             TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+                0.00    0.00       1/14          CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+                0.00    0.00       1/14          boost::detail::sp_counted_impl_p<EulerIvpOdeSolver>::~sp_counted_impl_p() [107]
+                0.00    0.00       1/14          boost::numeric::ublas::bad_index::~bad_index() [109]
+                0.00    0.00       1/14          PetscSetup::setUpWorld() [87]
+                0.00    0.00       1/14          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [110]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00       4/14          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [190]
+                0.00    0.00       4/14          etext [3]
+[17]     0.0    0.00    0.00      14+4       TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+                0.00    0.00      20/22          PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [14]
+                0.00    0.00       4/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+                0.00    0.00       4/4           Exception::~Exception() [40]
+                0.00    0.00       1/9           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [21]
+                0.00    0.00       1/1           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                                   4             TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+                0.00    0.00       1/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+                0.00    0.00       2/12          CxxTest::RealTestDescription::suite() const [290]
+                0.00    0.00       2/12          CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [38]
+                0.00    0.00       6/12          CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [51]
+[18]     0.0    0.00    0.00      12         CxxTest::GlobalFixture::GlobalFixture() [18]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::TestTracker::failedTest(char const*, unsigned int, char const*) [115]
+                0.00    0.00       1/12          CxxTest::TestTracker::failedAssert(char const*, unsigned int, char const*) [122]
+                0.00    0.00       1/12          CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+                0.00    0.00       1/12          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [110]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00       1/12          PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+                0.00    0.00       1/12          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00       2/12          CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+                0.00    0.00       3/12          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[19]     0.0    0.00    0.00      12         CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [19]
+                0.00    0.00       1/1           CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [70]
+-----------------------------------------------
+                                   6             __static_initialization_and_destruction_0(int, int) [20]
+                0.00    0.00       1/9           CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [74]
+                0.00    0.00       1/9           CxxTest::RealWorldDescription::firstSuite() const [80]
+                0.00    0.00       1/9           CxxTest::activateAllTests() [69]
+                0.00    0.00       2/9           main [8]
+                0.00    0.00       4/9           CxxTest::Link::next() [263]
+[20]     0.0    0.00    0.00       9+6       __static_initialization_and_destruction_0(int, int) [20]
+                0.00    0.00       2/4           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [38]
+                0.00    0.00       2/3           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [44]
+                                   6             __static_initialization_and_destruction_0(int, int) [20]
+-----------------------------------------------
+                0.00    0.00       1/9           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+                0.00    0.00       1/9           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+                0.00    0.00       3/9           TestLongPostprocessing::Test2DSimulations() [2]
+                0.00    0.00       4/9           etext [3]
+[21]     0.0    0.00    0.00       9         TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [21]
+-----------------------------------------------
+                0.00    0.00       8/8           CxxTest::RealTestDescription::tearDown() [16]
+[22]     0.0    0.00    0.00       8         CxxTest::SuiteDescription::~SuiteDescription() [22]
+-----------------------------------------------
+                              125134             std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&) [23]
+                0.00    0.00       8/8           TestLongPostprocessing::Test2DSimulations() [2]
+[23]     0.0    0.00    0.00       8+125134  std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&) [23]
+                              125134             std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&) [23]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+                0.00    0.00       1/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+                0.00    0.00       1/7           char* CxxTest::numberToString<double>(double, char*, double, unsigned int, unsigned int) [208]
+                0.00    0.00       2/7           CxxTest::TestTracker::failedAssert(char const*, unsigned int, char const*) [122]
+                0.00    0.00       2/7           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+[24]     0.0    0.00    0.00       7         CxxTest::RealTestDescription::setUp() [24]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::CommonDynamicSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int) [261]
+                0.00    0.00       2/7           CxxTest::GlobalFixture::prevGlobalFixture() [50]
+                0.00    0.00       2/7           CxxTest::GlobalFixture::lastGlobalFixture() [49]
+                0.00    0.00       2/7           CxxTest::Link::next() const [320]
+[25]     0.0    0.00    0.00       7         CxxTest::Link::prev() [25]
+-----------------------------------------------
+                                   1             CxxTest::List::nth(unsigned int) [26]
+                0.00    0.00       1/7           CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [74]
+                0.00    0.00       1/7           CxxTest::RealWorldDescription::suiteDescription(unsigned int) const [81]
+                0.00    0.00       1/7           CxxTest::activateAllTests() [69]
+                0.00    0.00       1/7           CxxTest::TestTracker::failedAssert(char const*, unsigned int, char const*) [122]
+                0.00    0.00       3/7           CxxTest::List::leaveOnly(CxxTest::Link const&) [78]
+[26]     0.0    0.00    0.00       7+1       CxxTest::List::nth(unsigned int) [26]
+                                   1             CxxTest::List::nth(unsigned int) [26]
+-----------------------------------------------
+                                   1             CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+                0.00    0.00       1/6           CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+                0.00    0.00       1/6           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+                0.00    0.00       4/6           CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [59]
+[27]     0.0    0.00    0.00       6+1       CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+                0.00    0.00       6/17          CxxTest::RealTestDescription::tearDown() [16]
+                0.00    0.00       1/1           boost::numeric::ublas::bad_index::~bad_index() [58]
+                                   1             CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+-----------------------------------------------
+                0.00    0.00       2/6           CxxTest::RealTestDescription::RealTestDescription() [29]
+                0.00    0.00       2/6           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [73]
+                0.00    0.00       2/6           main [8]
+[28]     0.0    0.00    0.00       6         CxxTest::GlobalFixture::~GlobalFixture() [28]
+-----------------------------------------------
+                0.00    0.00       3/6           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [44]
+                0.00    0.00       3/6           CxxTest::doTrace(char const*, unsigned int, char const*) [47]
+[29]     0.0    0.00    0.00       6         CxxTest::RealTestDescription::RealTestDescription() [29]
+                0.00    0.00       2/6           CxxTest::GlobalFixture::~GlobalFixture() [28]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [143]
+                0.00    0.00       1/6           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+                0.00    0.00       4/6           CxxTest::RealWorldDescription::activateAllTests() [37]
+[30]     0.0    0.00    0.00       6         CxxTest::List::activateAll() [30]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [59]
+                0.00    0.00       1/5           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+                0.00    0.00       3/5           CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+[31]     0.0    0.00    0.00       5         CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+                0.00    0.00       4/17          CxxTest::RealTestDescription::tearDown() [16]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00       1/6           CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::RealTestDescription::tearDown() [16]
+[32]     0.0    0.00    0.00       5         CxxTest::DummySuiteDescription::DummySuiteDescription() [32]
+-----------------------------------------------
+                                   1             std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [33]
+                0.00    0.00       1/5           etext [3]
+                0.00    0.00       4/5           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+[33]     0.0    0.00    0.00       5+1       std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [33]
+                                   1             std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [33]
+-----------------------------------------------
+                0.00    0.00       4/4           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+[34]     0.0    0.00    0.00       4         PetscSetup::~PetscSetup() [34]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [190]
+[35]     0.0    0.00    0.00       4         HeartEventHandler::~HeartEventHandler() [35]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::TestTracker::failedAssert(char const*, unsigned int, char const*) [122]
+                0.00    0.00       1/4           CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+                0.00    0.00       2/4           CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [70]
+[36]     0.0    0.00    0.00       4         CxxTest::doFailAssert(char const*, unsigned int, char const*, char const*) [36]
+                0.00    0.00       5/17          CxxTest::RealTestDescription::tearDown() [16]
+-----------------------------------------------
+                0.00    0.00       4/4           main [8]
+[37]     0.0    0.00    0.00       4         CxxTest::RealWorldDescription::activateAllTests() [37]
+                0.00    0.00       4/6           CxxTest::List::activateAll() [30]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::firstSuite() const [80]
+-----------------------------------------------
+                0.00    0.00       1/4           main [8]
+                0.00    0.00       1/4           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [128]
+                0.00    0.00       2/4           __static_initialization_and_destruction_0(int, int) [20]
+[38]     0.0    0.00    0.00       4         CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [38]
+                0.00    0.00       2/3           CxxTest::StaticSuiteDescription::StaticSuiteDescription() [45]
+                0.00    0.00       2/12          CxxTest::GlobalFixture::GlobalFixture() [18]
+-----------------------------------------------
+                0.00    0.00       4/4           etext [3]
+[39]     0.0    0.00    0.00       4         CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [39]
+-----------------------------------------------
+                0.00    0.00       4/4           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+[40]     0.0    0.00    0.00       4         Exception::~Exception() [40]
+-----------------------------------------------
+                0.00    0.00       3/3           TestLongPostprocessing::Test2DSimulations() [2]
+[41]     0.0    0.00    0.00       3         boost::detail::sp_counted_base::release() [41]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [61]
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [60]
+                0.00    0.00       1/3           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[42]     0.0    0.00    0.00       3         CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+                0.00    0.00       3/5           CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+                0.00    0.00       2/17          CxxTest::RealTestDescription::tearDown() [16]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::~Adapter() [64]
+-----------------------------------------------
+                0.00    0.00       3/3           CxxTest::doTrace(char const*, unsigned int, char const*) [47]
+[43]     0.0    0.00    0.00       3         CxxTest::TestTracker::tracker() [43]
+-----------------------------------------------
+                0.00    0.00       1/3           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+                0.00    0.00       2/3           __static_initialization_and_destruction_0(int, int) [20]
+[44]     0.0    0.00    0.00       3         CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [44]
+                0.00    0.00       3/6           CxxTest::RealTestDescription::RealTestDescription() [29]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+                0.00    0.00       2/3           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [38]
+[45]     0.0    0.00    0.00       3         CxxTest::StaticSuiteDescription::StaticSuiteDescription() [45]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::ErrorPrinter::~ErrorPrinter() [148]
+                0.00    0.00       2/3           main [8]
+[46]     0.0    0.00    0.00       3         CxxTest::List::head() [46]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+                0.00    0.00       2/3           CxxTest::Link::justPrev() [52]
+[47]     0.0    0.00    0.00       3         CxxTest::doTrace(char const*, unsigned int, char const*) [47]
+                0.00    0.00       3/6           CxxTest::RealTestDescription::RealTestDescription() [29]
+                0.00    0.00       3/3           CxxTest::TestTracker::tracker() [43]
+-----------------------------------------------
+                0.00    0.00       1/2           main [8]
+                0.00    0.00       1/2           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [128]
+[48]     0.0    0.00    0.00       2         CxxTest::TestTracker::~TestTracker() [48]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealTestDescription::next() const [289]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [193]
+[49]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::lastGlobalFixture() [49]
+                0.00    0.00       2/7           CxxTest::Link::prev() [25]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealTestDescription::next() const [289]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [193]
+[50]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::prevGlobalFixture() [50]
+                0.00    0.00       2/7           CxxTest::Link::prev() [25]
+-----------------------------------------------
+                0.00    0.00       2/2           main [8]
+[51]     0.0    0.00    0.00       2         CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [51]
+                0.00    0.00       6/12          CxxTest::GlobalFixture::GlobalFixture() [18]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [66]
+                0.00    0.00       1/2           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+[52]     0.0    0.00    0.00       2         CxxTest::Link::justPrev() [52]
+                0.00    0.00       2/3           CxxTest::doTrace(char const*, unsigned int, char const*) [47]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealSuiteDescription::next() const [301]
+                0.00    0.00       1/2           CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+[53]     0.0    0.00    0.00       2         CxxTest::List::tail() const [53]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [61]
+[54]     0.0    0.00    0.00       1         TestLongPostprocessing::~TestLongPostprocessing() [54]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [123]
+[55]     0.0    0.00    0.00       1         PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+                0.00    0.00       2/7           CxxTest::RealTestDescription::setUp() [24]
+                0.00    0.00       1/12          CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [19]
+                0.00    0.00       1/6           CxxTest::List::activateAll() [30]
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [59]
+                0.00    0.00       1/3           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [44]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [4]
+[56]     0.0    0.00    0.00       1         PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [59]
+[57]     0.0    0.00    0.00       1         boost::detail::sp_counted_impl_p<RegularStimulus>::~sp_counted_impl_p() [57]
+                0.00    0.00       1/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+[58]     0.0    0.00    0.00       1         boost::numeric::ublas::bad_index::~bad_index() [58]
+                0.00    0.00       1/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+-----------------------------------------------
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [55]
+[59]     0.0    0.00    0.00       1         CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [59]
+                0.00    0.00       4/6           CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [27]
+                0.00    0.00       1/5           CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+                0.00    0.00       1/1           boost::detail::sp_counted_impl_p<RegularStimulus>::~sp_counted_impl_p() [57]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [125]
+[60]     0.0    0.00    0.00       1         CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [60]
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::trace(char const*, unsigned int, char const*) [68]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssert(char const*, unsigned int, char const*) [122]
+[61]     0.0    0.00    0.00       1         CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [61]
+                0.00    0.00       1/3           CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+                0.00    0.00       1/1           TestLongPostprocessing::~TestLongPostprocessing() [54]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::setMaxDumpSize(unsigned int) [211]
+[62]     0.0    0.00    0.00       1         CxxTest::doAbortTest() [62]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::dummyTest() const [285]
+[63]     0.0    0.00    0.00       1         CxxTest::maxDumpSize() [63]
+                0.00    0.00       1/1           CxxTest::activateAllTests() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [42]
+[64]     0.0    0.00    0.00       1         CxxTest::ErrorPrinter::Adapter::~Adapter() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&) [329]
+[65]     0.0    0.00    0.00       1         CxxTest::charToString(unsigned long, char*) [65]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+[66]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [66]
+                0.00    0.00       1/2           CxxTest::Link::justPrev() [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [31]
+[67]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [67]
+                0.00    0.00       1/12          CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [19]
+                0.00    0.00       1/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+                0.00    0.00       1/22          PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [14]
+                0.00    0.00       1/14          TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [60]
+[68]     0.0    0.00    0.00       1         CxxTest::ErrorFormatter::trace(char const*, unsigned int, char const*) [68]
+-----------------------------------------------
+                                   1             CxxTest::activateAllTests() [69]
+                0.00    0.00       1/1           CxxTest::maxDumpSize() [63]
+[69]     0.0    0.00    0.00       1+1       CxxTest::activateAllTests() [69]
+                0.00    0.00       1/9           __static_initialization_and_destruction_0(int, int) [20]
+                0.00    0.00       1/7           CxxTest::List::nth(unsigned int) [26]
+                                   1             CxxTest::activateAllTests() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [19]
+[70]     0.0    0.00    0.00       1         CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [70]
+                0.00    0.00       2/4           CxxTest::doFailAssert(char const*, unsigned int, char const*, char const*) [36]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::next() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [70]
+[71]     0.0    0.00    0.00       1         CxxTest::RealTestDescription::next() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[72]     0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::activateAllTests() [72]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[73]     0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [73]
+                0.00    0.00       2/6           CxxTest::GlobalFixture::~GlobalFixture() [28]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::dummySuite() const [280]
+[74]     0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [74]
+                0.00    0.00       1/7           CxxTest::List::nth(unsigned int) [26]
+                0.00    0.00       1/9           __static_initialization_and_destruction_0(int, int) [20]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::warning(char const*, unsigned int, char const*) [204]
+[75]     0.0    0.00    0.00       1         CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int) [75]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::CommonDynamicSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int) [261]
+[76]     0.0    0.00    0.00       1         CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription() [76]
+-----------------------------------------------
+                0.00    0.00       1/1           PetscSetup::tearDownWorld() [88]
+[77]     0.0    0.00    0.00       1         CxxTest::Link::~Link() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::next() [228]
+[78]     0.0    0.00    0.00       1         CxxTest::List::leaveOnly(CxxTest::Link const&) [78]
+                0.00    0.00       3/7           CxxTest::List::nth(unsigned int) [26]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::~TestLongPostprocessing() [92]
+[79]     0.0    0.00    0.00       1         CxxTest::sameData(void const*, void const*, unsigned int) [79]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::activateAllTests() [37]
+[80]     0.0    0.00    0.00       1         CxxTest::RealWorldDescription::firstSuite() const [80]
+                0.00    0.00       1/9           __static_initialization_and_destruction_0(int, int) [20]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [119]
+[81]     0.0    0.00    0.00       1         CxxTest::RealWorldDescription::suiteDescription(unsigned int) const [81]
+                0.00    0.00       1/7           CxxTest::List::nth(unsigned int) [26]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [338]
+[82]     0.0    0.00    0.00       1         CxxTest::Link::active() const [82]
+                0.00    0.00       1/1           _fini [85]
+-----------------------------------------------
+                0.00    0.00       1/1           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [17]
+[83]     0.0    0.00    0.00       1         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00       2/20          PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [15]
+                0.00    0.00       1/12          CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [19]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [66]
+                0.00    0.00       1/2           CxxTest::Link::justPrev() [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [205]
+[84]     0.0    0.00    0.00       1         void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_insert<std::pair<double, double> >(__gnu_cxx::__normal_iterator<std::pair<double, double>*, std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > > >, std::pair<double, double>&&) [84]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::Link::active() const [82]
+[85]     0.0    0.00    0.00       1         _fini [85]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [20] __static_initialization_and_destruction_0(int, int) (ValueTraits.cpp) [65] CxxTest::charToString(unsigned long, char*) [45] CxxTest::StaticSuiteDescription::StaticSuiteDescription()
+  [34] PetscSetup::~PetscSetup() [36] CxxTest::doFailAssert(char const*, unsigned int, char const*, char const*) [39] CxxTest::StaticSuiteDescription::~StaticSuiteDescription()
+  [21] TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [49] CxxTest::GlobalFixture::lastGlobalFixture() [75] CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&, unsigned int, unsigned int)
+  [17] TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [50] CxxTest::GlobalFixture::prevGlobalFixture() [76] CxxTest::CommonDynamicSuiteDescription::CommonDynamicSuiteDescription()
+  [35] HeartEventHandler::~HeartEventHandler() [18] CxxTest::GlobalFixture::GlobalFixture() [25] CxxTest::Link::prev()
+   [4] GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [28] CxxTest::GlobalFixture::~GlobalFixture() [52] CxxTest::Link::justPrev()
+   [1] GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [66] CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [77] CxxTest::Link::~Link()
+  [54] TestLongPostprocessing::~TestLongPostprocessing() [67] CxxTest::ErrorFormatter::failedAssertSameData(char const*, unsigned int, char const*, char const*, char const*, void const*, void const*, unsigned int) [30] CxxTest::List::activateAll()
+  [15] PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [68] CxxTest::ErrorFormatter::trace(char const*, unsigned int, char const*) [26] CxxTest::List::nth(unsigned int)
+  [55] PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [7] CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [46] CxxTest::List::head()
+  [56] PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [22] CxxTest::SuiteDescription::~SuiteDescription() [78] CxxTest::List::leaveOnly(CxxTest::Link const&)
+  [14] PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [69] CxxTest::activateAllTests() [47] CxxTest::doTrace(char const*, unsigned int, char const*)
+  [41] boost::detail::sp_counted_base::release() [70] CxxTest::doAssertSameData(char const*, unsigned int, char const*, void const*, char const*, void const*, char const*, unsigned int, char const*) [79] CxxTest::sameData(void const*, void const*, unsigned int)
+  [57] boost::detail::sp_counted_impl_p<RegularStimulus>::~sp_counted_impl_p() [19] CxxTest::doFailAssertThrows(char const*, unsigned int, char const*, char const*, bool, char const*) [40] Exception::~Exception()
+  [58] boost::numeric::ublas::bad_index::~bad_index() [51] CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [80] CxxTest::RealWorldDescription::firstSuite() const
+  [27] CxxTest::TestTracker::failedAssertDelta(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*, char const*) [71] CxxTest::RealTestDescription::next() [81] CxxTest::RealWorldDescription::suiteDescription(unsigned int) const
+  [31] CxxTest::TestTracker::failedAssertDiffers(char const*, unsigned int, char const*, char const*, char const*) [24] CxxTest::RealTestDescription::setUp() [82] CxxTest::Link::active() const
+  [59] CxxTest::TestTracker::failedAssertLessThan(char const*, unsigned int, char const*, char const*, char const*, char const*) [16] CxxTest::RealTestDescription::tearDown() [53] CxxTest::List::tail() const
+  [60] CxxTest::TestTracker::failedAssertRelation(char const*, unsigned int, char const*, char const*, char const*, char const*, char const*) [29] CxxTest::RealTestDescription::RealTestDescription() [83] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  [61] CxxTest::TestTracker::failedAssertPredicate(char const*, unsigned int, char const*, char const*, char const*) [44] CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [84] void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_insert<std::pair<double, double> >(__gnu_cxx::__normal_iterator<std::pair<double, double>*, std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > > >, std::pair<double, double>&&)
+  [42] CxxTest::TestTracker::failedAssertLessThanEquals(char const*, unsigned int, char const*, char const*, char const*, char const*) [72] CxxTest::RealSuiteDescription::activateAllTests() [6] std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
+  [43] CxxTest::TestTracker::tracker() [73] CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [23] std::vector<double, std::allocator<double> >::_M_fill_insert(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, unsigned long, double const&)
+  [48] CxxTest::TestTracker::~TestTracker() [37] CxxTest::RealWorldDescription::activateAllTests() [5] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  [62] CxxTest::doAbortTest() [32] CxxTest::DummySuiteDescription::DummySuiteDescription() [33] std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  [63] CxxTest::maxDumpSize() [74] CxxTest::StaticSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [85] _fini
+  [64] CxxTest::ErrorPrinter::Adapter::~Adapter() [38] CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [8] main
