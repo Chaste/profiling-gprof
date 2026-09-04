@@ -1,0 +1,1271 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 37.29      0.22     0.22 91045554     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ 32.20      0.41     0.19        3    63.33    63.33  std::_Vector_base<double, std::allocator<double> >::~_Vector_base()
+ 23.73      0.55     0.14        6    23.33    60.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  6.78      0.59     0.04                             _init
+  0.00      0.59     0.00   245052     0.00     0.00  GenericEventHandler<16u, HeartEventHandler>::Instance()
+  0.00      0.59     0.00   245048     0.00     0.00  GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int)
+  0.00      0.59     0.00     5204     0.00     0.00  boost::detail::sp_counted_base::release()
+  0.00      0.59     0.00     5202     0.00     0.00  boost::detail::shared_count::shared_count(boost::detail::shared_count const&)
+  0.00      0.59     0.00     2601     0.00     0.00  boost::numeric::ublas::c_vector<double, 2ul>::operator()(unsigned long) const
+  0.00      0.59     0.00       87     0.00     0.00  std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()
+  0.00      0.59     0.00       63     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&)
+  0.00      0.59     0.00       39     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::back()
+  0.00      0.59     0.00       27     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const
+  0.00      0.59     0.00       27     0.00     0.00  std::__new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*)
+  0.00      0.59     0.00       27     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Guard_alloc::~_Guard_alloc()
+  0.00      0.59     0.00       27     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.59     0.00       27     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__relocate_a_1<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&)
+  0.00      0.59     0.00       14     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(char const*)
+  0.00      0.59     0.00       12     0.00     0.00  CxxTest::TestTracker::tracker()
+  0.00      0.59     0.00       12     0.00     0.00  CxxTest::Link::active() const
+  0.00      0.59     0.00        9     0.00     0.00  CxxTest::TestTracker::dummyWorld() const
+  0.00      0.59     0.00        8     0.00     0.00  CxxTest::TestTracker::dummySuite() const
+  0.00      0.59     0.00        8     0.00     0.00  CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const
+  0.00      0.59     0.00        8     0.00     0.00  std::vector<bool, std::allocator<bool> >::size() const
+  0.00      0.59     0.00        7     0.00     0.00  CxxTest::Link::Link()
+  0.00      0.59     0.00        7     0.00     0.00  CxxTest::Link::~Link()
+  0.00      0.59     0.00        6     0.00     0.00  CxxTest::TestTracker::setTest(CxxTest::TestDescription const*)
+  0.00      0.59     0.00        6     0.00     0.00  CxxTest::ErrorPrinter::Adapter::flush()
+  0.00      0.59     0.00        6     0.00     0.00  CxxTest::List::head()
+  0.00      0.59     0.00        6     0.00     0.00  CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const
+  0.00      0.59     0.00        6     0.00     0.00  std::_Bit_iterator_base::_M_incr(long)
+  0.00      0.59     0.00        5     0.00     0.00  CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&))
+  0.00      0.59     0.00        5     0.00     0.00  CxxTest::TestTracker::dummyTest() const
+  0.00      0.59     0.00        5     0.00     0.00  CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+  0.00      0.59     0.00        4     0.00     0.00  boost::detail::sp_counted_base::weak_release()
+  0.00      0.59     0.00        4     0.00     0.00  boost::detail::sp_counted_base::destroy()
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*)
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::OutputStream::endl(CxxTest::OutputStream&)
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&)
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::setMaxDumpSize(unsigned int)
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::Link::next()
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::RealTestDescription::suite() const
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::StaticSuiteDescription::suite() const
+  0.00      0.59     0.00        4     0.00     0.00  CxxTest::Link::next() const
+  0.00      0.59     0.00        3     0.00     0.00  CxxTest::TestTracker::setListener(CxxTest::TestListener*)
+  0.00      0.59     0.00        3     0.00     0.00  CxxTest::maxDumpSize()
+  0.00      0.59     0.00        3     0.00     0.00  CxxTest::RealWorldDescription::suites()
+  0.00      0.59     0.00        3     0.00     0.00  CxxTest::Link::attach(CxxTest::List&)
+  0.00      0.59     0.00        3     0.00     0.00  std::_Vector_base<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~_Vector_base()
+  0.00      0.59     0.00        3     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*)
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::GlobalFixture::lastGlobalFixture()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::GlobalFixture::nextGlobalFixture()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::GlobalFixture::prevGlobalFixture()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::GlobalFixture::firstGlobalFixture()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::TestDescription::~TestDescription()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::SuiteDescription::~SuiteDescription()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::WorldDescription::~WorldDescription()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::Link::prev()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::List::tail()
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::RealSuiteDescription::next() const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::RealSuiteDescription::numTests() const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::firstSuite() const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::RealWorldDescription::numTotalTests() const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::List::head() const
+  0.00      0.59     0.00        2     0.00     0.00  CxxTest::List::size() const
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<bool, std::allocator<bool> >::capacity() const
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<double, std::allocator<double> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.59     0.00        2     0.00     0.00  std::_Vector_base<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~_Vector_base()
+  0.00      0.59     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
+  0.00      0.59     0.00        2     0.00     0.00  std::__new_allocator<double>::allocate(unsigned long, void const*)
+  0.00      0.59     0.00        2     0.00     0.00  std::__new_allocator<unsigned long>::allocate(unsigned long, void const*)
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~vector()
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~vector()
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&)
+  0.00      0.59     0.00        2     0.00     0.00  std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&)
+  0.00      0.59     0.00        2     0.00     0.00  unsigned long* std::__copy_move_a2<false, unsigned long*, unsigned long*, unsigned long*>(unsigned long*, unsigned long*, unsigned long*)
+  0.00      0.59     0.00        2     0.00     0.00  std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  0.00      0.59     0.00        2     0.00     0.00  std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+  0.00      0.59     0.00        2     0.00     0.00  double* std::__do_uninit_copy<std::move_iterator<double*>, std::move_iterator<double*>, double*>(std::move_iterator<double*>, std::move_iterator<double*>, double*)
+  0.00      0.59     0.00        2     0.00     0.00  double* std::__do_uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&)
+  0.00      0.59     0.00        2     0.00     0.00  double* std::__uninitialized_move_if_noexcept_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&)
+  0.00      0.59     0.00        2     0.00     0.00  std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  0.00      0.59     0.00        2     0.00     0.00  std::_Bit_iterator std::copy<std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+  0.00      0.59     0.00        2     0.00     0.00  std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+  0.00      0.59     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  0.00      0.59     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0()
+  0.00      0.59     0.00        1     0.00     0.00  PetscSetup::setUpWorld()
+  0.00      0.59     0.00        1     0.00     0.00  PetscSetup::tearDownWorld()
+  0.00      0.59     0.00        1     0.00   126.67  TetrahedralMesh<2u, 2u>::~TetrahedralMesh()
+  0.00      0.59     0.00        1     0.00    60.00  GenericEventHandler<16u, HeartEventHandler>::ReportImpl()
+  0.00      0.59     0.00        1     0.00    60.00  GenericEventHandler<16u, HeartEventHandler>::HeadingsImpl()
+  0.00      0.59     0.00        1     0.00     0.00  GenericEventHandler<16u, HeartEventHandler>::Reset()
+  0.00      0.59     0.00        1     0.00    60.00  GenericEventHandler<16u, HeartEventHandler>::Report()
+  0.00      0.59     0.00        1     0.00    60.00  GenericEventHandler<16u, HeartEventHandler>::Headings()
+  0.00      0.59     0.00        1     0.00     0.00  GenericEventHandler<16u, HeartEventHandler>::ResetImpl()
+  0.00      0.59     0.00        1     0.00     0.00  GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler()
+  0.00      0.59     0.00        1     0.00   486.67  TestLongPostprocessing::Test2DSimulations()
+  0.00      0.59     0.00        1     0.00     0.00  PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&)
+  0.00      0.59     0.00        1     0.00     0.00  PointStimulusCellFactory<2u>::~PointStimulusCellFactory()
+  0.00      0.59     0.00        1     0.00   486.67  TestDescription_TestLongPostprocessing_Test2DSimulations::runTest()
+  0.00      0.59     0.00        1     0.00     0.00  TestDescription_TestLongPostprocessing_Test2DSimulations::TestDescription_TestLongPostprocessing_Test2DSimulations()
+  0.00      0.59     0.00        1     0.00     0.00  boost::shared_ptr<RegularStimulus>::shared_ptr<RegularStimulus>(RegularStimulus*)
+  0.00      0.59     0.00        1     0.00     0.00  boost::shared_ptr<AbstractIvpOdeSolver>::shared_ptr<EulerIvpOdeSolver>(EulerIvpOdeSolver*)
+  0.00      0.59     0.00        1     0.00     0.00  boost::detail::shared_count::shared_count<EulerIvpOdeSolver>(EulerIvpOdeSolver*)
+  0.00      0.59     0.00        1     0.00     0.00  boost::detail::shared_count::shared_count<RegularStimulus>(RegularStimulus*)
+  0.00      0.59     0.00        1     0.00     0.00  void boost::detail::sp_pointer_construct<RegularStimulus, RegularStimulus>(boost::shared_ptr<RegularStimulus>*, RegularStimulus*, boost::detail::shared_count&)
+  0.00      0.59     0.00        1     0.00     0.00  void boost::detail::sp_pointer_construct<AbstractIvpOdeSolver, EulerIvpOdeSolver>(boost::shared_ptr<AbstractIvpOdeSolver>*, EulerIvpOdeSolver*, boost::detail::shared_count&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestRunner::WorldGuard::WorldGuard()
+  0.00      0.59     0.00        1     0.00   486.67  CxxTest::TestRunner::runAllTests(CxxTest::TestListener&)
+  0.00      0.59     0.00        1     0.00   486.67  CxxTest::TestRunner::runTest(CxxTest::TestDescription&)
+  0.00      0.59     0.00        1     0.00   486.67  CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&)
+  0.00      0.59     0.00        1     0.00   486.67  CxxTest::TestRunner::runWorld()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::initialize()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestTracker::TestTracker()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::digitToChar(unsigned int)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::Adapter::~Adapter()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::ErrorPrinter(std::ostream&, char const*, char const*)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorPrinter::~ErrorPrinter()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::GlobalFixture::setUp()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::GlobalFixture::tearDown()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::GlobalFixture::GlobalFixture()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::GlobalFixture::~GlobalFixture()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&)
+  0.00      0.59     0.00        1     0.00     0.00  char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      0.59     0.00        1     0.00   486.67  CxxTest::RealTestDescription::run()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::next()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::setUp()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::tearDown()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::DummyTestDescription::DummyTestDescription()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::next()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::firstTest()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::firstSuite()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::setUp()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealWorldDescription::tearDown()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::DummySuiteDescription::DummySuiteDescription()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::DummySuiteDescription::~DummySuiteDescription()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::DummyWorldDescription::DummyWorldDescription()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::DummyWorldDescription::~DummyWorldDescription()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::setUp()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::tearDown()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::Link::detach(CxxTest::List&)
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestSuite::setUp()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestSuite::tearDown()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::TestSuite::~TestSuite()
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::WorldDescription::strTotalTests(char*) const
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealTestDescription::testName() const
+  0.00      0.59     0.00        1     0.00     0.00  CxxTest::RealSuiteDescription::suiteName() const
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_check_len(unsigned long, char const*) const
+  0.00      0.59     0.00        1     0.00     0.00  std::_Vector_base<std::pair<double, double>, std::allocator<std::pair<double, double> > >::~_Vector_base()
+  0.00      0.59     0.00        1     0.00     0.00  std::__new_allocator<std::pair<double, double> >::allocate(unsigned long, void const*)
+  0.00      0.59     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_Guard_alloc::~_Guard_alloc()
+  0.00      0.59     0.00        1     0.00     0.00  std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&)
+  0.00      0.59     0.00        1     0.00     0.00  void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&)
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::back()
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool)
+  0.00      0.59     0.00        1     0.00     0.00  std::vector<double, std::allocator<double> >::resize(unsigned long, double const&)
+  0.00      0.59     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.59     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2026 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 1.69% of 0.59 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     82.5    0.00    0.49                 main [1]
+                0.00    0.49       1/1           CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [4]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::ErrorPrinter(std::ostream&, char const*, char const*) [139]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::~ErrorPrinter() [140]
+-----------------------------------------------
+                0.00    0.49       1/1           TestDescription_TestLongPostprocessing_Test2DSimulations::runTest() [3]
+[2]     82.5    0.00    0.49       1         TestLongPostprocessing::Test2DSimulations() [2]
+                0.09    0.15       4/6           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [9]
+                0.00    0.13       1/1           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [12]
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::Headings() [17]
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::Report() [16]
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [112]
+                0.00    0.00       2/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [111]
+                0.00    0.00       1/1           std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&) [187]
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [119]
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [120]
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [193]
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [192]
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [184]
+                0.00    0.00       1/1           std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [185]
+                0.00    0.00       1/1           std::_Vector_base<std::pair<double, double>, std::allocator<std::pair<double, double> > >::~_Vector_base() [182]
+-----------------------------------------------
+                0.00    0.49       1/1           CxxTest::RealTestDescription::run() [8]
+[3]     82.5    0.00    0.49       1         TestDescription_TestLongPostprocessing_Test2DSimulations::runTest() [3]
+                0.00    0.49       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+-----------------------------------------------
+                0.00    0.49       1/1           main [1]
+[4]     82.5    0.00    0.49       1         CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [4]
+                0.00    0.49       1/1           CxxTest::TestRunner::runWorld() [7]
+                0.00    0.00       2/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       2/3           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [66]
+-----------------------------------------------
+                0.00    0.49       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[5]     82.5    0.00    0.49       1         CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+                0.00    0.49       1/1           CxxTest::RealTestDescription::run() [8]
+                0.00    0.00       2/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/3           CxxTest::maxDumpSize() [67]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [155]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [134]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [156]
+                0.00    0.00       1/4           CxxTest::setMaxDumpSize(unsigned int) [60]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [135]
+-----------------------------------------------
+                0.00    0.49       1/1           CxxTest::TestRunner::runWorld() [7]
+[6]     82.5    0.00    0.49       1         CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+                0.00    0.49       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+                0.00    0.00       2/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/3           CxxTest::maxDumpSize() [67]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [129]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::setUp() [171]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::firstTest() [161]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::next() [154]
+                0.00    0.00       1/12          CxxTest::Link::active() const [40]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::tearDown() [172]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [132]
+                0.00    0.00       1/4           CxxTest::setMaxDumpSize(unsigned int) [60]
+-----------------------------------------------
+                0.00    0.49       1/1           CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [4]
+[7]     82.5    0.00    0.49       1         CxxTest::TestRunner::runWorld() [7]
+                0.00    0.49       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+                0.00    0.00       2/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/1           CxxTest::TestRunner::WorldGuard::WorldGuard() [128]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [164]
+                0.00    0.00       1/1           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [130]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::firstSuite() [163]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::next() [160]
+                0.00    0.00       1/12          CxxTest::Link::active() const [40]
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [165]
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [133]
+                0.00    0.00       1/4           CxxTest::setMaxDumpSize(unsigned int) [60]
+                0.00    0.00       1/2           CxxTest::WorldDescription::~WorldDescription() [79]
+-----------------------------------------------
+                0.00    0.49       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+[8]     82.5    0.00    0.49       1         CxxTest::RealTestDescription::run() [8]
+                0.00    0.49       1/1           TestDescription_TestLongPostprocessing_Test2DSimulations::runTest() [3]
+-----------------------------------------------
+                0.02    0.04       1/6           GenericEventHandler<16u, HeartEventHandler>::HeadingsImpl() [15]
+                0.02    0.04       1/6           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [14]
+                0.09    0.15       4/6           TestLongPostprocessing::Test2DSimulations() [2]
+[9]     61.0    0.14    0.22       6         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [9]
+                0.22    0.00 91045554/91045554     void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [10]
+-----------------------------------------------
+                0.22    0.00 91045554/91045554     std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [9]
+[10]    37.3    0.22    0.00 91045554         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [10]
+-----------------------------------------------
+                0.06    0.00       1/3           HeartEventHandler::~HeartEventHandler() [13]
+                0.13    0.00       2/3           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [12]
+[11]    32.2    0.19    0.00       3         std::_Vector_base<double, std::allocator<double> >::~_Vector_base() [11]
+-----------------------------------------------
+                0.00    0.13       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[12]    21.5    0.00    0.13       1         TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [12]
+                0.13    0.00       2/3           std::_Vector_base<double, std::allocator<double> >::~_Vector_base() [11]
+                0.00    0.00       2/2           std::vector<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~vector() [97]
+                0.00    0.00       2/2           std::vector<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~vector() [96]
+-----------------------------------------------
+                                                 <spontaneous>
+[13]    10.7    0.00    0.06                 HeartEventHandler::~HeartEventHandler() [13]
+                0.06    0.00       1/3           std::_Vector_base<double, std::allocator<double> >::~_Vector_base() [11]
+                0.00    0.00       1/3           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [71]
+-----------------------------------------------
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::Report() [16]
+[14]    10.2    0.00    0.06       1         GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [14]
+                0.02    0.04       1/6           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [9]
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::Reset() [116]
+-----------------------------------------------
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::Headings() [17]
+[15]    10.2    0.00    0.06       1         GenericEventHandler<16u, HeartEventHandler>::HeadingsImpl() [15]
+                0.02    0.04       1/6           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [9]
+-----------------------------------------------
+                0.00    0.06       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[16]    10.2    0.00    0.06       1         GenericEventHandler<16u, HeartEventHandler>::Report() [16]
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [14]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+-----------------------------------------------
+                0.00    0.06       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[17]    10.2    0.00    0.06       1         GenericEventHandler<16u, HeartEventHandler>::Headings() [17]
+                0.00    0.06       1/1           GenericEventHandler<16u, HeartEventHandler>::HeadingsImpl() [15]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+-----------------------------------------------
+                                                 <spontaneous>
+[18]     6.8    0.04    0.00                 _init [18]
+-----------------------------------------------
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Headings() [17]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::ResetImpl() [117]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Reset() [116]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Report() [16]
+                0.00    0.00  245048/245052      GenericEventHandler<16u, HeartEventHandler>::EndEvent(unsigned int) [200]
+[25]     0.0    0.00    0.00  245052         GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler() [118]
+-----------------------------------------------
+                0.00    0.00  245048/245048      GenericEventHandler<16u, HeartEventHandler>::EndEvent(unsigned int) [200]
+[26]     0.0    0.00    0.00  245048         GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [26]
+-----------------------------------------------
+                0.00    0.00       1/5204        PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [120]
+                0.00    0.00       1/5204        PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [119]
+                0.00    0.00    5202/5204        PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [203]
+[27]     0.0    0.00    0.00    5204         boost::detail::sp_counted_base::release() [27]
+                0.00    0.00       4/4           boost::detail::sp_counted_base::weak_release() [55]
+-----------------------------------------------
+                0.00    0.00    5202/5202        PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [203]
+[28]     0.0    0.00    0.00    5202         boost::detail::shared_count::shared_count(boost::detail::shared_count const&) [28]
+-----------------------------------------------
+                0.00    0.00    2601/2601        PointStimulusCellFactory<2u>::CreateCardiacCellForTissueNode(Node<2u>*) [203]
+[29]     0.0    0.00    0.00    2601         boost::numeric::ublas::c_vector<double, 2ul>::operator()(unsigned long) const [29]
+-----------------------------------------------
+                0.00    0.00      87/87          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [185]
+[30]     0.0    0.00    0.00      87         std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base() [30]
+-----------------------------------------------
+                0.00    0.00       3/63          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [192]
+                0.00    0.00      60/63          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [193]
+[31]     0.0    0.00    0.00      63         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [31]
+-----------------------------------------------
+                0.00    0.00      39/39          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [184]
+[32]     0.0    0.00    0.00      39         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::back() [32]
+-----------------------------------------------
+                0.00    0.00      27/27          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+[33]     0.0    0.00    0.00      27         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const [33]
+-----------------------------------------------
+                0.00    0.00      27/27          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+[34]     0.0    0.00    0.00      27         std::__new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) [34]
+-----------------------------------------------
+                0.00    0.00      27/27          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+[35]     0.0    0.00    0.00      27         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Guard_alloc::~_Guard_alloc() [35]
+-----------------------------------------------
+                0.00    0.00      27/27          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [184]
+[36]     0.0    0.00    0.00      27         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+                0.00    0.00      27/27          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const [33]
+                0.00    0.00      27/27          std::__new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) [34]
+                0.00    0.00      27/27          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__relocate_a_1<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) [37]
+                0.00    0.00      27/27          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Guard_alloc::~_Guard_alloc() [35]
+-----------------------------------------------
+                0.00    0.00      27/27          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+[37]     0.0    0.00    0.00      27         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__relocate_a_1<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) [37]
+-----------------------------------------------
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [147]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [148]
+                0.00    0.00       1/14          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [150]
+                0.00    0.00       2/14          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+                0.00    0.00       3/14          CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [146]
+                0.00    0.00       4/14          CxxTest::OutputStream::endl(CxxTest::OutputStream&) [58]
+[38]     0.0    0.00    0.00      14         CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+-----------------------------------------------
+                0.00    0.00       1/12          main [1]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [148]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+                0.00    0.00       1/12          CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+                0.00    0.00       2/12          CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+                0.00    0.00       2/12          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+                0.00    0.00       2/12          CxxTest::TestRunner::runWorld() [7]
+                0.00    0.00       2/12          CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [4]
+[39]     0.0    0.00    0.00      12         CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [136]
+-----------------------------------------------
+                0.00    0.00       1/12          CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+                0.00    0.00       1/12          CxxTest::TestRunner::runWorld() [7]
+                0.00    0.00       2/12          CxxTest::List::head() const [87]
+                0.00    0.00       2/12          CxxTest::List::tail() [81]
+                0.00    0.00       6/12          CxxTest::List::head() [49]
+[40]     0.0    0.00    0.00      12         CxxTest::Link::active() const [40]
+-----------------------------------------------
+                0.00    0.00       1/9           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [82]
+                0.00    0.00       8/9           CxxTest::TestTracker::dummySuite() const [42]
+[41]     0.0    0.00    0.00       9         CxxTest::TestTracker::dummyWorld() const [41]
+-----------------------------------------------
+                0.00    0.00       3/8           CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [62]
+                0.00    0.00       5/8           CxxTest::TestTracker::dummyTest() const [53]
+[42]     0.0    0.00    0.00       8         CxxTest::TestTracker::dummySuite() const [42]
+                0.00    0.00       8/9           CxxTest::TestTracker::dummyWorld() const [41]
+                0.00    0.00       8/8           CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const [43]
+-----------------------------------------------
+                0.00    0.00       8/8           CxxTest::TestTracker::dummySuite() const [42]
+[43]     0.0    0.00    0.00       8         CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const [43]
+-----------------------------------------------
+                0.00    0.00       2/8           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+                0.00    0.00       2/8           std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool) [190]
+                0.00    0.00       4/8           std::vector<bool, std::allocator<bool> >::_M_check_len(unsigned long, char const*) const [89]
+[44]     0.0    0.00    0.00       8         std::vector<bool, std::allocator<bool> >::size() const [44]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::DummyTestDescription::DummyTestDescription() [158]
+                0.00    0.00       1/7           CxxTest::DummySuiteDescription::DummySuiteDescription() [166]
+                0.00    0.00       1/7           CxxTest::DummyWorldDescription::DummyWorldDescription() [168]
+                0.00    0.00       1/7           CxxTest::GlobalFixture::GlobalFixture() [144]
+                0.00    0.00       1/7           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [157]
+                0.00    0.00       1/7           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [162]
+                0.00    0.00       1/7           CxxTest::TestRunner::runWorld() [7]
+[45]     0.0    0.00    0.00       7         CxxTest::Link::Link() [45]
+-----------------------------------------------
+                0.00    0.00       1/7           CxxTest::GlobalFixture::~GlobalFixture() [145]
+                0.00    0.00       2/7           CxxTest::TestDescription::~TestDescription() [77]
+                0.00    0.00       2/7           CxxTest::SuiteDescription::~SuiteDescription() [78]
+                0.00    0.00       2/7           CxxTest::WorldDescription::~WorldDescription() [79]
+[46]     0.0    0.00    0.00       7         CxxTest::Link::~Link() [46]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [134]
+                0.00    0.00       1/6           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [135]
+                0.00    0.00       4/6           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+[47]     0.0    0.00    0.00       6         CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [47]
+                0.00    0.00       6/6           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [50]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [147]
+                0.00    0.00       1/6           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+                0.00    0.00       4/6           CxxTest::OutputStream::endl(CxxTest::OutputStream&) [58]
+[48]     0.0    0.00    0.00       6         CxxTest::ErrorPrinter::Adapter::flush() [48]
+-----------------------------------------------
+                0.00    0.00       1/6           CxxTest::RealSuiteDescription::firstTest() [161]
+                0.00    0.00       1/6           CxxTest::RealWorldDescription::firstSuite() [163]
+                0.00    0.00       2/6           CxxTest::GlobalFixture::firstGlobalFixture() [76]
+                0.00    0.00       2/6           CxxTest::RealWorldDescription::firstSuite() const [85]
+[49]     0.0    0.00    0.00       6         CxxTest::List::head() [49]
+                0.00    0.00       6/12          CxxTest::Link::active() const [40]
+-----------------------------------------------
+                0.00    0.00       6/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [47]
+[50]     0.0    0.00    0.00       6         CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [50]
+                0.00    0.00       5/5           CxxTest::TestTracker::dummyTest() const [53]
+-----------------------------------------------
+                0.00    0.00       2/6           std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&) [100]
+                0.00    0.00       4/6           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[51]     0.0    0.00    0.00       6         std::_Bit_iterator_base::_M_incr(long) [51]
+-----------------------------------------------
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [147]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [146]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [150]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [148]
+                0.00    0.00       1/5           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+[52]     0.0    0.00    0.00       5         CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+                0.00    0.00       4/4           CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [59]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [50]
+[53]     0.0    0.00    0.00       5         CxxTest::TestTracker::dummyTest() const [53]
+                0.00    0.00       5/8           CxxTest::TestTracker::dummySuite() const [42]
+                0.00    0.00       5/5           CxxTest::DummySuiteDescription::testDescription(unsigned int) const [54]
+-----------------------------------------------
+                0.00    0.00       5/5           CxxTest::TestTracker::dummyTest() const [53]
+[54]     0.0    0.00    0.00       5         CxxTest::DummySuiteDescription::testDescription(unsigned int) const [54]
+-----------------------------------------------
+                0.00    0.00       4/4           boost::detail::sp_counted_base::release() [27]
+[55]     0.0    0.00    0.00       4         boost::detail::sp_counted_base::weak_release() [55]
+                0.00    0.00       4/4           boost::detail::sp_counted_base::destroy() [56]
+-----------------------------------------------
+                0.00    0.00       4/4           boost::detail::sp_counted_base::weak_release() [55]
+[56]     0.0    0.00    0.00       4         boost::detail::sp_counted_base::destroy() [56]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [129]
+                0.00    0.00       1/4           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [132]
+                0.00    0.00       2/4           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [72]
+[57]     0.0    0.00    0.00       4         CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+                0.00    0.00       4/4           CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [62]
+                0.00    0.00       4/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [47]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [59]
+[58]     0.0    0.00    0.00       4         CxxTest::OutputStream::endl(CxxTest::OutputStream&) [58]
+                0.00    0.00       4/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       4/6           CxxTest::ErrorPrinter::Adapter::flush() [48]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+[59]     0.0    0.00    0.00       4         CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [59]
+                0.00    0.00       4/4           CxxTest::OutputStream::endl(CxxTest::OutputStream&) [58]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::TestRunner::WorldGuard::WorldGuard() [128]
+                0.00    0.00       1/4           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+                0.00    0.00       1/4           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+                0.00    0.00       1/4           CxxTest::TestRunner::runWorld() [7]
+[60]     0.0    0.00    0.00       4         CxxTest::setMaxDumpSize(unsigned int) [60]
+-----------------------------------------------
+                0.00    0.00       1/4           CxxTest::RealTestDescription::next() [154]
+                0.00    0.00       1/4           CxxTest::RealSuiteDescription::next() [160]
+                0.00    0.00       2/4           CxxTest::GlobalFixture::nextGlobalFixture() [74]
+[61]     0.0    0.00    0.00       4         CxxTest::Link::next() [61]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+[62]     0.0    0.00    0.00       4         CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [62]
+                0.00    0.00       3/8           CxxTest::TestTracker::dummySuite() const [42]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::RealTestDescription::setUp() [155]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::tearDown() [156]
+[63]     0.0    0.00    0.00       4         CxxTest::RealTestDescription::suite() const [63]
+                0.00    0.00       4/4           CxxTest::StaticSuiteDescription::suite() const [64]
+-----------------------------------------------
+                0.00    0.00       4/4           CxxTest::RealTestDescription::suite() const [63]
+[64]     0.0    0.00    0.00       4         CxxTest::StaticSuiteDescription::suite() const [64]
+-----------------------------------------------
+                0.00    0.00       2/4           CxxTest::List::size() const [88]
+                0.00    0.00       2/4           CxxTest::RealSuiteDescription::next() const [83]
+[65]     0.0    0.00    0.00       4         CxxTest::Link::next() const [65]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestTracker::initialize() [131]
+                0.00    0.00       2/3           CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [4]
+[66]     0.0    0.00    0.00       3         CxxTest::TestTracker::setListener(CxxTest::TestListener*) [66]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::TestRunner::WorldGuard::WorldGuard() [128]
+                0.00    0.00       1/3           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+                0.00    0.00       1/3           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[67]     0.0    0.00    0.00       3         CxxTest::maxDumpSize() [67]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::RealWorldDescription::firstSuite() [163]
+                0.00    0.00       2/3           CxxTest::RealWorldDescription::firstSuite() const [85]
+[68]     0.0    0.00    0.00       3         CxxTest::RealWorldDescription::suites() [68]
+-----------------------------------------------
+                0.00    0.00       1/3           CxxTest::GlobalFixture::GlobalFixture() [144]
+                0.00    0.00       1/3           CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [153]
+                0.00    0.00       1/3           CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [159]
+[69]     0.0    0.00    0.00       3         CxxTest::Link::attach(CxxTest::List&) [69]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~vector() [97]
+[70]     0.0    0.00    0.00       3         std::_Vector_base<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~_Vector_base() [70]
+-----------------------------------------------
+                0.00    0.00       1/3           HeartEventHandler::~HeartEventHandler() [13]
+                0.00    0.00       2/3           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[71]     0.0    0.00    0.00       3         std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [71]
+                0.00    0.00       2/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [93]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [130]
+                0.00    0.00       1/2           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [133]
+[72]     0.0    0.00    0.00       2         CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [72]
+                0.00    0.00       2/2           CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [82]
+                0.00    0.00       2/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::tearDown() [165]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::tearDown() [156]
+[73]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::lastGlobalFixture() [73]
+                0.00    0.00       2/2           CxxTest::List::tail() [81]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::setUp() [164]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::setUp() [155]
+[74]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::nextGlobalFixture() [74]
+                0.00    0.00       2/4           CxxTest::Link::next() [61]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::tearDown() [165]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::tearDown() [156]
+[75]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::prevGlobalFixture() [75]
+                0.00    0.00       2/2           CxxTest::Link::prev() [80]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::setUp() [164]
+                0.00    0.00       1/2           CxxTest::RealTestDescription::setUp() [155]
+[76]     0.0    0.00    0.00       2         CxxTest::GlobalFixture::firstGlobalFixture() [76]
+                0.00    0.00       2/6           CxxTest::List::head() [49]
+-----------------------------------------------
+                0.00    0.00       1/2           TestDescription_TestLongPostprocessing_Test2DSimulations::~TestDescription_TestLongPostprocessing_Test2DSimulations() [206]
+                0.00    0.00       1/2           CxxTest::DummySuiteDescription::~DummySuiteDescription() [167]
+[77]     0.0    0.00    0.00       2         CxxTest::TestDescription::~TestDescription() [77]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [46]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::DummySuiteDescription::~DummySuiteDescription() [167]
+                0.00    0.00       1/2           CxxTest::StaticSuiteDescription::~StaticSuiteDescription() [352]
+[78]     0.0    0.00    0.00       2         CxxTest::SuiteDescription::~SuiteDescription() [78]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [46]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::DummyWorldDescription::~DummyWorldDescription() [169]
+                0.00    0.00       1/2           CxxTest::TestRunner::runWorld() [7]
+[79]     0.0    0.00    0.00       2         CxxTest::WorldDescription::~WorldDescription() [79]
+                0.00    0.00       2/7           CxxTest::Link::~Link() [46]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::GlobalFixture::prevGlobalFixture() [75]
+[80]     0.0    0.00    0.00       2         CxxTest::Link::prev() [80]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::GlobalFixture::lastGlobalFixture() [73]
+[81]     0.0    0.00    0.00       2         CxxTest::List::tail() [81]
+                0.00    0.00       2/12          CxxTest::Link::active() const [40]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [72]
+[82]     0.0    0.00    0.00       2         CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [82]
+                0.00    0.00       1/9           CxxTest::TestTracker::dummyWorld() const [41]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [86]
+[83]     0.0    0.00    0.00       2         CxxTest::RealSuiteDescription::next() const [83]
+                0.00    0.00       2/4           CxxTest::Link::next() const [65]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [86]
+[84]     0.0    0.00    0.00       2         CxxTest::RealSuiteDescription::numTests() const [84]
+                0.00    0.00       2/2           CxxTest::List::size() const [88]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::numTotalTests() const [86]
+[85]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::firstSuite() const [85]
+                0.00    0.00       2/6           CxxTest::List::head() [49]
+                0.00    0.00       2/3           CxxTest::RealWorldDescription::suites() [68]
+-----------------------------------------------
+                0.00    0.00       1/2           CxxTest::WorldDescription::strTotalTests(char*) const [178]
+                0.00    0.00       1/2           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+[86]     0.0    0.00    0.00       2         CxxTest::RealWorldDescription::numTotalTests() const [86]
+                0.00    0.00       2/2           CxxTest::RealWorldDescription::firstSuite() const [85]
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::next() const [83]
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::numTests() const [84]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::List::size() const [88]
+[87]     0.0    0.00    0.00       2         CxxTest::List::head() const [87]
+                0.00    0.00       2/12          CxxTest::Link::active() const [40]
+-----------------------------------------------
+                0.00    0.00       2/2           CxxTest::RealSuiteDescription::numTests() const [84]
+[88]     0.0    0.00    0.00       2         CxxTest::List::size() const [88]
+                0.00    0.00       2/2           CxxTest::List::head() const [87]
+                0.00    0.00       2/4           CxxTest::Link::next() const [65]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[89]     0.0    0.00    0.00       2         std::vector<bool, std::allocator<bool> >::_M_check_len(unsigned long, char const*) const [89]
+                0.00    0.00       4/8           std::vector<bool, std::allocator<bool> >::size() const [44]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[90]     0.0    0.00    0.00       2         std::vector<bool, std::allocator<bool> >::capacity() const [90]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+[91]     0.0    0.00    0.00       2         std::vector<double, std::allocator<double> >::_M_check_len(unsigned long, char const*) const [91]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~vector() [96]
+[92]     0.0    0.00    0.00       2         std::_Vector_base<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~_Vector_base() [92]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [71]
+[93]     0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [93]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+[94]     0.0    0.00    0.00       2         std::__new_allocator<double>::allocate(unsigned long, void const*) [94]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[95]     0.0    0.00    0.00       2         std::__new_allocator<unsigned long>::allocate(unsigned long, void const*) [95]
+-----------------------------------------------
+                0.00    0.00       2/2           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [12]
+[96]     0.0    0.00    0.00       2         std::vector<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~vector() [96]
+                0.00    0.00       2/2           std::_Vector_base<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~_Vector_base() [92]
+-----------------------------------------------
+                0.00    0.00       2/2           TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [12]
+[97]     0.0    0.00    0.00       2         std::vector<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~vector() [97]
+                0.00    0.00       3/3           std::_Vector_base<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~_Vector_base() [70]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&) [100]
+[98]     0.0    0.00    0.00       2         std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+                0.00    0.00       4/6           std::_Bit_iterator_base::_M_incr(long) [51]
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::capacity() const [90]
+                0.00    0.00       2/8           std::vector<bool, std::allocator<bool> >::size() const [44]
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_check_len(unsigned long, char const*) const [89]
+                0.00    0.00       2/2           std::__new_allocator<unsigned long>::allocate(unsigned long, void const*) [95]
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [99]
+                0.00    0.00       2/2           std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) [110]
+                0.00    0.00       2/2           std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [108]
+                0.00    0.00       2/3           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [71]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[99]     0.0    0.00    0.00       2         std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [99]
+                0.00    0.00       2/2           unsigned long* std::__copy_move_a2<false, unsigned long*, unsigned long*, unsigned long*>(unsigned long*, unsigned long*, unsigned long*) [102]
+                0.00    0.00       2/2           std::_Bit_iterator std::copy<std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [109]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool) [190]
+[100]    0.0    0.00    0.00       2         std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&) [100]
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+                0.00    0.00       2/6           std::_Bit_iterator_base::_M_incr(long) [51]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::resize(unsigned long, double const&) [191]
+[101]    0.0    0.00    0.00       2         std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_check_len(unsigned long, char const*) const [91]
+                0.00    0.00       2/2           std::__new_allocator<double>::allocate(unsigned long, void const*) [94]
+                0.00    0.00       2/2           double* std::__do_uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) [106]
+                0.00    0.00       2/2           double* std::__uninitialized_move_if_noexcept_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) [107]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [99]
+[102]    0.0    0.00    0.00       2         unsigned long* std::__copy_move_a2<false, unsigned long*, unsigned long*, unsigned long*>(unsigned long*, unsigned long*, unsigned long*) [102]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [108]
+[103]    0.0    0.00    0.00       2         std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [103]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Bit_iterator std::copy<std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [109]
+[104]    0.0    0.00    0.00       2         std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [104]
+-----------------------------------------------
+                0.00    0.00       2/2           double* std::__uninitialized_move_if_noexcept_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) [107]
+[105]    0.0    0.00    0.00       2         double* std::__do_uninit_copy<std::move_iterator<double*>, std::move_iterator<double*>, double*>(std::move_iterator<double*>, std::move_iterator<double*>, double*) [105]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+[106]    0.0    0.00    0.00       2         double* std::__do_uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) [106]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+[107]    0.0    0.00    0.00       2         double* std::__uninitialized_move_if_noexcept_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) [107]
+                0.00    0.00       2/2           double* std::__do_uninit_copy<std::move_iterator<double*>, std::move_iterator<double*>, double*>(std::move_iterator<double*>, std::move_iterator<double*>, double*) [105]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[108]    0.0    0.00    0.00       2         std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [108]
+                0.00    0.00       2/2           std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator) [103]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [99]
+[109]    0.0    0.00    0.00       2         std::_Bit_iterator std::copy<std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [109]
+                0.00    0.00       2/2           std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator) [104]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool) [98]
+[110]    0.0    0.00    0.00       2         std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) [110]
+-----------------------------------------------
+                0.00    0.00       2/2           TestLongPostprocessing::Test2DSimulations() [2]
+[111]    0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [111]
+-----------------------------------------------
+                0.00    0.00       2/2           TestLongPostprocessing::Test2DSimulations() [2]
+[112]    0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [112]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [194]
+[113]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0() [113]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::GlobalFixture() [144]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [173]
+                0.00    0.00       1/1           TestDescription_TestLongPostprocessing_Test2DSimulations::TestDescription_TestLongPostprocessing_Test2DSimulations() [121]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::setUp() [164]
+[114]    0.0    0.00    0.00       1         PetscSetup::setUpWorld() [114]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealWorldDescription::tearDown() [165]
+[115]    0.0    0.00    0.00       1         PetscSetup::tearDownWorld() [115]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [14]
+[116]    0.0    0.00    0.00       1         GenericEventHandler<16u, HeartEventHandler>::Reset() [116]
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::ResetImpl() [117]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::Reset() [116]
+[117]    0.0    0.00    0.00       1         GenericEventHandler<16u, HeartEventHandler>::ResetImpl() [117]
+                0.00    0.00       1/245052      GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::Instance() [25]
+[118]    0.0    0.00    0.00       1         GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler() [118]
+                0.00    0.00       1/1           std::vector<double, std::allocator<double> >::resize(unsigned long, double const&) [191]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool) [190]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[119]    0.0    0.00    0.00       1         PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [119]
+                0.00    0.00       1/1           boost::shared_ptr<AbstractIvpOdeSolver>::shared_ptr<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [123]
+                0.00    0.00       1/5204        boost::detail::sp_counted_base::release() [27]
+                0.00    0.00       1/1           boost::shared_ptr<RegularStimulus>::shared_ptr<RegularStimulus>(RegularStimulus*) [122]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[120]    0.0    0.00    0.00       1         PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [120]
+                0.00    0.00       1/5204        boost::detail::sp_counted_base::release() [27]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0() [113]
+[121]    0.0    0.00    0.00       1         TestDescription_TestLongPostprocessing_Test2DSimulations::TestDescription_TestLongPostprocessing_Test2DSimulations() [121]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [157]
+-----------------------------------------------
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [119]
+[122]    0.0    0.00    0.00       1         boost::shared_ptr<RegularStimulus>::shared_ptr<RegularStimulus>(RegularStimulus*) [122]
+                0.00    0.00       1/1           void boost::detail::sp_pointer_construct<RegularStimulus, RegularStimulus>(boost::shared_ptr<RegularStimulus>*, RegularStimulus*, boost::detail::shared_count&) [126]
+-----------------------------------------------
+                0.00    0.00       1/1           PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [119]
+[123]    0.0    0.00    0.00       1         boost::shared_ptr<AbstractIvpOdeSolver>::shared_ptr<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [123]
+                0.00    0.00       1/1           void boost::detail::sp_pointer_construct<AbstractIvpOdeSolver, EulerIvpOdeSolver>(boost::shared_ptr<AbstractIvpOdeSolver>*, EulerIvpOdeSolver*, boost::detail::shared_count&) [127]
+-----------------------------------------------
+                0.00    0.00       1/1           void boost::detail::sp_pointer_construct<AbstractIvpOdeSolver, EulerIvpOdeSolver>(boost::shared_ptr<AbstractIvpOdeSolver>*, EulerIvpOdeSolver*, boost::detail::shared_count&) [127]
+[124]    0.0    0.00    0.00       1         boost::detail::shared_count::shared_count<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           void boost::detail::sp_pointer_construct<RegularStimulus, RegularStimulus>(boost::shared_ptr<RegularStimulus>*, RegularStimulus*, boost::detail::shared_count&) [126]
+[125]    0.0    0.00    0.00       1         boost::detail::shared_count::shared_count<RegularStimulus>(RegularStimulus*) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::shared_ptr<RegularStimulus>::shared_ptr<RegularStimulus>(RegularStimulus*) [122]
+[126]    0.0    0.00    0.00       1         void boost::detail::sp_pointer_construct<RegularStimulus, RegularStimulus>(boost::shared_ptr<RegularStimulus>*, RegularStimulus*, boost::detail::shared_count&) [126]
+                0.00    0.00       1/1           boost::detail::shared_count::shared_count<RegularStimulus>(RegularStimulus*) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           boost::shared_ptr<AbstractIvpOdeSolver>::shared_ptr<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [123]
+[127]    0.0    0.00    0.00       1         void boost::detail::sp_pointer_construct<AbstractIvpOdeSolver, EulerIvpOdeSolver>(boost::shared_ptr<AbstractIvpOdeSolver>*, EulerIvpOdeSolver*, boost::detail::shared_count&) [127]
+                0.00    0.00       1/1           boost::detail::shared_count::shared_count<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[128]    0.0    0.00    0.00       1         CxxTest::TestRunner::WorldGuard::WorldGuard() [128]
+                0.00    0.00       1/3           CxxTest::maxDumpSize() [67]
+                0.00    0.00       1/4           CxxTest::setMaxDumpSize(unsigned int) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[129]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [129]
+                0.00    0.00       1/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [146]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[130]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [130]
+                0.00    0.00       1/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [72]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [147]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [136]
+[131]    0.0    0.00    0.00       1         CxxTest::TestTracker::initialize() [131]
+                0.00    0.00       1/3           CxxTest::TestTracker::setListener(CxxTest::TestListener*) [66]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[132]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [132]
+                0.00    0.00       1/1           CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [141]
+                0.00    0.00       1/4           CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[133]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [133]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [148]
+                0.00    0.00       1/2           CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [72]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+[134]    0.0    0.00    0.00       1         CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [134]
+                0.00    0.00       1/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [47]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [150]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+[135]    0.0    0.00    0.00       1         CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [135]
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+                0.00    0.00       1/6           CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [47]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::tracker() [39]
+[136]    0.0    0.00    0.00       1         CxxTest::TestTracker::TestTracker() [136]
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::DummyWorldDescription() [168]
+                0.00    0.00       1/1           CxxTest::TestTracker::initialize() [131]
+-----------------------------------------------
+                0.00    0.00       1/1           char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [152]
+[137]    0.0    0.00    0.00       1         CxxTest::digitToChar(unsigned int) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::~ErrorPrinter() [140]
+[138]    0.0    0.00    0.00       1         CxxTest::ErrorPrinter::Adapter::~Adapter() [138]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[139]    0.0    0.00    0.00       1         CxxTest::ErrorPrinter::ErrorPrinter(std::ostream&, char const*, char const*) [139]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[140]    0.0    0.00    0.00       1         CxxTest::ErrorPrinter::~ErrorPrinter() [140]
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::~Adapter() [138]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [132]
+[141]    0.0    0.00    0.00       1         CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [155]
+[142]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::setUp() [142]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [156]
+[143]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::tearDown() [143]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0() [113]
+[144]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::GlobalFixture() [144]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           PetscSetup::~PetscSetup() [196]
+[145]    0.0    0.00    0.00       1         CxxTest::GlobalFixture::~GlobalFixture() [145]
+                0.00    0.00       1/7           CxxTest::Link::~Link() [46]
+                0.00    0.00       1/1           CxxTest::Link::detach(CxxTest::List&) [174]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [129]
+[146]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [146]
+                0.00    0.00       3/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::suiteName() const [180]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [130]
+[147]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [147]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [48]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [133]
+[148]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [148]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+[149]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/1           CxxTest::WorldDescription::strTotalTests(char*) const [178]
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::numTotalTests() const [86]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [134]
+[150]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [150]
+                0.00    0.00       2/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::testName() const [179]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [135]
+[151]    0.0    0.00    0.00       1         CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [151]
+                0.00    0.00       1/12          CxxTest::TestTracker::tracker() [39]
+                0.00    0.00       1/14          CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [38]
+                0.00    0.00       1/6           CxxTest::ErrorPrinter::Adapter::flush() [48]
+                0.00    0.00       1/5           CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::WorldDescription::strTotalTests(char*) const [178]
+[152]    0.0    0.00    0.00       1         char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [152]
+                0.00    0.00       1/1           CxxTest::digitToChar(unsigned int) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [157]
+[153]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [153]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[154]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::next() [154]
+                0.00    0.00       1/4           CxxTest::Link::next() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+[155]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::setUp() [155]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::suite() const [63]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::firstGlobalFixture() [76]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::setUp() [142]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::nextGlobalFixture() [74]
+                0.00    0.00       1/1           CxxTest::TestSuite::setUp() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [5]
+[156]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::tearDown() [156]
+                0.00    0.00       2/4           CxxTest::RealTestDescription::suite() const [63]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::lastGlobalFixture() [73]
+                0.00    0.00       1/1           CxxTest::TestSuite::tearDown() [176]
+                0.00    0.00       1/1           CxxTest::GlobalFixture::tearDown() [143]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::prevGlobalFixture() [75]
+-----------------------------------------------
+                0.00    0.00       1/1           TestDescription_TestLongPostprocessing_Test2DSimulations::TestDescription_TestLongPostprocessing_Test2DSimulations() [121]
+[157]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [157]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/1           CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [153]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummySuiteDescription::DummySuiteDescription() [166]
+[158]    0.0    0.00    0.00       1         CxxTest::DummyTestDescription::DummyTestDescription() [158]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [162]
+[159]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [159]
+                0.00    0.00       1/3           CxxTest::Link::attach(CxxTest::List&) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[160]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::next() [160]
+                0.00    0.00       1/4           CxxTest::Link::next() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[161]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::firstTest() [161]
+                0.00    0.00       1/6           CxxTest::List::head() [49]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [173]
+[162]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [162]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [159]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[163]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::firstSuite() [163]
+                0.00    0.00       1/6           CxxTest::List::head() [49]
+                0.00    0.00       1/3           CxxTest::RealWorldDescription::suites() [68]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[164]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::setUp() [164]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::firstGlobalFixture() [76]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::nextGlobalFixture() [74]
+                0.00    0.00       1/1           PetscSetup::setUpWorld() [114]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runWorld() [7]
+[165]    0.0    0.00    0.00       1         CxxTest::RealWorldDescription::tearDown() [165]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::lastGlobalFixture() [73]
+                0.00    0.00       1/2           CxxTest::GlobalFixture::prevGlobalFixture() [75]
+                0.00    0.00       1/1           PetscSetup::tearDownWorld() [115]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::DummyWorldDescription() [168]
+[166]    0.0    0.00    0.00       1         CxxTest::DummySuiteDescription::DummySuiteDescription() [166]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/1           CxxTest::DummyTestDescription::DummyTestDescription() [158]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::DummyWorldDescription::~DummyWorldDescription() [169]
+[167]    0.0    0.00    0.00       1         CxxTest::DummySuiteDescription::~DummySuiteDescription() [167]
+                0.00    0.00       1/2           CxxTest::TestDescription::~TestDescription() [77]
+                0.00    0.00       1/2           CxxTest::SuiteDescription::~SuiteDescription() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::TestTracker() [136]
+[168]    0.0    0.00    0.00       1         CxxTest::DummyWorldDescription::DummyWorldDescription() [168]
+                0.00    0.00       1/7           CxxTest::Link::Link() [45]
+                0.00    0.00       1/1           CxxTest::DummySuiteDescription::DummySuiteDescription() [166]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestTracker::~TestTracker() [242]
+[169]    0.0    0.00    0.00       1         CxxTest::DummyWorldDescription::~DummyWorldDescription() [169]
+                0.00    0.00       1/1           CxxTest::DummySuiteDescription::~DummySuiteDescription() [167]
+                0.00    0.00       1/2           CxxTest::WorldDescription::~WorldDescription() [79]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [173]
+[170]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&) [170]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[171]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::setUp() [171]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [6]
+[172]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::tearDown() [172]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0() [113]
+[173]    0.0    0.00    0.00       1         CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [173]
+                0.00    0.00       1/1           CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [162]
+                0.00    0.00       1/1           CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&) [170]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::GlobalFixture::~GlobalFixture() [145]
+[174]    0.0    0.00    0.00       1         CxxTest::Link::detach(CxxTest::List&) [174]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::setUp() [155]
+[175]    0.0    0.00    0.00       1         CxxTest::TestSuite::setUp() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::RealTestDescription::tearDown() [156]
+[176]    0.0    0.00    0.00       1         CxxTest::TestSuite::tearDown() [176]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::~TestLongPostprocessing() [202]
+[177]    0.0    0.00    0.00       1         CxxTest::TestSuite::~TestSuite() [177]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [149]
+[178]    0.0    0.00    0.00       1         CxxTest::WorldDescription::strTotalTests(char*) const [178]
+                0.00    0.00       1/2           CxxTest::RealWorldDescription::numTotalTests() const [86]
+                0.00    0.00       1/1           char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [152]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [150]
+[179]    0.0    0.00    0.00       1         CxxTest::RealTestDescription::testName() const [179]
+-----------------------------------------------
+                0.00    0.00       1/1           CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [146]
+[180]    0.0    0.00    0.00       1         CxxTest::RealSuiteDescription::suiteName() const [180]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&) [188]
+[181]    0.0    0.00    0.00       1         std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_check_len(unsigned long, char const*) const [181]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[182]    0.0    0.00    0.00       1         std::_Vector_base<std::pair<double, double>, std::allocator<std::pair<double, double> > >::~_Vector_base() [182]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&) [188]
+[183]    0.0    0.00    0.00       1         std::__new_allocator<std::pair<double, double> >::allocate(unsigned long, void const*) [183]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[184]    0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [184]
+                0.00    0.00      39/39          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::back() [32]
+                0.00    0.00      27/27          void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[185]    0.0    0.00    0.00       1         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [185]
+                0.00    0.00      87/87          std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base() [30]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&) [188]
+[186]    0.0    0.00    0.00       1         std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_Guard_alloc::~_Guard_alloc() [186]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[187]    0.0    0.00    0.00       1         std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&) [187]
+                0.00    0.00       1/1           std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::back() [189]
+                0.00    0.00       1/1           void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&) [188]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&) [187]
+[188]    0.0    0.00    0.00       1         void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&) [188]
+                0.00    0.00       1/1           std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_check_len(unsigned long, char const*) const [181]
+                0.00    0.00       1/1           std::__new_allocator<std::pair<double, double> >::allocate(unsigned long, void const*) [183]
+                0.00    0.00       1/1           std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_Guard_alloc::~_Guard_alloc() [186]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&) [187]
+[189]    0.0    0.00    0.00       1         std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::back() [189]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler() [118]
+[190]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool) [190]
+                0.00    0.00       2/8           std::vector<bool, std::allocator<bool> >::size() const [44]
+                0.00    0.00       2/2           std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&) [100]
+-----------------------------------------------
+                0.00    0.00       1/1           GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler() [118]
+[191]    0.0    0.00    0.00       1         std::vector<double, std::allocator<double> >::resize(unsigned long, double const&) [191]
+                0.00    0.00       2/2           std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&) [101]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[192]    0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [192]
+                0.00    0.00       3/63          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [31]
+-----------------------------------------------
+                0.00    0.00       1/1           TestLongPostprocessing::Test2DSimulations() [2]
+[193]    0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [193]
+                0.00    0.00      60/63          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [31]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2026 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [113] __static_initialization_and_destruction_0() (ValueTraits.cpp) [144] CxxTest::GlobalFixture::GlobalFixture() [86] CxxTest::RealWorldDescription::numTotalTests() const
+ [114] PetscSetup::setUpWorld() [145] CxxTest::GlobalFixture::~GlobalFixture() [54] CxxTest::DummySuiteDescription::testDescription(unsigned int) const
+ [115] PetscSetup::tearDownWorld() [146] CxxTest::ErrorFormatter::enterSuite(CxxTest::SuiteDescription const&) [43] CxxTest::DummyWorldDescription::suiteDescription(unsigned int) const
+  [12] TetrahedralMesh<2u, 2u>::~TetrahedralMesh() [147] CxxTest::ErrorFormatter::enterWorld(CxxTest::WorldDescription const&) [64] CxxTest::StaticSuiteDescription::suite() const
+  [14] GenericEventHandler<16u, HeartEventHandler>::ReportImpl() [148] CxxTest::ErrorFormatter::leaveWorld(CxxTest::WorldDescription const&) [65] CxxTest::Link::next() const
+  [26] GenericEventHandler<16u, HeartEventHandler>::EndEventImpl(unsigned int) [149] CxxTest::ErrorFormatter::totalTests(CxxTest::OutputStream&) [40] CxxTest::Link::active() const
+  [15] GenericEventHandler<16u, HeartEventHandler>::HeadingsImpl() [59] CxxTest::ErrorFormatter::endl(CxxTest::OutputStream&) [87] CxxTest::List::head() const
+ [116] GenericEventHandler<16u, HeartEventHandler>::Reset() [150] CxxTest::ErrorFormatter::enterTest(CxxTest::TestDescription const&) [88] CxxTest::List::size() const
+  [16] GenericEventHandler<16u, HeartEventHandler>::Report() [151] CxxTest::ErrorFormatter::leaveTest(CxxTest::TestDescription const&) [33] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const
+  [17] GenericEventHandler<16u, HeartEventHandler>::Headings() [152] char* CxxTest::numberToString<unsigned int>(unsigned int, char*, unsigned int, unsigned int, unsigned int) [181] std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_check_len(unsigned long, char const*) const
+  [25] GenericEventHandler<16u, HeartEventHandler>::Instance() [60] CxxTest::setMaxDumpSize(unsigned int) [89] std::vector<bool, std::allocator<bool> >::_M_check_len(unsigned long, char const*) const
+ [117] GenericEventHandler<16u, HeartEventHandler>::ResetImpl() [77] CxxTest::TestDescription::~TestDescription() [44] std::vector<bool, std::allocator<bool> >::size() const
+ [118] GenericEventHandler<16u, HeartEventHandler>::GenericEventHandler() [78] CxxTest::SuiteDescription::~SuiteDescription() [90] std::vector<bool, std::allocator<bool> >::capacity() const
+   [2] TestLongPostprocessing::Test2DSimulations() [79] CxxTest::WorldDescription::~WorldDescription() [91] std::vector<double, std::allocator<double> >::_M_check_len(unsigned long, char const*) const
+ [119] PointStimulusCellFactory<2u>::PointStimulusCellFactory(double const&, double const&, double const&, double const&) [153] CxxTest::RealTestDescription::initialize(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [92] std::_Vector_base<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~_Vector_base()
+ [120] PointStimulusCellFactory<2u>::~PointStimulusCellFactory() [8] CxxTest::RealTestDescription::run() [70] std::_Vector_base<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~_Vector_base()
+   [3] TestDescription_TestLongPostprocessing_Test2DSimulations::runTest() [154] CxxTest::RealTestDescription::next() [30] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()
+ [121] TestDescription_TestLongPostprocessing_Test2DSimulations::TestDescription_TestLongPostprocessing_Test2DSimulations() [155] CxxTest::RealTestDescription::setUp() [182] std::_Vector_base<std::pair<double, double>, std::allocator<std::pair<double, double> > >::~_Vector_base()
+ [122] boost::shared_ptr<RegularStimulus>::shared_ptr<RegularStimulus>(RegularStimulus*) [156] CxxTest::RealTestDescription::tearDown() [11] std::_Vector_base<double, std::allocator<double> >::~_Vector_base()
+ [123] boost::shared_ptr<AbstractIvpOdeSolver>::shared_ptr<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [157] CxxTest::RealTestDescription::RealTestDescription(CxxTest::List&, CxxTest::SuiteDescription&, unsigned int, char const*) [71] std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+ [124] boost::detail::shared_count::shared_count<EulerIvpOdeSolver>(EulerIvpOdeSolver*) [158] CxxTest::DummyTestDescription::DummyTestDescription() [93] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
+  [28] boost::detail::shared_count::shared_count(boost::detail::shared_count const&) [159] CxxTest::RealSuiteDescription::initialize(char const*, unsigned int, char const*, CxxTest::List&) [34] std::__new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*)
+ [125] boost::detail::shared_count::shared_count<RegularStimulus>(RegularStimulus*) [160] CxxTest::RealSuiteDescription::next() [183] std::__new_allocator<std::pair<double, double> >::allocate(unsigned long, void const*)
+  [55] boost::detail::sp_counted_base::weak_release() [161] CxxTest::RealSuiteDescription::firstTest() [94] std::__new_allocator<double>::allocate(unsigned long, void const*)
+  [56] boost::detail::sp_counted_base::destroy() [162] CxxTest::RealSuiteDescription::RealSuiteDescription(char const*, unsigned int, char const*, CxxTest::List&) [95] std::__new_allocator<unsigned long>::allocate(unsigned long, void const*)
+  [27] boost::detail::sp_counted_base::release() [163] CxxTest::RealWorldDescription::firstSuite() [51] std::_Bit_iterator_base::_M_incr(long)
+ [126] void boost::detail::sp_pointer_construct<RegularStimulus, RegularStimulus>(boost::shared_ptr<RegularStimulus>*, RegularStimulus*, boost::detail::shared_count&) [164] CxxTest::RealWorldDescription::setUp() [96] std::vector<boost::numeric::ublas::c_matrix<double, 2ul, 2ul>, std::allocator<boost::numeric::ublas::c_matrix<double, 2ul, 2ul> > >::~vector()
+ [127] void boost::detail::sp_pointer_construct<AbstractIvpOdeSolver, EulerIvpOdeSolver>(boost::shared_ptr<AbstractIvpOdeSolver>*, EulerIvpOdeSolver*, boost::detail::shared_count&) [68] CxxTest::RealWorldDescription::suites() [97] std::vector<boost::numeric::ublas::c_vector<double, 2ul>, std::allocator<boost::numeric::ublas::c_vector<double, 2ul> > >::~vector()
+ [128] CxxTest::TestRunner::WorldGuard::WorldGuard() [165] CxxTest::RealWorldDescription::tearDown() [35] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Guard_alloc::~_Guard_alloc()
+   [4] CxxTest::TestRunner::runAllTests(CxxTest::TestListener&) [166] CxxTest::DummySuiteDescription::DummySuiteDescription() [184] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+   [5] CxxTest::TestRunner::runTest(CxxTest::TestDescription&) [167] CxxTest::DummySuiteDescription::~DummySuiteDescription() [36] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+   [6] CxxTest::TestRunner::runSuite(CxxTest::SuiteDescription&) [168] CxxTest::DummyWorldDescription::DummyWorldDescription() [32] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::back()
+   [7] CxxTest::TestRunner::runWorld() [169] CxxTest::DummyWorldDescription::~DummyWorldDescription() [185] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+ [129] CxxTest::TestTracker::enterSuite(CxxTest::SuiteDescription const&) [170] CxxTest::StaticSuiteDescription::doInitialize(CxxTest::TestSuite&) [186] std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_Guard_alloc::~_Guard_alloc()
+ [130] CxxTest::TestTracker::enterWorld(CxxTest::WorldDescription const&) [171] CxxTest::StaticSuiteDescription::setUp() [187] std::pair<double, double>& std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::emplace_back<std::pair<double, double> >(std::pair<double, double>&&)
+ [131] CxxTest::TestTracker::initialize() [172] CxxTest::StaticSuiteDescription::tearDown() [188] void std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::_M_realloc_append<std::pair<double, double> >(std::pair<double, double>&&)
+ [132] CxxTest::TestTracker::leaveSuite(CxxTest::SuiteDescription const&) [173] CxxTest::StaticSuiteDescription::StaticSuiteDescription(char const*, unsigned int, char const*, CxxTest::TestSuite&, CxxTest::List&) [189] std::vector<std::pair<double, double>, std::allocator<std::pair<double, double> > >::back()
+ [133] CxxTest::TestTracker::leaveWorld(CxxTest::WorldDescription const&) [61] CxxTest::Link::next() [98] std::vector<bool, std::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
+  [66] CxxTest::TestTracker::setListener(CxxTest::TestListener*) [80] CxxTest::Link::prev() [99] std::vector<bool, std::allocator<bool> >::_M_copy_aligned(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+  [47] CxxTest::TestTracker::setTest(CxxTest::TestDescription const*) [69] CxxTest::Link::attach(CxxTest::List&) [100] std::vector<bool, std::allocator<bool> >::insert(std::_Bit_const_iterator, unsigned long, bool const&)
+  [39] CxxTest::TestTracker::tracker() [174] CxxTest::Link::detach(CxxTest::List&) [190] std::vector<bool, std::allocator<bool> >::resize(unsigned long, bool)
+  [57] CxxTest::TestTracker::setSuite(CxxTest::SuiteDescription const*) [45] CxxTest::Link::Link() [101] std::vector<double, std::allocator<double> >::_M_fill_append(unsigned long, double const&)
+  [72] CxxTest::TestTracker::setWorld(CxxTest::WorldDescription const*) [46] CxxTest::Link::~Link() [191] std::vector<double, std::allocator<double> >::resize(unsigned long, double const&)
+ [134] CxxTest::TestTracker::enterTest(CxxTest::TestDescription const&) [49] CxxTest::List::head() [10] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ [135] CxxTest::TestTracker::leaveTest(CxxTest::TestDescription const&) [81] CxxTest::List::tail() [9] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ [136] CxxTest::TestTracker::TestTracker() [175] CxxTest::TestSuite::setUp() [31] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&)
+ [137] CxxTest::digitToChar(unsigned int) [176] CxxTest::TestSuite::tearDown() [102] unsigned long* std::__copy_move_a2<false, unsigned long*, unsigned long*, unsigned long*>(unsigned long*, unsigned long*, unsigned long*)
+  [67] CxxTest::maxDumpSize() [177] CxxTest::TestSuite::~TestSuite() [103] std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  [48] CxxTest::ErrorPrinter::Adapter::flush() [29] boost::numeric::ublas::c_vector<double, 2ul>::operator()(unsigned long) const [104] std::_Bit_iterator std::__copy_move_a2<false, std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+ [138] CxxTest::ErrorPrinter::Adapter::~Adapter() [42] CxxTest::TestTracker::dummySuite() const [37] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__relocate_a_1<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&)
+  [52] CxxTest::ErrorPrinter::Adapter::operator<<(void (*)(CxxTest::OutputStream&)) [41] CxxTest::TestTracker::dummyWorld() const [105] double* std::__do_uninit_copy<std::move_iterator<double*>, std::move_iterator<double*>, double*>(std::move_iterator<double*>, std::move_iterator<double*>, double*)
+  [38] CxxTest::ErrorPrinter::Adapter::operator<<(char const*) [50] CxxTest::TestTracker::fixTest(CxxTest::TestDescription const*) const [106] double* std::__do_uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&)
+ [139] CxxTest::ErrorPrinter::ErrorPrinter(std::ostream&, char const*, char const*) [62] CxxTest::TestTracker::fixSuite(CxxTest::SuiteDescription const*) const [107] double* std::__uninitialized_move_if_noexcept_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&)
+ [140] CxxTest::ErrorPrinter::~ErrorPrinter() [82] CxxTest::TestTracker::fixWorld(CxxTest::WorldDescription const*) const [108] std::_Bit_iterator std::copy<std::_Bit_iterator, std::_Bit_iterator>(std::_Bit_iterator, std::_Bit_iterator, std::_Bit_iterator)
+  [58] CxxTest::OutputStream::endl(CxxTest::OutputStream&) [53] CxxTest::TestTracker::dummyTest() const [109] std::_Bit_iterator std::copy<std::_Bit_const_iterator, std::_Bit_iterator>(std::_Bit_const_iterator, std::_Bit_const_iterator, std::_Bit_iterator)
+ [141] CxxTest::TestListener::leaveSuite(CxxTest::SuiteDescription const&) [178] CxxTest::WorldDescription::strTotalTests(char*) const [110] std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+  [73] CxxTest::GlobalFixture::lastGlobalFixture() [63] CxxTest::RealTestDescription::suite() const [111] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  [74] CxxTest::GlobalFixture::nextGlobalFixture() [179] CxxTest::RealTestDescription::testName() const [112] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [75] CxxTest::GlobalFixture::prevGlobalFixture() [83] CxxTest::RealSuiteDescription::next() const [192] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [76] CxxTest::GlobalFixture::firstGlobalFixture() [84] CxxTest::RealSuiteDescription::numTests() const [193] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+ [142] CxxTest::GlobalFixture::setUp() [180] CxxTest::RealSuiteDescription::suiteName() const [18] _init
+ [143] CxxTest::GlobalFixture::tearDown() [85] CxxTest::RealWorldDescription::firstSuite() const
